@@ -2,3 +2,4 @@ name: Learn Learnin'
 markdown: redcarpet
 pygments: true
 permalink: /:categories/:title/
+url: http://learnlearn.in

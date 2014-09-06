@@ -22,12 +22,12 @@ docpadConfig = {
 
       # The cascading stylesheets for the site.
       styles: [
-        "main.css"
+       # "main.css"
       ]
 
       # The JavaScript files for the site.
       scripts: [
-        "main.js"
+       # "main.js"
       ]
 
   collections:

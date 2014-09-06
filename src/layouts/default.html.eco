@@ -29,7 +29,7 @@
   <header>
     <h1><%= @document.title || @site.title %> </h1>
   </header>
-  <nav><% if @document.title != "Search": %> <%- @getLunrSearchBlock('search.html') %> <% end %></nav>
+  <nav><% if @document.title != "Search": %> <%- @getLunrSearchBlock('search') %> <% end %></nav>
   <article>
     <%- @content %>
   </article>

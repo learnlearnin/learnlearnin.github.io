@@ -15,7 +15,9 @@
     "docpad-plugin-coffeescript": "~2.2.3",
     "docpad-plugin-less": "~2.3.0",
     "docpad-plugin-sass": "~2.7.0",
-    "docpad-plugin-lunr": "^2.0.8"
+    "docpad-plugin-lunr": "^2.0.8",
+    "docpad-plugin-sitemap": "^2.2.0",
+    "docpad-plugin-cleanurls": "^2.7.0"
   },
   "devDependencies": {
     "docpad": "~6.56.0",

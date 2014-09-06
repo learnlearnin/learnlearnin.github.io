@@ -40,6 +40,7 @@ docpadConfig = {
       indexes:
         myIndex:
           collection: "posts"
+    
 
 }
 

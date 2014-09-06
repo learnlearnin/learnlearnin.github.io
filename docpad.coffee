@@ -40,7 +40,8 @@ docpadConfig = {
       indexes:
         myIndex:
           collection: "posts"
-    
+    cleanurls:
+      trailingSlashes: true
 
 }
 

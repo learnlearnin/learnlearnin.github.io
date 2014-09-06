@@ -18,12 +18,18 @@
       font-size:25px;
       font-family: Verdana;
     }
+    nav{
+      position:absolute;
+      top:0;
+      right:0;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1><%= @document.title || @site.title %></h1>
+    <h1><%= @document.title || @site.title %> </h1>
   </header>
+  <nav><% if @document.title != "Search": %> <%- @getLunrSearchBlock('search.html') %> <% end %></nav>
   <article>
     <%- @content %>
   </article>

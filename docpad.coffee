@@ -36,6 +36,10 @@ docpadConfig = {
     ghpages:
       deployRemote:"origin"
       deployBranch:"master"
+    lunr:
+      indexes:
+        myIndex:
+          collection: "posts"
 
 }
 

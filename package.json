@@ -14,7 +14,8 @@
     "docpad-plugin-ghpages": "~2.4.0",
     "docpad-plugin-coffeescript": "~2.2.3",
     "docpad-plugin-less": "~2.3.0",
-    "docpad-plugin-sass": "~2.7.0"
+    "docpad-plugin-sass": "~2.7.0",
+    "docpad-plugin-lunr": "^2.0.8"
   },
   "devDependencies": {
     "docpad": "~6.56.0",

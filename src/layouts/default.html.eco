@@ -25,6 +25,12 @@
       top:0;
       right:0;
     }
+    aside{
+      font-size:18px;
+    }
+    input{
+      width:150px;
+    }
   </style>
 </head>
 <body>

@@ -1,6 +1,5 @@
 ---
-layout: "default"
-title: "Learn Learnin'"
+description: "A very light insight wiki"
 ---
 
 Welcome to Learn Learnin'.

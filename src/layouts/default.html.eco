@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Site Properities -->
-  <title> <%= @document.title %> | <%= @site.title %></title>
-  <meta name="description" content="<%= @site.description %>" />
-  <meta name="keywords" content="<%= @site.keywords %>" />
+  <title><%= @getPreparedTitle() %></title>
+  <meta property="og:title" content="<%= @getPreparedTitle() %>" />
+  <meta property="og:description" content="<%= @getPreparedDescription() %>" />
+  <meta name="description" content="<%= @getPreparedDescription() %>" />
+  <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %> 
@@ -29,11 +31,17 @@
   <header>
     <h1><%= @document.title || @site.title %> </h1>
   </header>
-  <nav><% if @document.title != "Search": %> <%- @getLunrSearchBlock('search') %> <% end %></nav>
+  <nav><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %></nav>
   <article>
     <%- @content %>
   </article>
-
+  <aside>
+  <hr />
+    Share this page on: 
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%- @site.url %><%- @document.url %>">fb</a> 
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%- @site.url %><%- @document.url %>">twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=<%- @site.url %><%- @document.url %>">g+</a>
+  </aside>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>
 </html>

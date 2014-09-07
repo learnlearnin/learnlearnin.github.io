@@ -29,6 +29,17 @@ docpadConfig = {
       scripts: [
        # "main.js"
       ]
+    getPreparedTitle: ->
+      if @document.title
+        "#{@document.title} | #{@site.title}"
+      else
+        @site.title
+    getPreparedDescription: ->
+      @document.description or @site.description
+    getPreparedKeywords: -> 
+      @site.keywords.concat(@document.keywords or []).join(', ')
+
+
 
   collections:
     posts: -> @getCollection("html").findAllLive().on "add", (model) -> model.setMetaDefaults({layout: "default"})

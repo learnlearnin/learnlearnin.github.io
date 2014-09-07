@@ -9,5 +9,5 @@ This is a knowledge aggregator. I'll write about everything under the earth on t
 
 What?!
 -----
-Okay, if you don't get it, read the [about](about) page and realize what i'm talking about
+Okay, if you don't get it, read the [about](/about/) page and realize what i'm talking about
 

@@ -18,7 +18,7 @@
       margin:0 10%;
       background-color: cyan;
       font-size:25px;
-      font-family:"comic sans ms", cursive, Verdana, Geneva, sans-serif;
+      font-family:"comic sans ms", Verdana, Geneva, sans-serif;
     }
     nav{
       position:absolute;
@@ -27,8 +27,12 @@
     }
     aside{
       font-size:18px;
+      clear:both;
     }
-    input{
+    .nav{
+      float:right;
+    }
+    .search-bar{
       width:150px;
     }
   </style>
@@ -43,10 +47,15 @@
   </article>
   <aside>
   <hr />
+  <span class="share">
     Share this page on: 
     <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%- @site.url %><%- @document.url %>">fb</a> 
     <a target="_blank" href="https://twitter.com/intent/tweet?url=<%- @site.url %><%- @document.url %>">twitter</a>
     <a target="_blank" href="https://plus.google.com/share?url=<%- @site.url %><%- @document.url %>">g+</a>
+  </span>
+  <span class="nav">
+    <a href="/">Learn Learnin'</a>
+  </span>
   </aside>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>

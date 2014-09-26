@@ -43,6 +43,7 @@ docpadConfig = {
 
   collections:
     posts: -> @getCollection("html").findAllLive().on "add", (model) -> model.setMetaDefaults({layout: "default"})
+    search: -> @getCollection("html").findAllLive()
   plugins:
     ghpages:
       deployRemote:"origin"

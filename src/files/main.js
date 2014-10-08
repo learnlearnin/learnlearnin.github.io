@@ -37,7 +37,7 @@ function changefontsize(e){
 
 function changetheme(e){
 	e.preventDefault();
-	var usertheme=getnextmember(themes,localStorage.getItem("theme"));
+	var usertheme=getnextmember(themes,localStorage.getItem("theme")||themes[0]);
 	bodystyle.backgroundColor=colors[usertheme][0];
 	bodystyle.color=colors[usertheme][1];
 	localStorage.setItem("theme",usertheme);

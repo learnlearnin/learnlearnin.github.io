@@ -40,7 +40,7 @@
   </style>
 </head>
 <body>
-  <nav><a href="/" title="Go home">◀</a><a id="changefont" title="Change font" href="/about/#site-info">۞</a><a id="changefontsize" title="Change font size" href="/about/#site-info">✤</a><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %></nav>
+  <nav><a href="/" title="Go home">~</a> <a id="changefont" title="Change font" href="/about/#site-info">✍</a> <a id="changefontsize" title="Change font size" href="/about/#site-info">±</a> <a href="/about/#site-info" id="changetheme" title="Change colors">☯</a><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %></nav>
   <header>
     <h1><%= @document.title || @site.title %> </h1>
   </header>

@@ -2,12 +2,20 @@
  * JavaScript for Learn Learnin'
  */
 
-var fonts=["comic sans ms","Helvetica","Verdana","Garamond","Times New Roman","Arial"]
+var fonts=["comic sans ms","Helvetica","Verdana","Garamond","Times New Roman","Arial","monospace"]
 var fontsizes=["25px","20px","30px","40px"]
+var themes=["light","dark","coral","coral-dark"]
+var colors={"light":["cyan","black"], "dark":["grey","white"],"coral":["coral","white"],"coral-dark":["coral","black"]}
+
+var bodystyle=document.body.style;
 
 function readpreferences(){
-	document.body.style.fontFamily=localStorage.getItem("fontfamily") || fonts[0];
-	document.body.style.fontSize=localStorage.getItem("fontsize") || fontsizes[0];
+	bodystyle.fontFamily=localStorage.getItem("fontfamily") || fonts[0];
+	bodystyle.fontSize=localStorage.getItem("fontsize") || fontsizes[0];
+	
+	var usertheme=localStorage.getItem("theme") || themes[0];
+	bodystyle.backgroundColor=colors[usertheme][0];
+	bodystyle.color=colors[usertheme][1];
 }
 
 function getnextmember(array,value){
@@ -17,19 +25,28 @@ function getnextmember(array,value){
 
 function changefont(e){
 	e.preventDefault();
-	document.body.style.fontFamily=getnextmember(fonts,document.body.style.fontFamily);
-	localStorage.setItem("fontfamily",document.body.style.fontFamily);
+	bodystyle.fontFamily=getnextmember(fonts,bodystyle.fontFamily);
+	localStorage.setItem("fontfamily",bodystyle.fontFamily);
 }
 
 function changefontsize(e){
 	e.preventDefault();
-	document.body.style.fontSize=getnextmember(fontsizes,document.body.style.fontSize);
-	localStorage.setItem("fontsize",document.body.style.fontSize);
+	bodystyle.fontSize=getnextmember(fontsizes,bodystyle.fontSize);
+	localStorage.setItem("fontsize",bodystyle.fontSize);
+}
+
+function changetheme(e){
+	e.preventDefault();
+	var usertheme=getnextmember(themes,localStorage.getItem("theme"));
+	bodystyle.backgroundColor=colors[usertheme][0];
+	bodystyle.color=colors[usertheme][1];
+	localStorage.setItem("theme",usertheme);
 }
 
 window.onload = function (){
 	readpreferences();
 	document.getElementById("changefont").addEventListener('click',changefont);
 	document.getElementById("changefontsize").addEventListener('click',changefontsize);
+	document.getElementById("changetheme").addEventListener('click',changetheme);
 };
 

@@ -15,16 +15,12 @@
   <%- @getBlock('styles').add(@site.styles).toHTML() %> 
   <style>
     body{
-      margin:0 10%;
+      margin:0 10% 10%;
       background-color: cyan;
       font-size:25px;
-      font-family:"comic sans ms", Verdana, Geneva, sans-serif;
+      font-family: "comic sans ms", Helvetica, Geneva, sans-serif;
     }
-    nav{
-      position:absolute;
-      top:0;
-      right:0;
-    }
+    
     aside{
       font-size:18px;
       clear:both;
@@ -32,16 +28,22 @@
     .nav{
       float:right;
     }
+    nav a{
+      text-decoration: none;
+    }
+    nav form{
+      display: inline;
+    }
     .search-bar{
       width:150px;
     }
   </style>
 </head>
 <body>
+  <nav><a href="/" title="Go home">◀</a><a id="changefont" title="Change font" href="/about/#site-info">۞</a><a id="changefontsize" title="Change font size" href="/about/#site-info">✤</a><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %></nav>
   <header>
     <h1><%= @document.title || @site.title %> </h1>
   </header>
-  <nav><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %></nav>
   <article>
     <%- @content %>
   </article>
@@ -54,7 +56,7 @@
     <a target="_blank" href="https://plus.google.com/share?url=<%- @site.url %><%- @document.url %>">g+</a>
   </span>
   <span class="nav">
-    <a href="/">Learn Learnin'</a>
+    Go back to <a href="/">Learn Learnin'</a>
   </span>
   </aside>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>

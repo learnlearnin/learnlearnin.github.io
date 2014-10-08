@@ -12,7 +12,7 @@ Site info
 -----
 This site is made in [docpad](http://docpad.org). It's hosted on [github](https://github.com/learnlearnin/learnlearnin.github.io). The skeleton was created using the yo [docpad generator](https://www.npmjs.org/package/generator-docpad).
 
-The font choices are obvious. I don't want to sound authentic. I don't want to look fancy. And  even CERN [uses](http://home.web.cern.ch/about/updates/2014/04/cern-switch-comic-sans) comic sans, no [really](https://www.youtube.com/watch?v=AzX0dwbY4Yk).
+The font choices are obvious. I don't want to sound authentic. I don't want to look fancy. And  even CERN [uses](http://home.web.cern.ch/about/updates/2014/04/cern-switch-comic-sans) comic sans, no [really](https://www.youtube.com/watch?v=AzX0dwbY4Yk). But still I don't want you to be stuck with that. So the buttons on the top of the site can be used to change fonts, and to change font size.
 
 The search box is with [lunr plugin](https://www.npmjs.org/package/docpad-plugin-lunr).
 

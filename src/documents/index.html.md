@@ -2,7 +2,7 @@
 description: "A very light insight wiki"
 ---
 
-I love [computers](/computers/). They make life easy. I also love the [web](/web/). The web enables life on earth. Another of my loves is the human [mind](/mind/). It allows thinking about all this. That brings me to intelligence and [AI](/ai/).
+I love [computers](/computers/) (running [linux](/linux/)). They make life easy. I also love the [web](/web/). The web enables life on earth. Another of my loves is the human [mind](/mind/). It allows thinking about all this. That brings me to intelligence and [AI](/ai/).
 
 
 Welcome to Learn Learnin'.

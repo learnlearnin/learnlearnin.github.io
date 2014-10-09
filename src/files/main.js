@@ -19,7 +19,7 @@ function readpreferences(){
 }
 
 function getnextmember(array,value){
-	var index = array.indexOf(value); 
+	var index = array.indexOf(value.replace(/('|")/g,"")); 
 	if(index >= 0 && index < array.length - 1) return array[index + 1]; else return array[0]; 
 }
 

@@ -43,10 +43,22 @@ function changetheme(e){
 	localStorage.setItem("theme",usertheme);
 }
 
+function permalinks(){
+	var headings=document.querySelectorAll("h2,h3,h4,h5,h6");
+	for (var i=0; i<headings.length; i++){
+		var linchor=document.createElement("a");
+		linchor.setAttribute("href","#"+headings[i].id);
+		linchor.setAttribute("class","linchor");
+		linchor.innerHTML="⚓";
+		headings[i].insertBefore(linchor,headings[i].firstChild);
+	}
+}
+
 window.onload = function (){
 	readpreferences();
 	document.getElementById("changefont").addEventListener('click',changefont);
 	document.getElementById("changefontsize").addEventListener('click',changefontsize);
 	document.getElementById("changetheme").addEventListener('click',changetheme);
+	permalinks();
 };
 

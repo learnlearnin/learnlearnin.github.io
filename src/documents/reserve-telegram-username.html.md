@@ -2,6 +2,8 @@
 title: Reserve telegram username
 ---
 
+If you don't want to do anything go down to lazy
+
 If you're like my unfortunate friend Marco, and do not have a linux installation handy follow No-linux and then common.
 If you have linux, node, and git, follow Linux and then common.
 
@@ -55,3 +57,15 @@ In the console type this (where "whatever" is your username which you want):
 
 If "Api call" "account.checkUsername" is followed by "Rpc response" "true" it means your username is available
 And "Rpc response" "false" means your username is taken
+
+Lazy
+---
+Go to learnlearn.in/webogram and sign in 
+then go to learnlearn.in/webogram-broken
+press ok for "runs"
+scroll down.
+Scroll down.
+Enter username
+Click "get username"
+press ok for the username you entered
+check with someone who runs cli

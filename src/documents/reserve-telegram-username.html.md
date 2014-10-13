@@ -60,12 +60,12 @@ And "Rpc response" "false" means your username is taken
 
 Lazy
 ---
-Go to learnlearn.in/webogram and sign in 
-then go to learnlearn.in/webogram-broken
-press ok for "runs"
-scroll down.
-Scroll down.
-Enter username
-Click "get username"
-press ok for the username you entered
-check with someone who runs cli
+* Go to [learnlearn.in/webogram](http://learnlearn.in/webogram) and sign in 
+* then go to [learnlearn.in/webogram-broken](http://learnlearn.in/webogram-broken)
+* press ok for "runs"
+* scroll down.
+* Scroll down.
+* Enter username
+* Click "get username"
+* press ok for the username you entered
+* check with someone who runs cli

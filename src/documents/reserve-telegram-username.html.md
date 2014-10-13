@@ -13,6 +13,8 @@ Download webogram by :
     git clone git@github.com:zhukov/webogram.git
     cd webogram
 
+(You don't have to have git installed. Just use the link https://github.com/zhukov/webogram/archive/master.zip if you don't have git)
+
 Run the server: 
 
     node server.js

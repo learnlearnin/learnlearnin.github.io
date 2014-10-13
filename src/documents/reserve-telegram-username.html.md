@@ -2,6 +2,12 @@
 title: Reserve telegram username
 ---
 
+If you're like my unfortunate friend Marco, and do not have a linux installation handy follow No-linux and then common.
+If you have linux, node, and git, follow Linux and then common.
+
+Linux
+---
+
 Download webogram by :
 
     git clone git@github.com:zhukov/webogram.git
@@ -25,6 +31,17 @@ Run the server again
     node server.js
 
 Go to localhost:8000/app/index.html (The chats won't load because the schema is damaged)
+
+
+No linux
+----
+First sign in and test stuff at [learnlearn.in/webogram](http://learnlearn.in/webogram)
+
+Then, go to [learnlearn.in/webogram-broken](http://learnlearn.in/webogram-broken) where I have made the necessary changes
+
+
+Common steps
+----
 Go to firefox -> tools -> web developer -> web console
 In the console type this (where "whatever" is your username which you want):
 

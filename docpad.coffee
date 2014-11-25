@@ -22,7 +22,7 @@ docpadConfig = {
 
       # The cascading stylesheets for the site.
       styles: [
-       # "/main.css"
+        "/main.css","http://fonts.googleapis.com/css?family=Cardo:400,400italic,700"
       ]
 
       # The JavaScript files for the site.
@@ -38,6 +38,8 @@ docpadConfig = {
       @document.description or @site.description
     getPreparedKeywords: -> 
       @site.keywords.concat(@document.keywords or []).join(', ')
+    getAbsoluteUrl: ->
+      "#{@site.url}#{@document.url}"
 
 
 

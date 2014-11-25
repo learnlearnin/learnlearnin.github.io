@@ -13,45 +13,18 @@
   <%- @getBlock('meta').toHTML() %>
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %> 
-  <style>
-    body{
-      margin:0 10% 10%;
-      background-color: cyan;
-      font-size:25px;
-      font-family: "comic sans ms", Helvetica, Geneva, sans-serif;
-    }
-    
-    aside{
-      font-size:18px;
-      clear:both;
-    }
-    .nav{
-      float:right;
-    }
-    nav a{
-      text-decoration: none;
-    }
-    nav form{
-      display: inline;
-    }
-    .search-bar{
-      width:150px;
-    }
-    .linchor{
-      text-decoration: none;
-      position:absolute;
-      margin-left:-20px;
-      padding-top:20px;
-      font-size: 20px;
-      opacity:0.1;
-    }
-    .linchor:hover{
-      opacity: 1;
-    }
-  </style>
+
 </head>
 <body>
-  <nav><a href="/" title="Go home">~</a> <a id="changefont" title="Change font" href="/about/#site-info">✍</a> <a id="changefontsize" title="Change font size" href="/about/#site-info">±</a> <a href="/about/#site-info" id="changetheme" title="Change colors">☯</a><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %></nav>
+  <nav>
+    <a href="/" title="Go home">~</a> 
+    <a href="/about/#site-info" id="togglenavtools" title="Toggle site tools">»</a> 
+    <span id="navtools">
+      <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
+      <a href="" id="clearstorage"> Clear settings</a> | 
+      Search: <!--<a id="changefontsize" title="Change font size" href="/about/#site-info">±</a> <a href="/about/#site-info" id="changetheme" title="Change colors">☯</a>--><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %>
+    </span>
+  </nav>
   <header>
     <h1><a class="linchor" href="">⚓</a><%= @document.title || @site.title %> </h1>
   </header>
@@ -62,9 +35,11 @@
   <hr />
   <span class="share">
     Share this page on: 
-    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%- @site.url %><%- @document.url %>">fb</a> 
-    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%- @site.url %><%- @document.url %>">twitter</a>
-    <a target="_blank" href="https://plus.google.com/share?url=<%- @site.url %><%- @document.url %>">g+</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">fb</a> 
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">g+</a>
+    <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
   </span>
   <span class="nav">
     Go back to <a href="/">Learn Learnin'</a>

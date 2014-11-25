@@ -7,22 +7,22 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "docpad": "^6.69.1",
-    "docpad-plugin-eco": "^2.1.0",
-    "docpad-plugin-grunt": "^2.1.1",
-    "docpad-plugin-marked": "^2.2.1",
-    "docpad-plugin-ghpages": "^2.4.3",
-    "docpad-plugin-coffeescript": "^2.4.0",
-    "docpad-plugin-less": "^2.4.1",
-    "docpad-plugin-sass": "^2.7.3",
-    "docpad-plugin-lunr": "^2.0.8",
-    "docpad-plugin-sitemap": "^2.2.0",
-    "docpad-plugin-cleanurls": "^2.7.0",
-    "docpad-plugin-partials": "^2.9.1"
+    "docpad": "~6.69.1",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-grunt": "~2.1.1",
+    "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-ghpages": "~2.4.3",
+    "docpad-plugin-coffeescript": "~2.4.0",
+    "docpad-plugin-less": "~2.4.1",
+    "docpad-plugin-sass": "~2.7.3",
+    "docpad-plugin-lunr": "~2.0.9",
+    "docpad-plugin-sitemap": "~2.2.0",
+    "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-partials": "~2.9.1"
   },
   "devDependencies": {
     "docpad": "~6.56.0",
-    "docpad-plugin-livereload": "^2.6.0",
+    "docpad-plugin-livereload": "~2.6.0",
     "bower": "~1.2.7",
     "grunt": "~0.4.2"
   },

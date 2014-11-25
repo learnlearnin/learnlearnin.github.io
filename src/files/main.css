@@ -2,7 +2,7 @@
  * CSS for Learn Learnin'
  */
 
-html,body,blockquote,code,h1,h2,h3,h4,h5,h6,p,pre{margin:0;padding:0}
+html,body,blockquote,code,h1,h2,h3,h4,h5,h6,pre{margin:0;padding:0}
 button,fieldset,form,input,legend,textarea,select{margin:0;padding:0}
 div{margin:0;padding:0;background-color:transparent;text-align:left}
 hr,img{border:0}

@@ -56,6 +56,13 @@ docpadConfig = {
           collection: "posts"
     cleanurls:
       trailingSlashes: true
+    marked:
+      markedOptions:
+        pedantic: false
+        gfm: true
+        breaks: true
+        sanitize: false
+        highlight: null
 
 }
 

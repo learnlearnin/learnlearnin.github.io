@@ -16,3 +16,9 @@ out/
 # CUSTOM MODIFICATIONS
 
 src/files/vendor
+
+
+# vim swap
+*~
+*.swp
+*.swo

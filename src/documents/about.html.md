@@ -10,12 +10,12 @@ But in the end, he settled for something that was excellent. Something simple, s
 
 Site info
 -----
-This site is made in [docpad](http://docpad.org). It's hosted on [github](https://github.com/learnlearnin/learnlearnin.github.io). The skeleton was created using the yo [docpad generator](https://www.npmjs.org/package/generator-docpad).
-
-The font choices are obvious. I don't want to sound authentic. I don't want to look fancy. And  even CERN [uses](http://home.web.cern.ch/about/updates/2014/04/cern-switch-comic-sans) comic sans, no [really](https://www.youtube.com/watch?v=AzX0dwbY4Yk). But still I don't want you to be stuck with that. So the buttons on the top of the site can be used to change fonts, and to change font size.
-
+This site is made in [docpad](/docpad/). It's hosted on [github](https://github.com/learnlearnin/learnlearnin.github.io). The skeleton was created using the yo [docpad generator](https://www.npmjs.org/package/generator-docpad).
+  
+I wanted to use Comic sans, like CERN [uses](http://home.web.cern.ch/about/updates/2014/04/cern-switch-comic-sans), no [really](https://www.youtube.com/watch?v=AzX0dwbY4Yk). But it is not for long reads for all, so I've switched to Cardo based on [my favorite blog](http://zenhabits.net). But still I don't want you to be stuck with that. So the buttons on the top of the site can be used to change fonts.
+  
 The search box is with [lunr plugin](https://www.npmjs.org/package/docpad-plugin-lunr).
-
+  
 What/How navigation?
 ----
 I tried a lot to find a way to enable navigation links on the site. But there's unfortunately a problem of categorization. My ideas do not come in categories. Most often they're inter-categorical. There's no way to put links under headings. I could put a page with links to everything. But that'd be equally stupid. So, for now there's the search on the top. And pages like wikipedia. You can go anywhere you want. And I'm linking internally anywhere possible.

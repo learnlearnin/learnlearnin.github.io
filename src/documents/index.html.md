@@ -11,8 +11,7 @@ This is a knowledge aggregator. I'll write about everything under the earth on t
 
 Medicine
 ---
-Medicine refers to two things - the science of medicine, and the specialty of medicine. 
-* [Ophthalmology](/ophthalmology/) 
+Medicine refers to two things - the science of medicine, and the specialty of medicine. Sense organs are given their own branches in medicine, for example: [Ophthalmology](/ophthalmology/) 
 
 What?!
 -----

@@ -35,8 +35,9 @@
   <hr />
   <span class="share">
     Share this page on: 
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">d*</a> 
     <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">fb</a> 
-    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">twitter</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">twttr</a>
     <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">g+</a>
     <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Telegram</a>
     <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>

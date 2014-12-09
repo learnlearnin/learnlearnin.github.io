@@ -41,6 +41,9 @@
     <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Telegram</a>
     <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
   </span>
+  <span class="comment">
+    <a href="/about/#contact">Comment</a>
+  </span>
   <span class="nav">
     Go back to <a href="/">Learn Learnin'</a>
   </span>

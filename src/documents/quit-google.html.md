@@ -6,9 +6,9 @@ keywords: privacy
 "Google is unavoidable"
 I thought so too. Till about November 2014. That's when I rejoined diaspora and found some awesome alternative services. Here's how I stopped being a Google fan boy and started living a life without Google
 
-1) [duckduckgo](https://duckduckgo.com): this amazing search engine. It's instant answers are so much better for programmers. Direct answers from stack overflow, Wikipedia, etc. Many more APIs integrated. Once you start using it, you'll start finding it indispensable. I "discover" new functionalities every other day.
+1) [DuckDuckGo](https://duckduckgo.com): this amazing search engine. Its instant answers are so much better for programmers. Direct answers from stack overflow, Wikipedia, etc. Many more APIs integrated. Once you start using it, you'll start finding it indispensable. I "discover" new functionalities every other day.
 
-2) [A/I](http://autistici.org/) network for email. You can choose something like shine@onenetbeyond.org
+2) [A/I](http://autistici.org/) network for email. You can choose something like yourname@onenetbeyond.org or yourname@autistici.org and so many other choices.
 Autistici/Inventati is a European network funded by users which provides privacy aware services - including email and hosting.
 
 3) [Mozilla Thunderbird](https://mozilla.org/thunderbird): As a firefox user, I'd heard of Thunderbird for a long time. But unfortunately I didn't know how powerful it was until I started using it.

@@ -8,17 +8,40 @@ div{margin:0;padding:0;background-color:transparent;text-align:left}
 hr,img{border:0}
 
 
-
-
-
 html,body{
   font-size:25px;
   font-family: "Cardo","comic sans ms", Helvetica, Geneva, sans-serif;
   height: 100%;
 }
-nav a{
+
+a{
   text-decoration: none;
 }
+
+article a {
+  border-bottom: 1px dotted #ba0000;
+}
+article a:hover {
+  border-bottom: 1px solid #ba0000;
+  background-color: cyan;
+}
+
+a.linchor{
+  border:none;
+} 
+
+
+aside a{
+  background-color: #cfcfcf;
+  border: 1px solid cyan;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+aside a:hover{
+  background-color: #eeeeee;
+}
+
 nav form{
   display: inline;
 }
@@ -66,15 +89,24 @@ aside{
 
 
 @media all and (max-width: 900px){
-    nav,header,article,aside{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+  nav,header,article,aside{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  aside{
+    line-height: 40px;
+  }
 }
 
 @media all and (max-width: 600px){
-    nav,header,article,aside{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+  nav,header,article,aside{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  h1{
+    font-size:10vw;
+  }
+  h2{
+    font-size:9vw;
+  }
 }

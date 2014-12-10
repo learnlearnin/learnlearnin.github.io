@@ -34,4 +34,8 @@ Also, don't forget to configure duckduckgo as the default search engine inside F
 
 7) I haven't really had a chance to miss google maps. But [OpenStreetMap](https://www.openstreetmap.org/) will probably be as good.
 
+## More links ##
+
+[Prism Break](http://prism-break.org) has a collection of applications like the above list. The list is definitely more comprehensive and accurate than this one.
+
 Checkout projects like [unhosted.org](http://unhosted.org/). Going indie is one of my 2015 resolutions (just created). I'm already independent of Google and Facebook and you can be too, zero cost.

@@ -75,8 +75,17 @@ function sharebuttons(){
 	}
 }
 
+function scrollToHash(){
+  if(location.hash){
+   var idToGo=location.hash.substr(1);
+   document.getElementById(idToGo).scrollIntoView();
+  }
+  return;
+}
+
 window.onload = function (){
 	readpreferences();
+        scrollToHash();
 	document.getElementById("togglenavtools").addEventListener('click',togglenavtools);
 	document.getElementById("changefont").addEventListener('click',changefont);
 	document.getElementById("clearstorage").addEventListener('click',function(e){

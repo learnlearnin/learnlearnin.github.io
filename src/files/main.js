@@ -2,13 +2,29 @@
  * JavaScript for Learn Learnin'
  */
 
-
+/*
 function togglenavtools(e){
 	e.preventDefault();
 	var navtools=document.getElementById("navtools");
 	navtools.style.visibility = navtools.style.visibility=="hidden"? "visible":"hidden";
 	return false;
 }
+*/
+
+function toggleathing(e, thingid){
+	e.preventDefault();
+	var thing=document.getElementById(thingid);
+	thing.style.visibility = thing.style.visibility=="hidden"? "visible":"hidden";
+	return false;
+}
+
+function tumbleathing(e, thingid){
+	e.preventDefault();
+	var thing=document.getElementById(thingid);
+	thing.style.display = thing.style.display=="none"? "block":"none";
+	return false;
+}
+
 
 var fonts=["Cardo","comic sans ms","Helvetica","Verdana","Garamond","Times New Roman","Arial","monospace"]
 // var fontsizes=["25px","20px","30px","40px"]
@@ -83,10 +99,46 @@ function scrollToHash(){
   return;
 }
 
+function generateTOC(){
+  var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+  var filltoc=document.createElement('ul');
+  filltoc.setAttribute('id','toc');
+  for(var i=1; i<headings.length ;i++){ 
+    var listitem = document.createElement('li');
+    listitem.setAttribute('class',"toc"+headings[i].tagName.toLowerCase());
+
+    var link = document.createElement('a'); 
+    link.setAttribute('href',"#"+headings[i].id);
+    link.innerHTML=headings[i].innerHTML;
+
+    listitem.appendChild(link);
+    filltoc.appendChild(listitem);
+  }
+  console.log('replacing toc by'+filltoc.innerHTML);
+  document.getElementById('toc').appendChild(filltoc);
+}
+
+function hidethings(tohide){
+  for (var i=0;i<tohide.length;i++){
+    document.getElementById(tohide[i]).style.visibility="hidden";
+  }
+}
+
+function nonethings(tohide){
+  for (var i=0;i<tohide.length;i++){
+    document.getElementById(tohide[i]).style.display="none";
+  }
+}
+
+
 window.onload = function (){
 	readpreferences();
+	generateTOC();
         scrollToHash();
-	document.getElementById("togglenavtools").addEventListener('click',togglenavtools);
+	hidethings(['navtools']);
+	nonethings(['toc']);
+	document.getElementById("togglenavtools").addEventListener('click',function(e){toggleathing(e,"navtools");});
+	document.getElementById("toggletoc").addEventListener('click',function(e){tumbleathing(e,"toc");});
 	document.getElementById("changefont").addEventListener('click',changefont);
 	document.getElementById("clearstorage").addEventListener('click',function(e){
 		e.preventDefault();

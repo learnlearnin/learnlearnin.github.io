@@ -54,8 +54,12 @@ nav,header{
   width:150px;
 }
 
-#navtools{
-    visibility: hidden;
+#toc{
+  padding:0 20% 0;
+}
+#toggletoc{
+  margin-left: 70%;
+
 }
 
 article{
@@ -72,6 +76,9 @@ aside{
   clear:both;
   background-color: #ccc;
 }
+
+
+
 .nav{
   float:right;
 }
@@ -89,7 +96,7 @@ aside{
 
 
 @media all and (max-width: 900px){
-  nav,header,article,aside{
+  nav,header,article,aside,#toc{
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -99,7 +106,7 @@ aside{
 }
 
 @media all and (max-width: 600px){
-  nav,header,article,aside{
+  nav,header,article,aside,#toc{
     padding-left: 5%;
     padding-right: 5%;
   }

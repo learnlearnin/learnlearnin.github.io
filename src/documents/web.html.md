@@ -15,3 +15,6 @@ There's an easier way of putting our ideas on the web. It is called [blogging](/
 The how
 ---
 Communication on the web is always between two computers. The computer on the user's side is called the client.
+
+##[Web Development](/web-development.html.md)##
+If you are itching to start working.

@@ -10,4 +10,4 @@ Computers are the most faithful servants of man, after dogs.
 * [Keeping yourself safe while using a computer](/security/)
 * [Quitting Google](/quit-google/)
 * [Using public key cryptography](/public-key-cryptography/)
-* [Docpad workflow](/docpad/)
+* The [web](/web/) and [web development](/web-development/)

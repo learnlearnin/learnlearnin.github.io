@@ -136,7 +136,7 @@ window.onload = function (){
 	//generateTOC();
   scrollToHash();
 	hidethings(['navtools']);
-	nonethings(['toc']);
+	//nonethings(['toc']);
 	document.getElementById("togglenavtools").addEventListener('click',function(e){toggleathing(e,"navtools");});
 	document.getElementById("toggletoc").addEventListener('click',function(e){tumbleathing(e,"toc");});
 	document.getElementById("changefont").addEventListener('click',changefont);

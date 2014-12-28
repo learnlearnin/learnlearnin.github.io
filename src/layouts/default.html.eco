@@ -12,34 +12,34 @@
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
   <%- @partial('favicon') %>
-  <%- @getBlock('styles').add(@site.styles).toHTML() %> 
+  <%- @getBlock('styles').add(@site.styles).toHTML() %>
 
 </head>
 <body>
   <div id="content-wrapper">
   <nav>
-    <a href="/" title="Go home">~</a> 
-    <a href="/about/#site-info" id="togglenavtools" title="Toggle site tools">»</a> 
+    <a href="/" title="Go home">~</a>
+    <a href="/about/#site-info" id="togglenavtools" title="Toggle site tools">»</a>
     <span id="navtools">
       <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
-      <a href="" id="clearstorage"> Clear settings</a> | 
+      <a href="" id="clearstorage"> Clear settings</a> |
       Search: <!--<a id="changefontsize" title="Change font size" href="/about/#site-info">±</a> <a href="/about/#site-info" id="changetheme" title="Change colors">☯</a>--><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %>
     </span>
   </nav>
   <header>
     <h1><a class="linchor" href="">⚓</a><%= @document.title || @site.title %> </h1>
   </header>
-  <button id="toggletoc">Table of Contents</button>
-  <div id="toc"></div>
+  <!-- <button id="toggletoc">Table of Contents</button>
+  <div id="toc"></div> --> <!-- Disabling Table of Contents till it can be made look better -->
   <article>
     <%- @content %>
   </article>
   <aside>
   <hr />
   <span class="share">
-    Share this page on: 
-    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">d*</a> 
-    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">fb</a> 
+    Share this page on:
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">d*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">fb</a>
     <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">twttr</a>
     <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">g+</a>
     <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Telegram</a>
@@ -54,14 +54,5 @@
   </aside>
   </div>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
-  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-33224149-1', 'auto');
-  ga('send', 'pageview');
-  </script>
 </body>
 </html>

@@ -28,7 +28,7 @@ article a:hover {
 
 a.linchor{
   border:none;
-} 
+}
 
 
 aside a{
@@ -59,15 +59,14 @@ nav,header{
 }
 #toggletoc{
   margin-left: 70%;
-
 }
 
 article{
   position:relative;
   padding:2% 20% 2%;
   background-color: white;
-  height:auto !important; 
-  min-height:60%; 
+  height:auto !important;
+  min-height:60%;
 }
 
 aside{

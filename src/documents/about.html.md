@@ -22,6 +22,7 @@ I tried a lot to find a way to enable navigation links on the site. But there's 
 I am [A](http://asdofindia.blogspot.com)[S](https://github.com/asdofindia)[D](https://joindiaspora.com/people/2a39042b15979f8b). I am a student of the world wide web.
 
 ##Contact##
+I love hearing from you. Please, please, send me a message.
 There are multiple ways to contact me. The easiest is to send me a message on telegram messenger by clicking here: [telegram.me/akshay](https://telegram.me/akshay)
 
 You can send me an email too. Decipher my email address. It is "My first name at autistici org"

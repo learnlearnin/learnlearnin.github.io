@@ -10,6 +10,6 @@ If you're from Mysore, I can come to your house and teach you stuff. If you're f
 
 And the best thing is you can pay me anything you want to pay. Be it nothing, be it a million. Pay for what you get.
 
-Mysore
+##Mysore##
 ---
-
+If you are in Mysore and want me to discuss with you everything that I know about, [contact me](/about/#contact)

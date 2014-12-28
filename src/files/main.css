@@ -42,6 +42,16 @@ aside a:hover{
   background-color: #eeeeee;
 }
 
+aside .comment a{
+  background-color: #fff;
+}
+aside .comment a:hover{
+  background-color:wheat;
+}
+.comment{
+  white-space:nowrap;
+}
+
 nav form{
   display: inline;
 }

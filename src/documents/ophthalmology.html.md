@@ -5,6 +5,8 @@ keywords: ophthalmology, eye
 ---
 If you are interested in ophthalmology alone and want a site like this, dedicated to ophthalmology, go to [this beautiful ophthalmology online textbook](http://ophthobook.com/)
 
+Start with [eye anatomy](/eye-anatomy/).
+
 A very interesting thing about eyes is [the way they move](/eye-movements/).
 
 ##Useful external links##

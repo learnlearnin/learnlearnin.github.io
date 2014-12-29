@@ -3,7 +3,7 @@
   "description": "The quintessential knowledge aggreggator",
   "launch_path": "/",
   "icons": {
-    "512": "/LofL.png"
+    "512": "/LofL.png",
     "128": "/LofL.png"
   },
   "developer": {

@@ -1,7 +1,7 @@
 {
   "name": "Learn Learnin'",
   "description": "The quintessential knowledge aggreggator",
-  "launch_path": "http://learnlearn.in/",
+  "launch_path": "/",
   "icons": {
     "512": "/LofL.png",
     "128": "/LofL.png"

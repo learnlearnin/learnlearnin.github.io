@@ -1,0 +1,14 @@
+{
+  "name": "Learn Learnin'",
+  "description": "The quintessential knowledge aggreggator",
+  "launch_path": "/",
+  "icons": {
+    "512": "/LofL.png"
+    "128": "/LofL.png"
+  },
+  "developer": {
+    "name": "Akshay S Dinesh",
+    "url": "http://learnlearn.in/about/"
+  },
+  "default_locale": "en"
+}

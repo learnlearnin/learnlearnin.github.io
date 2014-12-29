@@ -27,7 +27,7 @@
     </span>
   </nav>
   <header>
-    <h1><a class="linchor" href="">⚓</a><%= @document.title || @site.title %> </h1>
+    <a class="permalink" href="">⚓</a><h1><%= @document.title || @site.title %> </h1>
   </header>
   <!-- <button id="toggletoc">Table of Contents</button>
   <div id="toc"></div> --> <!-- Disabling Table of Contents till it can be made look better -->

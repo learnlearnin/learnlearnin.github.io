@@ -86,23 +86,25 @@ aside{
   background-color: #ccc;
 }
 
-
-
 .nav{
   float:right;
 }
-.linchor{
+.linchor, .permalink{
   text-decoration: none;
   position:absolute;
-  margin-left:-20px;
-  padding-top:20px;
-  font-size: 20px;
+  margin-left:-30px;
   opacity:0.1;
 }
-.linchor:hover{
-  opacity: 1;
+.linchor:hover, .permalink:hover {
+  opacity: 0.75;
+  border-bottom: none;
 }
 
+.permalink{
+  margin-left:-23px;
+  padding-top:10px;
+  opacity: 0.2;
+}
 
 @media all and (max-width: 900px){
   nav,header,article,aside,#toc{
@@ -127,5 +129,11 @@ aside{
   }
   ul{
     padding:0;
+  }
+  .linchor{
+    margin-left: -15px;
+  }
+  .permalink{
+    margin-left: -20px;
   }
 }

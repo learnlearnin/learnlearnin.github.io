@@ -132,7 +132,7 @@ function nonethings(tohide){
 
 function installApp(){
 	var manifestUrl = 'http://learnlearn.in/manifest.webapp';
-	var req = navigator.mozApps.installPackage(manifestUrl);
+	var req = navigator.mozApps.install(manifestUrl);
 	req.onsuccess = function() {
 		alert("success: " + this.result.origin);
 	};

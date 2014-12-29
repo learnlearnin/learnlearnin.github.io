@@ -3,8 +3,9 @@
   "description": "The quintessential knowledge aggreggator",
   "launch_path": "/",
   "icons": {
-    "512": "/LofL.png",
-    "128": "/LofL.png"
+    "512": "/LofL512.png",
+    "128": "/LofL128.png",
+    "64": "/LofL.png"
   },
   "developer": {
     "name": "Akshay S Dinesh",

@@ -1,11 +1,12 @@
 ---
+title: "Learn Learnin'"
 description: "A very light insight wiki"
 ---
 
 I love [computers](/computers/) (running [linux](/linux/)). They make life easy. I also love the [web](/web/). The web enables life on earth. Another of my loves is the human [mind](/mind/). It allows thinking about all this. That brings me to intelligence and [AI](/ai/).
 
 ## Learning ##
-I believe in [learning](/learning/) things as efficiently as possible. 
+I believe in [learning](/learning/) things as efficiently as possible.
 
 ## Welcome to Learn Learnin' ##
 This is a knowledge aggregator. You can click on all the links and reach a lot of nice places on the internet to read a lot of nice things about a lot of nice topics.

@@ -15,13 +15,10 @@ It is funny how the religious claim all their rights to propagate their archaic 
 
 ####PK movie####
 This article from [dailyO](http://www.dailyo.in/) sums up the actions made by the religious against free speech.
->[...]
 
 > The boycott call is behind the support call both on box office cash register and on Twitter trends. Because on a meter of taking offence and ignoring to taking offence and killing people, Hindus are at Level Two. That's Boycott level. To demand a ban is Level Three. To enforce shutdowns is Level Four and going totally mental is Level Five. You can show a scared Shiva character running helter-skelter and get away with it. Showing the Prophet is a sure-shot suicidal move only the Scandinavian have attempted till now.
 
->[...]
-
-Read full article: [PK hits Hinduism more than Islam: But when religion itself is a lul thing, does it matter?](http://www.dailyo.in/opinion/pk-hits-hinduism-more-than-islam-but-when-religion-itself-is-a-lul-thing-does-it-matter/story/1/1184.html)
+> <footer> [PK hits Hinduism more than Islam: But when religion itself is a lul thing, does it matter?](http://www.dailyo.in/opinion/pk-hits-hinduism-more-than-islam-but-when-religion-itself-is-a-lul-thing-does-it-matter/story/1/1184.html) </footer>
 
 ##Suppressing personal liberties##
 There indeed are religious edicts which allow discrimination among members of religions. Such discrimination usually are aimed at restricting personal liberties.

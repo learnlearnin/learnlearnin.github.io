@@ -6,10 +6,14 @@
   "icons": {
     "512": "/LofL512.png",
     "256": "/LofL256.png",
+    "144": "/LofL144.png",
     "128": "/LofL128.png",
+    "96": "/LofL96.png",
     "90": "/LofL90.png",
+    "72": "/LofL72.png",
     "64": "/LofL.png",
     "60": "/LofL60.png",
+    "48": "/LofL48.png",
     "32": "/LofL32.png"
   },
   "developer": {

@@ -1,6 +1,7 @@
 {
   "name": "Learn Learnin'",
   "description": "The quintessential knowledge aggreggator",
+  "version": "0.1",
   "launch_path": "/",
   "icons": {
     "512": "/LofL512.png",

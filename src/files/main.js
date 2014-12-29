@@ -130,6 +130,17 @@ function nonethings(tohide){
   }
 }
 
+function installApp(){
+	var manifestUrl = 'http://learnlearn.in/manifest.webapp';
+	var req = navigator.mozApps.installPackage(manifestUrl);
+	req.onsuccess = function() {
+		alert("success: " + this.result.origin);
+	};
+	req.onerror = function() {
+		alert("fail: " + this.error.name);
+	};
+}
+
 
 window.onload = function (){
 	readpreferences();
@@ -146,6 +157,7 @@ window.onload = function (){
 		location.reload();
 		return false;
 	});
+	document.getElementById("install").addEventListener('click',installApp);
 	// document.getElementById("changefontsize").addEventListener('click',changefontsize);
 	// document.getElementById("changetheme").addEventListener('click',changetheme);
 	permalinks();

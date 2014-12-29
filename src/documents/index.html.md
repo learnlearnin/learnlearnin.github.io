@@ -25,13 +25,4 @@ Okay, if you are coming here for the first time and you don't have a clue what i
 After Snowden's revelations about NSA (although Richard M Stallman has been trying to tell the same before) I became clearly interested in protecting my privacy. I [quit all services by google](/quit-google/). And I started using [pgp and public key cryptography](/public-key-cryptography/)
 
 ## Open Web app ##
-<script>
-var manifestUrl = 'http://learnlearn.in/manifest.webapp';
-var req = navigator.mozApps.installPackage(manifestUrl);
-req.onsuccess = function() {
-  alert(this.result.origin);
-};
-req.onerror = function() {
-  alert(this.error.name);
-};
-</script>
+<button id="install">Install the app</button>

@@ -9,7 +9,7 @@ I am [A](http://asdofindia.blogspot.com)[S](https://github.com/asdofindia)[D](ht
 I love hearing from you. Please, please, send me a message.
 There are multiple ways to contact me. The easiest is to send me a message on telegram messenger by clicking here: [telegram.me/akshay](https://telegram.me/akshay)
 
-You can send me an email too. Decipher my email address. It is "My first name at autistici org"
+You can send me an email too to [akshay@autistici.org](mailto:akshay@autistici.org)
 
 If you want a more secure way to communicate, here is [my public key](/akshay.asc)
 

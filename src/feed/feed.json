@@ -1,15 +1,16 @@
 {
+ "updated": "2015-01-02T18:59:20Z",
  "entries": [
   {
-   "id": "urn:uuid:035683da-4358-4286-bfbd-98614c8c82e8",
-   "authoremail": "akshay@autistici.org",
    "published": "2015-01-02T13:39:33Z",
-   "author": "Akshay S Dinesh",
-   "authoruri": "http://learnlearn.in/about/",
-   "title": "I promoted myself to a first class citizen of the web",
    "content": "This new year I gifted myself a promotion. From being just a number under facebook or any other web service, to being a first class citizen of the web. This website will be my identity.\nRead more at http://learnlearn.in/keep-in-touch",
    "contenttype": "text",
-   "link": "http://learnlearn.in/keep-in-touch/"
+   "title": "I promoted myself to a first class citizen of the web",
+   "authoremail": "akshay@autistici.org",
+   "link": "http://learnlearn.in/keep-in-touch/",
+   "authoruri": "http://learnlearn.in/about/",
+   "author": "Akshay S Dinesh",
+   "id": "urn:uuid:035683da-4358-4286-bfbd-98614c8c82e8"
   }
  ]
 }

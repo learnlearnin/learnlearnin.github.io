@@ -28,6 +28,9 @@ parser_sync.set_defaults(func=tools.sync)
 parser_deletelast = subparsers.add_parser('deletelast', help="deletes the last feed from json and feed")
 parser_deletelast.set_defaults(func=tools.deletelast)
 
+parser_showlast = subparsers.add_parser('showlast', help="shows the last feed from json")
+parser_showlast.set_defaults(func=tools.showlast)
+
 parser_push = subparsers.add_parser('push', help="pushes last update to social networks")
 parser_push.set_defaults(func=tools.push)
 

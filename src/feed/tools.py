@@ -38,6 +38,10 @@ def addentry(args):
     print("added")
     print(pprintentry(getlastentry(args)))
 
+def showlast(args):
+    getfiles(args)
+    print(pprintentry(getlastentry(args)))
+
 def sync(args):
     getfiles(args)
     default()

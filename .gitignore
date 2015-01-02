@@ -22,3 +22,6 @@ src/files/vendor
 *~
 *.swp
 *.swo
+
+config.py
+**/__pycache__

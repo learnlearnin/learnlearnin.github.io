@@ -31,6 +31,8 @@ You can follow the updates to this website using a feed reader. The feed is loca
 
  I might later find a way to bring the updates automatically to all the social networks, but I'll definitely not be doing it manually.
 
+ If you want to be updated via email, just [let me know](/about/#contact).
+
 ## Comments ##
 As you can probably see this website has no embedded comments. It is not that I don't want or "like" your comments. I love them! But instead of just commenting on links shared on social networks, or under articles on others' websites, I urge you to make it big. Start your own website or blog. Get a domain name. Post your comments as well thought out articles. Otherwise all that you say, all the nasty fights you pick up on threads, they're all going into trash soon. But when you build something on your own, it stays. For as long as you want.
 

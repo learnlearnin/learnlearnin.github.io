@@ -151,8 +151,90 @@ def pprintentry(entry):
     message=title+'\n-----------\n'+content
     return message
 
+def sendmails(entry):
+    import sys, os, re
+    from smtplib import SMTP_SSL as SMTP
+    from email.mime.text import MIMEText
+    global config
+    footer="""
+    ---
+    You are receiving this mail because you were interested in learnlearn.in
+    If you wish to no longer receive these emails, just send a reply to this address saying "unsubscribe" or anything to that effect.
+    """
+    try:
+        conn = SMTP(config.SMTPserver)
+        conn.set_debuglevel(False)
+        conn.login(config.username, config.password)
+
+        for reader in config.mailinglist:
+            text_subtype='plain'
+            subject=entry['title']
+            try:
+                content="Dear "+reader[1]+'\n'+entry['content']
+            except IndexError:
+                content="Hello friend!\n"+entry['content']
+            content+=footer
+
+            msg = MIMEText(content, text_subtype)
+            msg['Subject']=       subject
+            msg['From']   = config.sender
+            msg['To'] = reader[0]
+            try:
+                conn.sendmail(config.sender, reader[0], msg.as_string())
+            except Exception as exc:
+                print("mail to %s failed: %s"%(reader[0],str(exc)))
+
+            for reader in config.postbymail:
+                text_subtype='plain'
+                subject=entry['title']
+                content=entry['content']
+                msg = MIMEText(content, text_subtype)
+                msg['Subject']= content
+                msg['From']   = config.sender
+                msg['To'] = reader
+                try:
+                    conn.sendmail(config.sender, reader, msg.as_string())
+                except Exception as exc:
+                    print("mail to %s failed: %s"%(reader,str(exc)))
+    except Exception as exc:
+        sys.exit( "mail failed; %s" % str(exc) )
+    finally:
+        conn.close()
+
+def fbpush(oauth, message):
+    import facebook
+    graph=facebook.GraphAPI(oauth)
+    graph.put_object("me", "feed", message=message)
+
+def telegramshare(message):
+    import subprocess
+    global config
+    for chat in config.tgchats:
+        subprocess.Popen(['./src/feed/grambot.sh', chat, message, config.tgdir])
+
 def push(args):
+    getfiles(args)
+    global filepath
+    pardir=os.path.dirname(os.path.dirname(os.path.dirname(filepath)))
+    os.sys.path.insert(0,pardir)
+    global config
+    import config
     lastentry=getlastentry(args)
     message=pprintentry(lastentry)
     print("sending to social networks")
     print(message)
+    try:
+        mails=config.mailinglist
+        #sendmails(lastentry)
+    except AttributeError:
+        pass
+    try:
+        fboauth=config.fbaccess
+        #fbpush(fboauth, message)
+    except AttributeError:
+        pass
+    try:
+        tgdir=config.tgdir
+        telegramshare(message)
+    except AttributeError:
+        pass

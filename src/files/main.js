@@ -85,7 +85,7 @@ function sharebuttons(){
 	if (!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )) {
 		var elements = document.getElementsByClassName('mobileshare');
 	    for (var i = 0; i < elements.length; i++){
-	        elements[i].style.visibility = "hidden";
+	        elements[i].style.display = "none";
 	    }
 
 	}

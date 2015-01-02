@@ -30,6 +30,9 @@ a.linchor{
   border:none;
 }
 
+aside{
+  line-height:2.5em;
+}
 
 aside a{
   background-color: #cfcfcf;
@@ -48,7 +51,7 @@ aside .comment a{
 aside .comment a:hover{
   background-color:wheat;
 }
-.comment{
+.no-wrap{
   white-space:nowrap;
 }
 

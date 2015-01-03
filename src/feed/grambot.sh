@@ -20,6 +20,6 @@ done
 # Remove the "-p kl" if you don't want a separate profile for the bot.
 # Otherwise, create a profile named kl, or change kl to your profile name
 # The profile need to be saved in config.sample in tg-cli directory
-#echo "${COMMAND}" | $1/bin/telegram-cli -W -D -k $1/server.pub -c $1/config.sample
+echo "${COMMAND}" | $1/bin/telegram-cli -W -D -k $1/server.pub -c $1/config.sample
 
 rm -f $RANDFILE

@@ -20,7 +20,7 @@ def jsonload(filepath):
     return jsondata
 
 def addentry(args):
-    if "content" in args and "title" in args:
+    if (args.content!=None and args.title!=None):
         global newentry
         newentry={
             "title": args.title,
@@ -28,15 +28,19 @@ def addentry(args):
         }
         print("New entry titled:",args.title)
         print(args.content)
-        if "link" in args:
+        if args.link!=None:
             newentry['link']=args.link
             print(args.link)
-    global donotupdate
-    donotupdate=False
-    getfiles(args)
-    default()
-    print("added")
-    print(pprintentry(getlastentry(args)))
+        if args.cat!=None:
+            newentry['category']=args.cat
+        global donotupdate
+        donotupdate=False
+        getfiles(args)
+        default()
+        print("added")
+        print(pprintentry(getlastentry(args)))
+    else:
+        print("Missing content or title")
 
 def showlast(args):
     getfiles(args)
@@ -79,8 +83,10 @@ def entrytoxml(entry):
     entrystring+="<title>"+entry['title']+"</title>"
     entrystring+='<link href="'+entry['link']+'" />'
     entrystring+='<id>'+entry['id']+'</id>'
-    if hasattr(entry, "updated"):
+    if "updated" in entry:
         entrystring+='<updated>'+entry['updated']+'</updated>'
+    if "category" in entry:
+        entrystring+='<category>'+entry['category']+'</category>'
     entrystring+='<published>'+entry['published']+'</published>'
     entrystring+='<author><name>'+entry['author']+'</name><uri>'+entry['authoruri']+'</uri><email>'+entry['authoremail']+'</email></author>'
     entrystring+='<content type="'+entry['contenttype']+'">'+entry['content']+'</content>'
@@ -206,11 +212,24 @@ def fbpush(oauth, message):
     graph=facebook.GraphAPI(oauth)
     graph.put_object("me", "feed", message=message)
 
-def telegramshare(message):
+def telegramshare(message,cat="all"):
     import subprocess
     global config
+    sendto=""
     for chat in config.tgchats:
-        subprocess.Popen(['./src/feed/grambot.sh', chat, message, config.tgdir])
+        if cat=="all":
+            sendto+=chat[0]+" "  # sends entries with no tags to everyone
+        else:
+            try:
+                if chat[1]==cat:
+                    sendto+=chat[0]+" "   # sends people with explicit tags the messages of their tags
+            except IndexError:
+                sendto+=chat[0]+" "    # sends people with no explicit tags all messages
+    print("sending via telegram to %s"%sendto)
+    command=['./src/feed/grambot.sh', config.tgdir, message]
+    command.extend(sendto.split())
+    process=subprocess.Popen(command)
+    process.wait()
 
 def push(args):
     getfiles(args)
@@ -223,18 +242,25 @@ def push(args):
     message=pprintentry(lastentry)
     print("sending to social networks")
     print(message)
-    try:
-        mails=config.mailinglist
-        #sendmails(lastentry)
-    except AttributeError:
-        pass
-    try:
-        fboauth=config.fbaccess
-        #fbpush(fboauth, message)
-    except AttributeError:
-        pass
-    try:
-        tgdir=config.tgdir
-        telegramshare(message)
-    except AttributeError:
-        pass
+    if args.mail:
+        try:
+            mails=config.mailinglist
+            sendmails(lastentry)
+        except AttributeError:
+            pass
+    if args.fb:
+        try:
+            fboauth=config.fbaccess
+            fbpush(fboauth, message)
+        except AttributeError:
+            pass
+    if args.tg:
+        try:
+            tgdir=config.tgdir
+            print("telegramming")
+            if "category" in lastentry:
+                telegramshare(message,cat=lastentry['category'])
+            else:
+                telegramshare(message)
+        except AttributeError:
+            pass

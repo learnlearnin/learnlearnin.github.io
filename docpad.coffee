@@ -6,25 +6,20 @@ docpadConfig = {
     site:
       # The default title of our website.
       title: "Learn Learnin'"
-
       # The production url of our website.
       url: "http://learnlearn.in"
-
       # The website description (for SEO).
       description: """
         Learning how to learn is more important than learning itself.
         """
-
       # The website keywords (for SEO) separated by commas.
       keywords: """
         learn, learning
         """
-
       # The cascading stylesheets for the site.
       styles: [
-        "/main.css","http://fonts.googleapis.com/css?family=Cardo:400,400italic,700"
+        "/main.css"
       ]
-
       # The JavaScript files for the site.
       scripts: [
         "/main.js"
@@ -36,12 +31,10 @@ docpadConfig = {
         @site.title
     getPreparedDescription: ->
       @document.description or @site.description
-    getPreparedKeywords: -> 
+    getPreparedKeywords: ->
       @site.keywords.concat(@document.keywords or []).join(', ')
     getAbsoluteUrl: ->
       "#{@site.url}#{@document.url}"
-
-
 
   collections:
     posts: -> @getCollection("html").findAllLive().on "add", (model) -> model.setMetaDefaults({layout: "default"})
@@ -63,7 +56,6 @@ docpadConfig = {
         breaks: true
         sanitize: false
         highlight: null
-
 }
 
 # Export the DocPad Configuration

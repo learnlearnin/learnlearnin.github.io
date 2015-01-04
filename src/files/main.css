@@ -9,8 +9,8 @@ img{border:0}
 
 
 html,body{
-  font-size:25px;
-  font-family: "Cardo","comic sans ms", Helvetica, Geneva, sans-serif;
+  font-size:larger;
+  font-family: "Linux Biolinium","comic sans ms", Helvetica, Geneva, sans-serif;
   height: 100%;
 }
 
@@ -74,18 +74,28 @@ nav,header{
   margin-left: 70%;
 }
 
+.articleimg{
+  width: 100%;
+  margin-top: -3.5%;
+}
+.imgattr{
+  font-size: medium;
+}
+
 article{
   position:relative;
   padding:2% 20% 2%;
   background-color: white;
+  color:black;
   height:auto !important;
   min-height:60%;
 }
 
 aside{
   padding:0 20% 10%;
-  font-size:18px;
+  font-size: medium;
   clear:both;
+  color:black;
   background-color: #ccc;
 }
 
@@ -153,6 +163,11 @@ blockquote footer:before {
   nav,header,article,aside,#toc{
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .articleimg{
+    width:112%;
+    margin-left: -6%;
+    margin-right: -6%;
   }
   h1{
     font-size:10vw;

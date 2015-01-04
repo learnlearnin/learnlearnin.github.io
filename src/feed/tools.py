@@ -34,7 +34,8 @@ def addentry(args):
         if args.cat!=None:
             newentry['category']=args.cat
         global donotupdate
-        donotupdate=False
+        if not args.test:
+            donotupdate=False
         getfiles(args)
         default()
         print("added")

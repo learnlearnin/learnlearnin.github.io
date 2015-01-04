@@ -11,6 +11,8 @@
   <meta name="description" content="<%= @getPreparedDescription() %>" />
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
+  <script><%-  @partial('fontload-min') %></script>
+  <script>loadFont('Linux Biolinium', '/fonts.woff.css')</script>
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
 
@@ -35,6 +37,12 @@
   <!-- <button id="toggletoc">Table of Contents</button>
   <div id="toc"></div> --> <!-- Disabling Table of Contents till it can be made look better -->
   <article>
+    <% if @document.img: %>
+      <img class="articleimg" src="/images/<%- @document.img %>">
+      <div class="imgattr">
+        <%- @document.imgattr %>
+      </div>
+    <% end %>
     <%- @content %>
   </article>
   <aside>

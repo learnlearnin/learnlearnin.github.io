@@ -25,3 +25,4 @@ src/files/vendor
 
 config.py
 **/__pycache__
+src/temp/

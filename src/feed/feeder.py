@@ -20,6 +20,7 @@ parser_add = subparsers.add_parser('add', help="adds an entry to feed")
 parser_add.add_argument('content')
 parser_add.add_argument('-t','--title')
 parser_add.add_argument('-l','--link')
+parser_add.add_argument('--test',action="store_true",default=False)
 parser_add.add_argument('--cat')
 parser_add.set_defaults(func=tools.addentry)
 

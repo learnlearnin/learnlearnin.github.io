@@ -26,7 +26,7 @@ function tumbleathing(e, thingid){
 }
 
 
-var fonts=["Lin Biolinum_ R","comic sans ms","Helvetica","Verdana","Garamond","Times New Roman","Arial","monospace"];
+var fonts=["Lin Biolinum","comic sans ms","Helvetica","Verdana","Garamond","Times New Roman","Arial","monospace"];
 // var fontsizes=["25px","20px","30px","40px"]
 // var themes=["light","dark","coral","coral-dark"]
 // var colors={"light":["cyan","black"], "dark":["grey","white"],"coral":["coral","white"],"coral-dark":["coral","black"]}

@@ -12,7 +12,7 @@
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
   <script><%-  @partial('fontload-min') %></script>
-  <script>loadFont('Linux Biolinium', '/fonts.woff.css')</script>
+  <script>loadFont('Lin Biolinum_ R', '/fonts.woff.css')</script>
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
 

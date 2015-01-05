@@ -78,7 +78,6 @@ Read more at """+entry['link']
     entry['authoruri'] = entry['authoruri'] if "authoruri" in entry else "http://learnlearn.in/about/"
     return entry
 
-
 def entrytoxml(entry):
     entrystring="<entry>"
     entrystring+="<title>"+entry['title']+"</title>"
@@ -164,9 +163,9 @@ def sendmails(entry):
     from email.mime.text import MIMEText
     global config
     footer="""
-    ---
-    You are receiving this mail because you were interested in learnlearn.in
-    If you wish to no longer receive these emails, just send a reply to this address saying "unsubscribe" or anything to that effect.
+---
+You are receiving this mail because you were interested in learnlearn.in
+If you wish to no longer receive these emails, just send a reply to this address saying "unsubscribe" or anything to that effect.
     """
     try:
         conn = SMTP(config.SMTPserver)

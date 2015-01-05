@@ -32,8 +32,8 @@ module.exports = (grunt) ->
       return unless /\.woff/.test(file)
       b64 = fs.readFileSync('src/files/fonts/' + file).toString('base64')
       format =  (if file.indexOf('.woff2') >= 0 then "woff2" else "woff")
-      fontWeight = (if /Semibold/i.test(file) then 600 else 400)
-      fontStyle = (if /It/.test(file) then 'italic' else 'normal')
+      fontWeight = (if /RB/i.test(file) then 600 else 400)
+      fontStyle = (if /RI/.test(file) then 'italic' else 'normal')
       fontFamily = file.split('.')[0].split('-')[0].split(/(?=[A-Z])/).join(' ')
       template = '@font-face{font-family:%s;src:url(data:application/x-font-%s;charset=utf-8;base64,%s) format("%s");font-weight:%d;font-style:%s}\n'
       css = util.format(template, fontFamily, format, b64, format, fontWeight, fontStyle)

@@ -78,7 +78,6 @@ Read more at """+entry['link']
     entry['authoruri'] = entry['authoruri'] if "authoruri" in entry else "http://learnlearn.in/about/"
     return entry
 
-
 def entrytoxml(entry):
     entrystring="<entry>"
     entrystring+="<title>"+entry['title']+"</title>"

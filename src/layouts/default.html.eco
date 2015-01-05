@@ -47,6 +47,7 @@
   </article>
   <aside>
   <hr />
+
   <span class="share">
     Share this page on:
     <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">d*</a>
@@ -57,9 +58,12 @@
     <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Telegram</a>
     <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
   </span>
+  <br />
   <span class="comment no-wrap">
     <a href="/about/#contact">Leave a comment</a>
   </span>
+  <a href="/about/">About this site</a>
+  <br />
   <a id="install" href="#" class="no-wrap">Install the open web app on firefox</a>
   <span class="no-wrap"><a href="mailto:akshay@autistici.org?subject=subscribe">Subscribe via email</a></span>
   <span class="no-wrap"><a href="https://telegram.me/akshay">via Telegram</a></span>

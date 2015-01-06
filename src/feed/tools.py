@@ -71,6 +71,8 @@ Read more at """+entry['link']
         if not entry['dirty']=="false":
             entry['updated'] = gettime()
             entry['dirty']="false"
+    if not "updated" in entry:
+        entry["updated"] = entry['published']
     entry['id'] = entry['id']  if 'id' in entry else "urn:uuid:"+getuuid()
     entry['contenttype'] = entry['contenttype'] if  "contenttype" in entry else "text"
     entry['author'] = entry['author'] if "author" in entry else "Akshay S Dinesh"

@@ -7,8 +7,11 @@
   <!-- Site Properities -->
   <title><%= @getPreparedTitle() %></title>
   <meta property="og:title" content="<%= @getPreparedTitle() %>" />
-  <meta property="og:description" content="<%= @getPreparedDescription() %>" />
-  <meta name="description" content="<%= @getPreparedDescription() %>" />
+  <meta property="og:description" name="description" content="<%= @getPreparedDescription() %>" />
+  <% if @document.img: %>
+  <meta property="og:image" content="/images/<%- @document.img %>" />
+  <% end %>
+  <meta property="og:url" content="<%= @getAbsoluteUrl() %>" />
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
   <script><%-  @partial('fontload-min') %></script>
@@ -16,7 +19,7 @@
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
 
-  <link href="/atom.feed" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+  <link href="/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
 
 
 </head>

@@ -12,9 +12,11 @@ Putting files on a computer that is always on is called [web hosting](/webhostin
 
 There's an easier way of putting our ideas on the web. It is called [blogging](/blogging/). Here you don't need to worry about anything other than your content.
 
-The how
----
+Read: [3 things about the Internet that millions do not know](/3-things-internet/)
+
+## The how ##
+
 Communication on the web is always between two computers. The computer on the user's side is called the client.
 
-##[Web Development](/web-development.html.md)##
+## [Web Development](/web-development.html.md) ##
 If you are itching to start working.

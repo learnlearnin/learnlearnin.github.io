@@ -7,7 +7,7 @@
 	<link href="http://learnlearn.in/" hreflang="en" rel="alternate" type="text/html"/>
 	<link href="http://learnlearn.in/feed.atom" rel="self" type="application/atom+xml"/>
 	<generator uri="http://github.com/learnlearnin/learnlearnin.github.io/blob/source/src/feed/feeder.py" version="1.0">Hand written python json to feed converter</generator>
-	<icon>/LofL60.png</icon>
+	<icon>http://learnlearn.in/LofL60.png</icon>
 	<entry>
 		<title>Three important things about the Internet that millions do not know about</title>
 		<link href="http://learnlearn.in/3-things-internet/"/>

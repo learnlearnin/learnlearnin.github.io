@@ -8,9 +8,7 @@
   <title><%= @getPreparedTitle() %></title>
   <meta property="og:title" content="<%= @getPreparedTitle() %>" />
   <meta property="og:description" name="description" content="<%= @getPreparedDescription() %>" />
-  <% if @document.img: %>
-  <meta property="og:image" content="/images/<%- @document.img %>" />
-  <% end %>
+  <% if @document.img: %><meta property="og:image" content="/images/<%- @document.img %>" /><% end %>
   <meta property="og:url" content="<%= @getAbsoluteUrl() %>" />
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>

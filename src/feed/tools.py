@@ -102,7 +102,7 @@ def generatefeed(feeds):
     feedstring+='<link rel="alternate" type="text/html" hreflang="en" href="http://learnlearn.in/"/>'
     feedstring+='<link rel="self" type="application/atom+xml" href="http://learnlearn.in/feed.atom"/>'
     feedstring+='<generator uri="http://github.com/learnlearnin/learnlearnin.github.io/blob/source/src/feed/feeder.py" version="1.0">Hand written python json to feed converter</generator>'
-    feedstring+='<icon>/LofL60.png</icon>'
+    feedstring+='<icon>http://learnlearn.in/LofL60.png</icon>'
     try:
         preparedentries=[entryprepare(newentry)]
     except NameError:

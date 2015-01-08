@@ -65,7 +65,7 @@ def entryprepare(entry):
         entry['link']="http://learnlearn.in"+entry['link']
         entry['content']+="""
 
-Read more at """+entry['link']
+Read at """+entry['link']
     entry['published'] = entry['published'] if 'published' in entry else gettime()
     if "dirty" in entry:
         if not entry['dirty']=="false":
@@ -215,12 +215,12 @@ def fbpush(oauth, message):
     graph=facebook.GraphAPI(oauth)
     graph.put_object("me", "feed", message=message)
 
-def telegramshare(message,cat="all"):
+def telegramshare(message,cat="none"):
     import subprocess
     global config
     sendto=""
     for chat in config.tgchats:
-        if cat=="all":
+        if cat=="none":
             sendto+=chat[0]+" "  # sends entries with no tags to everyone
         else:
             try:

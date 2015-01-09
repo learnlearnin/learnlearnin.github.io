@@ -12,9 +12,9 @@
   <meta property="og:url" content="<%= @getAbsoluteUrl() %>" />
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
-  <script><%-  @partial('fontload-min') %></script>
+  <script><%-  @partial('fontload-min', false) %></script>
   <script>loadFont('Lin Biolinum', '/fonts.woff.css')</script>
-  <%- @partial('favicon') %>
+  <%- @partial('favicon', false) %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
 
   <link href="/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />

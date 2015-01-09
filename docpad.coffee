@@ -1,13 +1,15 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
 
+siteUrl = if process.env.NODE_ENV is 'static' then "http://learnlearn.in" else "http://localhost:9778"
+
 docpadConfig = {
   templateData:
     site:
       # The default title of our website.
       title: "Learn Learnin'"
       # The production url of our website.
-      url: "http://learnlearn.in"
+      url: siteUrl
       # The website description (for SEO).
       description: """
         Learning how to learn is more important than learning itself.
@@ -37,7 +39,9 @@ docpadConfig = {
       "#{@site.url}#{@document.url}"
 
   collections:
-    posts: -> @getCollection("html").findAllLive().on "add", (model) -> model.setMetaDefaults({layout: "default"})
+    posts: ->
+      @getCollection("html").findAllLive({write:true}).on 'add', (model) ->
+        model.setMetaDefaults({layout:"default"})
     search: -> @getCollection("html").findAllLive()
   plugins:
     ghpages:

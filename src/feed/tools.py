@@ -88,7 +88,7 @@ Read at """ + entry['link']
       'contenttype'] if "contenttype" in entry else "text"
   entry['author'] = entry['author'] if "author" in entry else "Akshay S Dinesh"
   entry['authoremail'] = entry[
-      'authoremail'] if "authoremail" in entry else "akshay@autistici.org"
+      'authoremail'] if "authoremail" in entry else "akshay@learnlearn.in"
   entry['authoruri'] = entry[
       'authoruri'] if "authoruri" in entry else "http://learnlearn.in/about/"
   return entry

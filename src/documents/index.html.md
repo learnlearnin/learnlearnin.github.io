@@ -12,7 +12,7 @@ I believe in [learning](/learning/) things as efficiently as possible.
 This is a knowledge aggregator. You can click on all the links and reach a lot of nice places on the internet to read a lot of nice things about a lot of nice topics.
 
 ## Philosophy ##
-I am a rationalist, I call myself an atheist, and I usually am proactive in getting involved in religious issues because there are [issues in religion](/issues-in-religion/). I am a [feminist](/feminism/).
+I am a rationalist, I call myself an atheist, and I usually am proactive in getting involved in religious issues because there are [issues in religion](/issues-in-religion/). I am a [feminist](/feminism/). My core values are [Gandhian](/gandhianism/)
 
 ## Medicine ##
 There is very little organized information about medicine on the internet. There is no go-to website for a medical student to visit and read to their mind's content when they are bored. I plan to do something towards this here. Right now I have a couple of links for you: [Ophthalmology](/ophthalmology/)

@@ -1,5 +1,5 @@
 ---
-title: "Relgion and its problems"
+title: "Religion and its problems"
 description: "Religion is an outdated vice"
 keywords: atheism, religion, extremists, irrationality
 ---
@@ -37,4 +37,4 @@ All of these are imaginary claims of scientific foreknowledge that creeps in bec
 * [Bible](http://rationalwiki.org/wiki/Biblical_scientific_foreknowledge)
 * Since Hindus can't agree on one book and keep changing the "source" of their scientific knowledge, I cannot link to a particular page.
 
-All is fine when ignorance affects only those who are ignorant. But most often these pseudo-scientists misguide masses in embarrassing ways. 
+All is fine when ignorance affects only those who are ignorant. But most often these pseudo-scientists misguide masses in embarrassing ways.

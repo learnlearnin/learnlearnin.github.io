@@ -7,10 +7,10 @@ I love [computers](/computers/) (running [linux](/linux/)). They make life easy.
 
 I love [FOSS](/foss/). I love Mozilla, [Firefox](/firefox/), Thunderbird, VLC Media player, Hexchat, etc.
 
-I also love Wikipedia and Telegram Messenger. 
+I also love Wikipedia and [Telegram Messenger](/telegram/).
 
 ## Learning ##
-I believe in [learning](/learning/) things as efficiently as possible.
+I believe in [learning](/learning/) things as efficiently as possible. If you are a learner and want to learn any of the things I am interested in with me, please [contact me](/about/#contact)
 
 ### Tools ###
 Some tools which help in learning and productivity, that I love and use:

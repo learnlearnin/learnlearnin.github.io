@@ -8,3 +8,5 @@ I love free software. Free as in libre. Not as in gratis. Libre software is that
 Open Source is when software's code is available for anyone to see. But just seeing, is sometimes of no use.
 
 I believe that if the world were to use only free software, it would progress at a much faster rate than today.
+
+If you use an Android phone, you should consider "[freeing it from Google](/free-android/)"

@@ -3,10 +3,15 @@ title: "Learn Learnin'"
 description: "A very light insight wiki"
 ---
 
-I love [computers](/computers/) (running [linux](/linux/)). They make life easy. I also love the [web](/web/). The web enables life on earth. Another of my loves is the human [mind](/mind/). It allows thinking about all this. That brings me to intelligence and [AI](/ai/).
+I love [computers](/computers/) (running [linux](/linux/)). They make life easy. I also love the [web](/web/). I live inside my [firefox](/firefox/) browser window. The web enables life on earth. Another of my loves is the human [mind](/mind/). It allows thinking about all this. That brings me to intelligence and [AI](/ai/).
 
 ## Learning ##
 I believe in [learning](/learning/) things as efficiently as possible.
+
+### Tools ###
+Some tools which help in learning and productivity, that I love and use:
+
+* [mindmup](https://www.mindmup.com/): for mind mapping
 
 ## Welcome to Learn Learnin' ##
 This is a knowledge aggregator. You can click on all the links and reach a lot of nice places on the internet to read a lot of nice things about a lot of nice topics.

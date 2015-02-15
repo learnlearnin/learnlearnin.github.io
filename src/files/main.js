@@ -64,9 +64,10 @@ function permalinks(){
 	for (var i=0; i<headings.length; i++){
 		var linchor=document.createElement("a");
 		linchor.setAttribute("href","#"+headings[i].id);
-		linchor.setAttribute("class","linchor");
-		linchor.innerHTML="¶";//"⚓";
-		headings[i].insertBefore(linchor,headings[i].firstChild);
+		//linchor.setAttribute("class","linchor");
+		//linchor.innerHTML="¶";//"⚓";
+		linchor.innerHTML=headings[i].innerHTML;
+		headings[i].replaceChild(linchor,headings[i].firstChild);
 	}
 }
 

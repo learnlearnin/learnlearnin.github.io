@@ -24,16 +24,11 @@
 <body>
   <div id="content-wrapper">
   <nav>
-    <a href="/" title="Go home">~</a>
-    <a href="/about/#site-info" id="togglenavtools" title="Toggle site tools">»</a>
-    <span id="navtools">
-      <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
-      <a href="" id="clearstorage"> Clear settings</a> |
-      Search: <!--<a id="changefontsize" title="Change font size" href="/about/#site-info">±</a> <a href="/about/#site-info" id="changetheme" title="Change colors">☯</a>--><% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %>
-    </span>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    
   </nav>
   <header>
-    <a class="permalink" href="">⚓</a><h1><%= @document.title || @site.title %> </h1>
+    <a href=""><h1><%= @document.title || @site.title %> </h1></a>
   </header>
   <!-- <button id="toggletoc">Table of Contents</button>
   <div id="toc"></div> --> <!-- Disabling Table of Contents till it can be made look better -->
@@ -46,32 +41,38 @@
     <% end %>
     <%- @content %>
   </article>
+  <div class="share">
+    <span id="shareButton"><a href="">Share this »</a></span><span id="shareTools">
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a> |
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a> |
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">Twitter</a> |
+    <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a> |
+    <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
+    <span class="mobileshare">
+    | <a href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>  
+    | <a href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
+    </span>
+  </span>
+  </div>
   <aside>
   <hr />
-
-  <span class="share">
-    Share this page on:
-    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">d*</a>
-    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">fb</a>
-    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">twttr</a>
-    <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">g+</a>
-    <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">email</a>
-    <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Telegram</a>
-    <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
-  </span>
-  <br />
   <span class="comment no-wrap">
-    <a href="/about/#contact">Leave a comment</a>
-  </span>
-  <a href="/about/">About this site</a>
-  <br />
-  <a id="install" href="#" class="no-wrap">Install the open web app on firefox</a>
-  <span class="no-wrap"><a href="mailto:akshay@learnlearn.in?subject=subscribe">Subscribe via email</a></span>
-  <span class="no-wrap"><a href="https://telegram.me/akshay">via Telegram</a></span>
-  <span class="no-wrap"><a href="/feed.atom">Atom feed</a></span>
+    <a href="/about/#contact">Comment</a> 
+  </span> | 
+  <a href="/about/">About</a> |
   <span class="no-wrap">
-    Go back to <a href="/">Learn Learnin'</a>
-  </span>
+    <a href="/"> Home</a>
+  </span> |
+  <a id="install" href="#" class="no-wrap"> FxOS app</a>
+  | <span class="no-wrap"> Subscribe: <a href="mailto:akshay@learnlearn.in?subject=subscribe">Email</a></span> - 
+  <span class="no-wrap"><a href="https://telegram.me/akshay">Telegram</a></span>
+   - <span class="no-wrap"><a href="/feed.atom"> Feed</a></span> 
+  <br>
+  Site tools: 
+      <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
+      <a href="" id="clearstorage"> Clear settings</a> |
+      Search: <% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %>
+    </span>
   </aside>
   </div>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>

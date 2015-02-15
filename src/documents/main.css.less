@@ -10,32 +10,33 @@ div{margin:0;padding:0;background-color:transparent;text-align:left}
 img{border:0}
 
 html,body{
-  font-size:larger;
+  font-size: 112%;
   font-family: "Lin Biolinum","comic sans ms", Helvetica, Geneva, sans-serif;
   height: 100%;
 }
 
 a{
   text-decoration: none;
+  color: #777; 
 }
 
 article a {
-  border-bottom: 1px dotted #ba0000;
+  /* border-bottom: 1px dotted #ba0000; */
 }
 article a:hover {
-  border-bottom: 1px solid #ba0000;
-  background-color: cyan;
+  border-bottom: 1px dotted #ba0000;
+  background-color: #fff4ff;
+  /* font-size: 112.2%; */
 }
 
 a.linchor{
   border:none;
 }
 
-aside{
-  line-height:2.5em;
+aside {
+  background-color: #f2f2f2;
 }
-
-aside a{
+/* aside a{
   background-color: #cfcfcf;
   border: 1px solid #bbb;
   padding: 5px;
@@ -46,29 +47,41 @@ aside a:hover{
   background-color: #eeeeee;
 }
 
-aside .comment a{
-  background-color: #fff;
-}
-aside .comment a:hover{
-  background-color:wheat;
-}
+*/
+
 .no-wrap{
   white-space:nowrap;
 }
 
-nav form{
-  display: inline;
+nav {
+ text-align:center;
 }
-nav,header{
+
+nav img{
+  width: 25px;
+}
+
+nav, header{
   padding: 0 20% 1%;
   background-color: #f2f2f2;
+}
+
+@media all and (min-width: 600px){
+  nav a{
+    position: relative;
+    left: -55%;
+    top: 60px;
+  }
+  nav img {
+    width: 40px;
+  }
 }
 
 .search-bar{
   width:150px;
 }
 
-#toc{
+#toc, .share{
   padding:0 20% 0;
 }
 #toggletoc{
@@ -94,10 +107,15 @@ article{
 
 aside{
   padding:0 20% 10%;
-  font-size: medium;
+  font-size: 105%;
   clear:both;
   color:black;
   background-color: #ccc;
+  line-height:1.5;
+}
+
+aside form{
+  display: inline;
 }
 
 .nav{
@@ -151,7 +169,7 @@ blockquote footer:before {
 }
 
 @media all and (max-width: 900px){
-  nav,header,article,aside,#toc{
+  nav,header,article,aside,#toc, .share{
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -161,7 +179,7 @@ blockquote footer:before {
 }
 
 @media all and (max-width: 600px){
-  nav,header,article,aside,#toc{
+  nav,header,article,aside,#toc, .share{
     padding-left: 5%;
     padding-right: 5%;
   }

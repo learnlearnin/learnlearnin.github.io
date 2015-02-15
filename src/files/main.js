@@ -2,15 +2,6 @@
  * JavaScript for Learn Learnin'
  */
 
-/*
-function togglenavtools(e){
-	e.preventDefault();
-	var navtools=document.getElementById("navtools");
-	navtools.style.visibility = navtools.style.visibility=="hidden"? "visible":"hidden";
-	return false;
-}
-*/
-
 function toggleathing(e, thingid){
 	e.preventDefault();
 	var thing=document.getElementById(thingid);
@@ -40,8 +31,6 @@ function readpreferences(){
 	// var usertheme=localStorage.getItem("theme") || themes[0];
 	// bodystyle.backgroundColor=colors[usertheme][0];
 	// bodystyle.color=colors[usertheme][1];
-
-	document.getElementById("navtools").style.visibility="hidden";
 }
 
 function getnextmember(array,value){
@@ -146,11 +135,11 @@ window.onload = function (){
 	readpreferences();
 	//generateTOC();
   scrollToHash();
-	hidethings(['navtools']);
+	hidethings(['shareTools']);
 	//nonethings(['toc']);
-	document.getElementById("togglenavtools").addEventListener('click',function(e){toggleathing(e,"navtools");});
 	//document.getElementById("toggletoc").addEventListener('click',function(e){tumbleathing(e,"toc");});
 	document.getElementById("changefont").addEventListener('click',changefont);
+	document.getElementById("shareButton").addEventListener('click',function(e){toggleathing(e,"shareTools");});
 	document.getElementById("clearstorage").addEventListener('click',function(e){
 		e.preventDefault();
 		localStorage.clear();

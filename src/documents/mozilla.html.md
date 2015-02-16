@@ -10,3 +10,9 @@ Mozilla started out as Netscape, as an alternative to Internet Explorer which us
 
 ## Purpose ##
 Simply put, the purpose of Mozilla is to preserve and promote innvoation, openness, and opportunity on the web.
+
+## Projects ##
+* [Firefox](/firefox/)
+* Thunderbird
+* [FirefoxOS](/firefoxos/)
+* ...

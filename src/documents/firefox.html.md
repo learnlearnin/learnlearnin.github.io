@@ -22,3 +22,5 @@ But it is not for historic reasons that I use Firefox as my only browser. Firefo
 * [Live HTTP Headers](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers/): This is a nifty tool in the web hackers tool kit. I've used this to do a great deal of things I couldn't have done without it. Purchasing xiamoi phones for others using direct flipkart api link is only one of them
 
 [**Download Firefox**](//affiliates.mozilla.org/link/banner/55725) (affiliate link)
+
+[Mozilla](/mozilla/) also has developed [FirefoxOS](/firefoxos/) which is a super friendly, adaptive, web first, web native operating system for running smartphones, smart TVs, smart PCs, everything. So, Firefox is now an OS.

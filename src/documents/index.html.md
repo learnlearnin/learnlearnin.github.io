@@ -5,7 +5,7 @@ description: "A very light insight wiki"
 
 I love [computers](/computers/) (running [GNU/Linux](/gnu-linux/)). They make life easy. I also love the [web](/web/). I live inside my [firefox](/firefox/) browser window. The web enables life on earth. Another of my loves is the human [mind](/mind/). It allows thinking about all this. That brings me to intelligence and [AI](/ai/).
 
-I love [FOSS](/foss/). I love Mozilla, [Firefox](/firefox/), Thunderbird, VLC Media player, Hexchat, etc.
+I love [FOSS](/foss/). I love Mozilla, [Firefox](/firefox/), Thunderbird, VLC Media player, Hexchat (an [IRC](/irc/) client), etc.
 
 I also love Wikipedia and [Telegram Messenger](/telegram/).
 

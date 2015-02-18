@@ -10,7 +10,7 @@ Firefox has a long history of working hard to give people choice when they were 
 But it is not for historic reasons that I use Firefox as my only browser. Firefox is fast, stable. It has a lot of addons which I love to use.
 <pre>
 <a href="https://affiliates.mozilla.org/referral/75131/" style="float:right">
-    <img style="float:right" src="https://affiliates.mozilla.org/media/uploads/image_banners/844f3103884401a9a715c6a97e24c940a45811f6.png" alt="">
+    <img src="https://affiliates.mozilla.org/media/uploads/image_banners/844f3103884401a9a715c6a97e24c940a45811f6.png" alt="">
 </a>
 </pre>
 

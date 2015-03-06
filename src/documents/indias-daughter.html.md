@@ -31,9 +31,14 @@ Dailymotion [Search](http://www.dailymotion.com/in/relevance/universal/search/in
 * [Link 8](http://www.dailymotion.com/video/x2is02l_india-s-daughter-bbc-delhi-gang-ra-pe-documentary-it-has-been-banned-in-india_news)
 
 
-Vimeo.com [Search](https://vimeo.com/search?q=india%27s+daughter)
+Vimeo.com [Search](https://vimeo.com/search/sort:date/format:thumbnail?q=india%27s+daughter)
 * [Link 1](https://vimeo.com/121405664) Description: 
 This is the documentary that has been unethically banned in India. It sheds a new light on complex socioeconomic and cultural state of India that determines the status of India's women in their society. On one hand, there is an increased awareness and new zeal to fight horrible crimes on women and on the other hand, the people with twisted and misguided ideas still cause harm to women in India.
+* [Link 2](https://vimeo.com/121410502)
+* [Link 3](https://vimeo.com/121406944)
+* [Link 4](https://vimeo.com/121400333)
+* [Link 5](https://vimeo.com/121398030)
+* [Link 6](https://vimeo.com/121374149)
 
 ### Torrents ###
 [Kickass search](https://kickass.to/usearch/india%27s%20daughter/)

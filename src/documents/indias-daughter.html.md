@@ -18,13 +18,21 @@ If you're in UK you can [watch it on BBC's website](http://www.bbc.co.uk/program
 
 ###  Video sharing sites ###
 Youtube is pulling down links due to court order
-* [BBC Storyville India's Daughter](https://www.youtube.com/watch?v=1Tfaurfg7EQ)
+* [Fearless Indian](https://www.youtube.com/watch?v=9W6WrShqKGE)
 
-Dailymotion usually doesn't delete videos
-* [India's Daughter - Indian rapist BBC documentary Delhi Nirbhaya full HD](http://www.dailymotion.com/video/x2iq8uu_india-s-daughter-indian-rapist-bbc-documentary-delhi-nirbhaya-full-hd_shortfilms)
+Dailymotion [Search](http://www.dailymotion.com/in/relevance/universal/search/india%27s+daughter/1)
+* [Link 1](http://www.dailymotion.com/video/x2is1aq_bbc-storyville-india-s-daughter_shortfilms)
+* [Link 2](http://www.dailymotion.com/video/x2irwzv_bbc-storyville-india-s-daughter_shortfilms)
+* [Link 3](http://www.dailymotion.com/video/x2ircd9_india-s-daughter-bbc-storyville_school)
+* [Link 4](http://www.dailymotion.com/video/x2iq796_bbc-storyville-india-s-daughter_news)
+* [Link 5](http://www.dailymotion.com/video/x2iq6ie_india-s-daughter_news)
+* [Link 6](http://www.dailymotion.com/video/x2irsg9_banned-delhi-nirbhaya-documentary-full-bbc-india-s-daughter_people)
+* [Link 7](http://www.dailymotion.com/video/x2irp4w_banned-delhi-nirbhaya-documentary-full-bbc-india-s-daughter-hd_news)
+* [Link 8](http://www.dailymotion.com/video/x2is02l_india-s-daughter-bbc-delhi-gang-ra-pe-documentary-it-has-been-banned-in-india_news)
 
-Vimeo.com
-* [India's Daughter - Indian rapist BBC documentary Delhi Nirbhaya full HD](https://vimeo.com/121333595) Description: 
+
+Vimeo.com [Search](https://vimeo.com/search?q=india%27s+daughter)
+* [Link 1](https://vimeo.com/121405664) Description: 
 This is the documentary that has been unethically banned in India. It sheds a new light on complex socioeconomic and cultural state of India that determines the status of India's women in their society. On one hand, there is an increased awareness and new zeal to fight horrible crimes on women and on the other hand, the people with twisted and misguided ideas still cause harm to women in India.
 
 ### Torrents ###

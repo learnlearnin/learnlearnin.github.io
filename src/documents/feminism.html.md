@@ -17,3 +17,9 @@ These organizations are feminist.
 
 ## India's Daughter ##
 [India's Daughter](/indias-daughter/) - A documentary by Leslee Udwin about December 16 gang rape and murder of Jyoti Singh in Delhi. It documents the attitude of the guilty, their guilty lawyers, victim's friends and relatives, the public, and the judiciary. Some horrifying defences by the lawyers of the guilty - like "A woman is a flower, she should be protected, a man is like thorn, strong and tough.", and so many more worse things. Read the controversies surrounding it [here](/indias-daughter/)
+
+## Bollywood ##
+I am absolutely sure that Bollywood plays the biggest role in perpetuating patriarchical culture and an image of women that they are sex objects. 
+
+### Deepika Padukone ###
+Deepika had a cleavage row in which she blamed TOI for focussing on her cleavage. But [I call Deepika a hypocrite, read about it on quora](http://qr.ae/BLqSR)

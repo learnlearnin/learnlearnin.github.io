@@ -11,6 +11,24 @@ I've seen it and it is a stable portrayal of the situation. There was no reason 
 
 These excuses might seem necessary because the truth is that rapists are not a special species of people, but members of the society who are waiting for their chance. It makes the word "Indian culture" (of looking down on women) sound really bad. 
 
+[India's Daughter](/indias-daughter/) - A documentary by Leslee Udwin about December 16 gang rape and murder of Jyoti Singh in Delhi. It documents the attitude of the guilty, their guilty lawyers, victim's friends and relatives, the public, and the judiciary. Some horrifying defences by the lawyers of the guilty - like "A woman is a flower, she should be protected, a man is like thorn, strong and tough.", and so many more worse things. Read the controversies surrounding it [here](/indias-daughter/)
+
+It was banned in India. 
+
+The reason is that the guilty are shown defending themselves. And as usual, the Indian people thought for Indian people and decided that it is too sensitive for Indian people to listen to the guilties' twisted and crooked logic of justifying rape.
+
+Parliament of India used the grounds that the interviews in Tihar jail were not made with the agreement that the videos could be used for commerical purposes. This is just a lame excuse.
+
+> I conceive who gave the permission but the reality is what the man spoke reflects views of many men in India. Why we are shying about it? We are not confronting the issues. Suggesting death penalty is not the answer. We have to confront the issue that many men in India do not respect women. Every time a rape happens, the victim is blamed to have provoked the men. Let’s be aware of the view and not pretend all is well <footer><cite>MP Anu Aga</cite> (thanks to [abplive.in](http://www.abplive.in/india/2015/03/04/article517580.ece/Nirbhaya-documentary-Why-Javed-Akhtar-Anu-Agas-views-differ-completely)) Another link: [India’s Daughter: MPs divided on ban](http://timesofap.com/politics/news/india-s-daughter-mps-divided-on-ban.html)
+</footer>
+
+The Hindu [writes in its editorial](http://www.thehindu.com/opinion/editorial/banning-is-not-the-solution/article6959753.ece) how banning is not the solution and why documentaries like these need to be made to expose the culture of tolerance towards gender violence. 
+
+Kavita Krishnan who appears in the documentary has written a nuanced piece about it here: [Nirbhaya film: Solidarity is what we want, not a civilising mission](http://www.dailyo.in/politics/kavita-krishnan-nirbhaya-december-16-indias-daughter-leslee-udwin-mukesh-singh-bbc/story/1/2347.html)
+
+Rukmini Shrinivasan writes about how India desperately need an insight into how rapists think: [Wishing away India's culture of rape](http://www.thehindu.com/opinion/op-ed/wishing-away-indias-culture-of-rape/article6959726.ece). Excerpt
+> If India had read the minds of its rapists and molesters correctly, and had acknowledged that women's freedoms are what offend these criminals and their defenders, there would have been no need for an "India's Daughter." Unfortunately, it is only when interviews of this nature are conducted that we will ever know how many men in India still think of women. The least we can do is act honestly and immediately on these repugnant attitudes.
+
 ## Mirrors ##
 [Report broken links, send more links](/about/#contact). Free speech, ftw!
 

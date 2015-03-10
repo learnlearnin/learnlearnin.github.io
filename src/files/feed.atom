@@ -2,12 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title type="text">Learn Learnin'</title>
 	<subtitle type="html">The quintessential insight aggregator</subtitle>
-	<updated>2015-01-05T18:58:54Z</updated>
+	<updated>2015-03-10T08:24:59Z</updated>
 	<id>http://learnlearn.in/feed.atom</id>
 	<link href="http://learnlearn.in/" hreflang="en" rel="alternate" type="text/html"/>
 	<link href="http://learnlearn.in/feed.atom" rel="self" type="application/atom+xml"/>
 	<generator uri="http://github.com/learnlearnin/learnlearnin.github.io/blob/source/src/feed/feeder.py" version="1.0">Hand written python json to feed converter</generator>
 	<icon>http://learnlearn.in/LofL60.png</icon>
+	<entry>
+		<title>India's Daughter, why and how to watch it</title>
+		<link href="http://learnlearn.in/indias-daughter/"/>
+		<id>urn:uuid:095d1cd3-4a8f-4452-a8c2-7b373c412360</id>
+		<updated>2015-03-10T08:24:59Z</updated>
+		<published>2015-03-10T08:24:59Z</published>
+		<author>
+			<name>Akshay S Dinesh</name>
+			<uri>http://learnlearn.in/about/</uri>
+			<email>akshay@learnlearn.in</email>
+		</author>
+		<content type="text">India's Daughter is a documentary portraying realities. Why is our government scared of it?
+
+Read at http://learnlearn.in/indias-daughter/</content>
+	</entry>
 	<entry>
 		<title>Three important things about the Internet that millions do not know about</title>
 		<link href="http://learnlearn.in/3-things-internet/"/>

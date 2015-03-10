@@ -22,40 +22,43 @@
 
 </head>
 <body>
-  <div id="content-wrapper">
-  <nav>
-    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
-    
-  </nav>
-  <header>
-    <a href=""><h1><%= @document.title || @site.title %> </h1></a>
-  </header>
-  <!-- <button id="toggletoc">Table of Contents</button>
-  <div id="toc"></div> --> <!-- Disabling Table of Contents till it can be made look better -->
-  <article>
-    <% if @document.img: %>
-      <img class="articleimg" src="/images/<%- @document.img %>">
-      <div class="imgattr">
-        <%- @document.imgattr %>
-      </div>
-    <% end %>
-    <%- @content %>
-  </article>
-  <div class="share">
-    <span id="shareButton"><a href="">Share this »</a></span><span id="shareTools">
-    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a> |
-    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a> |
-    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">Twitter</a> |
-    <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a> |
-    <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
-    <span class="mobileshare">
-    | <a href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>  
-    | <a href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
-    </span>
-  </span>
-  </div>
-  <aside>
-  <hr />
+  <div id="all-wrapper">
+    <div id="headerarticlewrap">
+      <nav>
+        <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+        
+      </nav>
+      <header>
+        <a href=""><h1><%= @document.title || @site.title %> </h1></a>
+      </header>
+      <!-- <button id="toggletoc">Table of Contents</button>
+      <div id="toc"></div> --> <!-- Disabling Table of Contents till it can be made look better -->
+      <div id="articlesharewrap">
+        <article>
+          <% if @document.img: %>
+            <img class="articleimg" src="/images/<%- @document.img %>">
+            <div class="imgattr">
+              <%- @document.imgattr %>
+            </div>
+          <% end %>
+          <%- @content %>
+        </article>
+        <div class="share">
+          <span id="shareButton"><a href="">Share this »</a></span><span id="shareTools">
+          <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a> |
+          <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a> |
+          <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">Twitter</a> |
+          <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a> |
+          <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
+          <span class="mobileshare">
+          | <a href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>  
+          | <a href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
+          </span>
+          </span>
+        </div>
+      </div> <!-- close article share wrap -->
+    </div> <!-- close headerarticlewrap -->
+  <footer>
   <span class="comment no-wrap">
     <a href="/keep-in-touch/#comments">Comment</a> 
   </span> | 
@@ -73,7 +76,7 @@
       <a href="" id="clearstorage"> Clear settings</a> |
       Search: <% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %>
     </span>
-  </aside>
+  </footer>
   </div>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
   <%- @getBlock('scripts').add(@document.scripts).toHTML() %>

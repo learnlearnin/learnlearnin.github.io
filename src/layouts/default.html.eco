@@ -58,7 +58,7 @@
         </div>
       </div> <!-- close article share wrap -->
     </div> <!-- close headerarticlewrap -->
-  <footer>
+  <footer id="footer">
   <span class="comment no-wrap">
     <a href="/keep-in-touch/#comments">Comment</a> 
   </span> | 

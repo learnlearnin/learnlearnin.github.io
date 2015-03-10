@@ -10,7 +10,7 @@ div{margin:0;padding:0;background-color:transparent;text-align:left}
 img{border:0}
 
 html,body{
-  font-size: 112%;
+  font-size: 1.1em;
   font-family: "Lin Biolinum","comic sans ms", Helvetica, Geneva, sans-serif;
   height: 100%;
 }
@@ -25,7 +25,7 @@ article a {
 }
 article a:hover {
   border-bottom: 1px dotted #ba0000;
-  background-color: #fff4ff;
+  background-color: #f2f2f2;
   /* font-size: 112.2%; */
 }
 article {
@@ -36,21 +36,6 @@ a.linchor{
   border:none;
 }
 
-aside {
-  background-color: #f2f2f2;
-}
-/* aside a{
-  background-color: #cfcfcf;
-  border: 1px solid #bbb;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-aside a:hover{
-  background-color: #eeeeee;
-}
-
-*/
 
 .no-wrap{
   white-space:nowrap;
@@ -106,22 +91,49 @@ header h1{
 article{
   position:relative;
   padding:2% 20% 2%;
-  background-color: white;
   color:black;
   height:auto !important;
   min-height:60%;
 }
 
-aside{
+#all-wrapper  {
+  height:100%;
+}
+
+#headerarticlewrap {
+  height:auto;
+  min-height:100%;
+  background-color: #f2f2f2;
+  background: url("/noise.png") repeat scroll left top #F2F2F2;
+}
+
+#articlesharewrap {
+  height:100%;
+  
+  padding-bottom: 10vh;
+}
+
+
+#footer{
   padding:0 20% 10%;
-  font-size: 105%;
+  font-size: 1em;
   clear:both;
   color:black;
   background-color: #ccc;
   line-height:1.5;
+  position: relative;
+  z-index: 10;
+  height: 10vh;
+  margin-top: -10vh;
 }
 
-aside form{
+@media (max-width: 760px){
+  #footer{
+    height:50vh;
+  }
+}
+
+#footer form{
   display: inline;
 }
 
@@ -145,48 +157,19 @@ aside form{
   opacity: 0.2;
 }
 
-/* http://www.webmaster-source.com/2012/04/24/pure-css-blockquote-styling/ */
-blockquote {
-  font-style: italic;
-  width: 90%;
-  margin: 0.25em 0;
-  padding: 0.25em 5%;
-  line-height: 1.45;
-  position: relative;
-  color: #383838;
-}
-
-blockquote:before {
-  display: block;
-  content: "\201C";
-  font-size: 100px;
-  position: absolute;
-  left: -30px;
-  top: -20px;
-  color: #7a7a7a;
-}
-blockquote footer {
-  color: #999999;
-  display: block;
-  margin-top: 5px;
-}
-
-blockquote footer:before {
-  content: "\2014 \2009";
-}
 
 @media all and (max-width: 900px){
-  nav,header,article,aside,#toc, .share{
+  nav,header,article,#footer,#toc, .share{
     padding-left: 10%;
     padding-right: 10%;
   }
-  aside{
+  #footer{
     line-height: 40px;
   }
 }
 
 @media all and (max-width: 599px){
-  nav,header,article,aside,#toc, .share{
+  nav,header,article,#footer,#toc, .share{
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -210,4 +193,35 @@ blockquote footer:before {
   .permalink{
     margin-left: -20px;
   }
+}
+
+/* http://www.webmaster-source.com/2012/04/24/pure-css-blockquote-styling/ */
+blockquote {
+  font-style: italic;
+  width: 90%;
+  margin: 0.25em 0;
+  padding: 0.25em 5%;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 100px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote footer {
+  color: #999999;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote footer:before {
+  content: "\2014 \2009";
 }

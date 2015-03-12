@@ -16,6 +16,7 @@
   <script>loadFont('Lin Biolinum', '/fonts.woff.css')</script>
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
+  <%- @getBlock('styles').add(@document.styles).toHTML() %>
 
   <link href="/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
 

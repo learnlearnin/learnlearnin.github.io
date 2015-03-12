@@ -12,8 +12,14 @@ First I'll try to get a sample of song videos from YouTube. This is probably whe
 
 Currently I'm taking the first 10 movies from [List of highest-grossing Bollywood films](https://en.wikipedia.org/wiki/List_of_highest-grossing_Bollywood_films) and all songs from those. 
 
+### Downloading ###
+The songs will be downloaded from YouTube using [youtube-dl](https://github.com/rg3/youtube-dl)
+
 ### Frame picking ###
-To objectively assess the videos, I shall pick out random frames from the songs. 5 frame from each song at random seconds. 
+To objectively assess the videos, I shall pick out random frames from the songs. 10 frames from each song at random seconds by the code `randint(1,vidlength)` where vidlength is the length of the video in seconds rounded to the largest integer less than it.
 
 ### Scoring ###
 Based on the frames I pick, I could assign some kind of score to the videos. But I will consider this after doing some frame picking.
+
+## Results ##
+Shall be uploaded soon.

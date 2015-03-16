@@ -9,5 +9,7 @@ Start with [eye anatomy](/eye-anatomy/).
 
 A very interesting thing about eyes is [the way they move](/eye-movements/).
 
+[Eyelids](/eyelid/) and [tear film](/tear/) are nice small topics.
+
 ##Useful external links##
 * [Various lines in ophthalmology, with photos](http://lessons4medicos.blogspot.com/2009/04/various-lines-in-ophthalmology.html)

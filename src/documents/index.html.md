@@ -4,8 +4,7 @@ description: "A very light insight wiki"
 ---
 
 ** News **:
-* Amrita University is conducting InCTF (beginner friendly). [Register before 13th March.](http://inctf.in/)
-* [India's Daughter](/indias-daughter/) has aired. Watch it.
+* If you have never read [Guerilla Open Access Manifesto](/guerilla-open-access-manifesto/), now is the time.
 
 ---
 

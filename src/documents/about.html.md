@@ -1,7 +1,7 @@
 ---
 title: "About this whole thing"
 description: "This site is very confusing unless you read this about page"
-scripts: "/scrollback.js"
+scripts: ["/scrollback.js", "http://platform.twitter.com/widgets.js"]
 ---
 ## Who I am I? ##
 I am [A](http://asdofindia.blogspot.com)[S](https://github.com/asdofindia)[D](https://joindiaspora.com/people/2a39042b15979f8b). I am a student of the world wide web.
@@ -46,3 +46,6 @@ Okay, if you want to stalk me, here are the places you go:
 * [twitter.com/asdofindia](https://twitter.com/asdofindia)
 * [plus.google.com/+AkshaySDinesh](https://plus.google.com/+AkshaySDinesh)
 * [facebook.com/ some random number](https://www.facebook.com/profile.php?id=1076271545)
+
+### Latest Tweets ###
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/asdofindia" data-widget-id="580485866143019008">Tweets by @asdofindia</a>

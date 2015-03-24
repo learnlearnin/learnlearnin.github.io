@@ -1,6 +1,7 @@
 ---
 title: "About this whole thing"
 description: "This site is very confusing unless you read this about page"
+scripts: "/scrollback.js"
 ---
 ## Who I am I? ##
 I am [A](http://asdofindia.blogspot.com)[S](https://github.com/asdofindia)[D](https://joindiaspora.com/people/2a39042b15979f8b). I am a student of the world wide web.

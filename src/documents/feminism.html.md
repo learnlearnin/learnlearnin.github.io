@@ -39,7 +39,7 @@ But she also featured in this Vogue campaign called ["My Choice"](https://www.yo
 She apparently holds this opinion on feminism:
 > "New feminism isn't about being aggressive; it's about reaching the top yet being soft. It's about being you — feminine, strong and full of will power." <footer>[Consumer India](http://books.google.co.in/books?id=Uw-XCvE9G4YC&q=new+feminism#v=snippet&q=new%20feminism&f=false)</footer>
 
-## Extermist Feminism ##
+## Extremist Feminism ##
 Extremist feminism is what some irrational females end up doing by blaming men for any action they do. They would even consider using the word "female" as a sexist remark.
 
 Here are examples of how they create more problems than solve (if any)

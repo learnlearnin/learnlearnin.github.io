@@ -13,6 +13,8 @@ What if the Railways ask me to pay the Railways for carrying the 1kg of rice? Se
 
 Some of you might say that it is fair, because you're carrying something extra. Well, it becomes unfair when all people are allowed to carry something extra, but only I am charged extra because my intention is to sell it, or even if I am not planning on selling it, I am competing with a service provided by the Railways.
 
+Read: [Appu and the Bus Operators](http://aravindet.svbtle.com/appu-and-the-bus-operators)
+
 Here's another analogy [by a 9 year old ](np.reddit.com/r/daddit/comments/2yi6xu/heres_how_my_9year_explained_net_neutrality_to/)
 > Pretend ice cream stores gave away free milkshakes. But you had to buy a straw to drink them. But that's okay, because you still get free milkshakes. One day you're drinking a free milkshake and you look down and the guy that sold you the straw is pinching it almost shut. You can still get your milkshake, but it's really hard and takes a lot longer.
 
@@ -37,3 +39,5 @@ You can read:
 If it goes unquestioned, TRAI will be letting Telecom providers go bonkers with restrictions and slowing down and premium services and what not on the Internet. Think of Internet as a river. It is best left untouched. If you try to build a dam, or canal, or speed it up, or slow it down, or take sand out of it, or anything at all, it gets all the more different.
 
 It is your time to protect the Internet and keep it what it is. Mail to advqos@trai.gov.in with your answers and comments on their questions.
+
+A dedicated website can be seen at [netneutrality.in](http://netneutrality.in)

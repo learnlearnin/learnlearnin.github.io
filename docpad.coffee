@@ -1,7 +1,7 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
 
-siteUrl = if process.env.NODE_ENV is 'static' then "http://learnlearn.in" else "http://localhost:9778"
+siteUrl = if process.env.NODE_ENV is not 'static' then "http://localhost:9778" else "http://learnlearn.in"
 
 docpadConfig = {
   templateData:

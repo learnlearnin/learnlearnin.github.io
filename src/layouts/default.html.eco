@@ -12,8 +12,7 @@
   <meta property="og:url" content="<%= @getAbsoluteUrl() %>" />
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
-  <script><%-  @partial('fontload-min') %></script>
-  <script>loadFont('Lin Biolinum', '/fonts.woff.css')</script>
+  <%- @partial('googlefontload') %>
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
   <%- @getBlock('styles').add(@document.styles).toHTML() %>
@@ -27,7 +26,6 @@
     <div id="headerarticlewrap">
       <nav>
         <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
-        
       </nav>
       <header>
         <a href=""><h1><%= @document.title || @site.title %> </h1></a>
@@ -52,7 +50,7 @@
           <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a> |
           <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
           <span class="mobileshare">
-          | <a href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>  
+          | <a href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>
           | <a href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
           </span>
           </span>
@@ -61,18 +59,18 @@
     </div> <!-- close headerarticlewrap -->
   <footer id="footer">
   <span class="comment no-wrap">
-    <a href="/keep-in-touch/#comments">Comment</a> 
-  </span> | 
+    <a href="/keep-in-touch/#comments">Comment</a>
+  </span> |
   <a href="/about/">About</a> |
   <span class="no-wrap">
     <a href="/"> Home</a>
   </span> |
   <a id="install" href="#" class="no-wrap"> FxOS app</a>
-  | <span class="no-wrap"> Subscribe: <a href="mailto:akshay@learnlearn.in?subject=subscribe">Email</a></span> - 
+  | <span class="no-wrap"> Subscribe: <a href="mailto:akshay@learnlearn.in?subject=subscribe">Email</a></span> -
   <span class="no-wrap"><a href="https://telegram.me/akshay">Telegram</a></span>
-   - <span class="no-wrap"><a href="/feed.atom"> Feed</a></span> 
+   - <span class="no-wrap"><a href="/feed.atom"> Feed</a></span>
   <br>
-  Site tools: 
+  Site tools:
       <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
       <a href="" id="clearstorage"> Clear settings</a> |
       Search: <% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %>

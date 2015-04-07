@@ -4,8 +4,8 @@ description: "A very light insight wiki"
 ---
 
 ** News **:
+* TRAI is trying to break [Net Neutrality](/net-neutrality/) and kill the [Open Web](/open-web/)
 * If you have never read [Guerilla Open Access Manifesto](/guerilla-open-access-manifesto/), now is the time.
-
 ---
 
 I love [computers](/computers/) (running [GNU/Linux](/gnu-linux/)). They make life easy. I also love the [web](/web/). I live inside my [firefox](/firefox/) browser window. The web enables life on earth. Another of my loves is the human [mind](/mind/). It allows thinking about all this. That brings me to intelligence and [AI](/ai/).

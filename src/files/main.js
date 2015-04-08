@@ -152,4 +152,14 @@ window.onload = function (){
 	// document.getElementById("changetheme").addEventListener('click',changetheme);
 	permalinks();
 	sharebuttons();
+	document.ducksearch.q.value="";
+	document.getElementById("ducksearch").addEventListener('submit', function(){
+		if (document.ducksearch.q.value){
+			document.ducksearch.q.value += ' site:learnlearn.in';
+		}
+		else {
+			document.ducksearch.q.value = 'about site:learnlearn.in';
+		}
+	  return true;
+	});
 };

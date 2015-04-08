@@ -42,15 +42,10 @@ docpadConfig = {
     posts: ->
       @getCollection("html").findAllLive({write:true}).on 'add', (model) ->
         model.setMetaDefaults({layout:"default"})
-    search: -> @getCollection("html").findAllLive()
   plugins:
     ghpages:
       deployRemote:"origin"
       deployBranch:"master"
-    lunr:
-      indexes:
-        myIndex:
-          collection: "posts"
     cleanurls:
       trailingSlashes: true
     marked:

@@ -14,7 +14,6 @@
     "docpad-plugin-ghpages": "~2.4.4",
     "docpad-plugin-less": "~2.4.1",
     "docpad-plugin-livereload": "~2.6.0",
-    "docpad-plugin-lunr": "~2.0.9",
     "docpad-plugin-marked": "~2.3.0",
     "docpad-plugin-partials": "~2.9.1",
     "docpad-plugin-sitemap": "~2.2.0",

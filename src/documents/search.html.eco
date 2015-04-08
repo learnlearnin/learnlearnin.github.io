@@ -1,7 +1,0 @@
----
-title: "Search"
-layout: "default"
----
-
-
-<%- @getLunrSearchPage('myIndex') %>

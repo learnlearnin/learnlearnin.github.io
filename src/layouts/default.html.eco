@@ -73,8 +73,10 @@
   Site tools:
       <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
       <a href="" id="clearstorage"> Clear settings</a> |
-      Search: <% if @document.url != "/search/": %> <%- @getLunrSearchBlock('search/') %> <% end %>
-    </span>
+      <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+	            <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+              <input id="search_button_homepage" type="submit" value="Duck!"/>
+      </form>
   </footer>
   </div>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>

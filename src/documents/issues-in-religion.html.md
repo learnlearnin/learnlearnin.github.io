@@ -8,7 +8,7 @@ I have hard problems with religions. To begin with they propagate blind belief o
 Then there are various other problems which arise because of this blind belief.
 
 ## Hatred for others ##
-Just count the number of lovers separated due to religious restrictions. There is an incorrigible hatred inside these minds against the members of alternate faiths and vice versa. This is completely unaccpetable.
+Just count the number of lovers separated due to religious restrictions. There is an incorrigible hatred inside these minds against the members of alternate faiths and vice versa. This is completely unacceptable.
 
 ## Suppressing free speech ##
 It is funny how the religious claim all their rights to propagate their archaic rituals, but cry foul the moment someone criticizes them.

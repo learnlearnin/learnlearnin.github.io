@@ -29,7 +29,8 @@ Here's another analogy [by a 9 year old ](np.reddit.com/r/daddit/comments/2yi6xu
 > So you say, "Hey! Stop that!" And the straw guy says, "NO! Not until the ice cream store pays me money." And you say, "But I already paid you money for the straw." And the straw guy says, "I don't care. I just want more money."
 
 ### Totally Wrong Analogies ###
-* Toll
+* Toll-free numbers. [Why?](http://www.medianama.com/2015/04/223-zero-rating-slows-down-innovation-distorts-competition-fractures-the-internet/)
+
 
 ## Violators ##
 Who and what violates Net Neutrality? The answer is, most operators do, or want to.

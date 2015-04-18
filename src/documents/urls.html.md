@@ -14,4 +14,6 @@ Clean URLs are those beautiful URLs which are pleasing. Looking at them is like 
 * Everything lower case
 * No unnecessary subfolders. example.com/blog/post/march/post-title is bad. Try example.com/post-title/
 
+Rule to always remember is: "[Cool URLs do not change](http://www.w3.org/Provider/Style/URI)"
+
 Here's an example of a perfect URL: `learnlearn.in/urls/`

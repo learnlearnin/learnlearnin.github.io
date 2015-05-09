@@ -4,7 +4,7 @@ description: "A very light insight wiki"
 ---
 
 ** News **:
-* TRAI is trying to break [Net Neutrality](/net-neutrality/) and kill the [Open Web](/open-web/)
+* [Net Neutrality](/net-neutrality/) is an issue you must be aware of.
 * If you have never read [Guerilla Open Access Manifesto](/guerilla-open-access-manifesto/), now is the time.
 ---
 

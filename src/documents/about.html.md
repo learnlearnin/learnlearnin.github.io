@@ -1,7 +1,7 @@
 ---
 title: "About this whole thing"
 description: "This site is very confusing unless you read this about page"
-scripts: ["/scrollback.js", "http://platform.twitter.com/widgets.js"]
+scripts: ["/scrollback.js", "http://platform.twitter.com/widgets.js", "http://cdn.mobiopush.com/mobiojs/c2ccf827f729d38b002f7921fa194468"]
 ---
 ## Who I am I? ##
 I am [A](http://asdofindia.blogspot.com)[S](https://github.com/asdofindia)[D](https://joindiaspora.com/people/2a39042b15979f8b). I am a student of the world wide web.

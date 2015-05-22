@@ -1,7 +1,7 @@
 ---
 title: "About this whole thing"
 description: "This site is very confusing unless you read this about page"
-scripts: ["/scrollback.js", "http://platform.twitter.com/widgets.js", "http://cdn.mobiopush.com/mobiojs/c2ccf827f729d38b002f7921fa194468"]
+scripts: ["http://platform.twitter.com/widgets.js"]
 ---
 ## Who I am I? ##
 I am [A](http://asdofindia.blogspot.com)[S](https://github.com/asdofindia)[D](https://joindiaspora.com/people/2a39042b15979f8b). I am a student of the world wide web.
@@ -21,8 +21,6 @@ gpg --recv-keys 0xDCE1E3DC
 Download my pgp public key: [akshay.asc](/akshay.asc) or [just look at it](/my-pgp-key/)
 
 The command you are looking for might be `gpg --import`
-
-You can contact me also using the [scrollback channel](https://scrollback.io/learnlearnin/) that's integrated on this page.
 
 ## Why ##
 So, once upon a time there was [a guy](#contact) with a lot of free time and a lot of things to talk about.

@@ -44,7 +44,7 @@ This is probably the first biggest hurdle
 
 #### #newhere ####
 
-> If you've never used tg-cli you'll be asked to enter your phone number. And the input won't work because the bot runs in a subprocess.
+If you've never used tg-cli you'll be asked to enter your phone number. And the input won't work because the bot runs in a subprocess.
 
 Just do this
 ```
@@ -60,7 +60,7 @@ cd ..
 
 #### #oldhere ####
 
-> If you have used tg-cli with your primary number once, the bot'll start running in that. And when I tried last night it wasn't able to respond to its own commands.
+If you have used tg-cli with your primary number once, the bot'll start running in that. And when I tried last night it wasn't able to respond to its own commands.
 
 tg-cli comes with an excellent way to run multiple profiles. Profiles are defined in a [config file](https://github.com/vysheng/tg/blob/master/config.sample).
 

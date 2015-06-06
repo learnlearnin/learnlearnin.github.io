@@ -3,7 +3,7 @@ title: Firefox
 description: Mozilla Firefox. The browser to rule them all.
 keywords: browser, firefox, security, speed, customization, control, choice, freedom, mozilla
 ---
-I love Firefox. I am a Firefox Student Ambassador. 
+I love Firefox. I am a Firefox Student Ambassador. Firefox is one of [the applications I proactively recommend to people](/applications/).
 
 Firefox has a long history of working hard to give people choice when they were struggling with Internet Explorer.
 

@@ -14,6 +14,8 @@ I love [FOSS](/foss/). I love Mozilla, [Firefox](/firefox/), Thunderbird, VLC Me
 
 I also love Wikipedia and [Telegram Messenger](/telegram/).
 
+Read more about [my likes](/things-i-love/) and [dislikes](/things-i-hate/)
+
 ## Learning ##
 I believe in [learning](/learning/) things as efficiently as possible. If you are a learner and want to learn any of the things I am interested in with me, please [contact me](/about/#contact)
 

@@ -28,8 +28,8 @@ While we're at it, [Thunderbird Conversations](https://addons.mozilla.org/thunde
 ## On Android ##
 
 On android phones it is a whole lot easier (than what I thought) to get rid of Google
-* [Flash cyanogenmod](forum.xda-developers.com/) and DON'T flash gapps.zip (simple, right?)
-Initially I thought all things would stop working. But no, only some notifications that depend on Google Cloud Messaging will be late. Telegram, etc has its own service for pushing notifications. 
+* [Flash cyanogenmod](http://forum.xda-developers.com/) and DON'T flash gapps.zip (simple, right?)
+Initially I thought all things would stop working. But no, only some notifications that depend on Google Cloud Messaging will be late. Telegram, etc has its own service for pushing notifications.
 
 * You'll miss play store but you can download [f-droid](http://f-droid.org/) and direct download apks for other apps.
 

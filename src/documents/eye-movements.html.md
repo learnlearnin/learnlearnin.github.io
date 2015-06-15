@@ -9,4 +9,5 @@ The muscles that work together are called yoke muscles. Yoke is that thing which
 
 Now all these muscles are controlled precisely so that when we look at something moving or shaking, we still get a clear image on both fovea. This can be compared with [how skycam works](http://electronics.howstuffworks.com/skycam.htm) and the difficulty we have in making something that records images without shake/blur.
 
-
+## Strabismus (squint) ##
+Non-parallel visual axis.

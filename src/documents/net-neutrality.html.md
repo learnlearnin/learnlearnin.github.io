@@ -23,7 +23,7 @@ Some of you might say that it is fair, because you're carrying something extra. 
 
 Read: [Appu and the Bus Operators](http://aravindet.svbtle.com/appu-and-the-bus-operators)
 
-Here's another analogy [by a 9 year old ](np.reddit.com/r/daddit/comments/2yi6xu/heres_how_my_9year_explained_net_neutrality_to/)
+Here's another analogy [by a 9 year old ](http://np.reddit.com/r/daddit/comments/2yi6xu/heres_how_my_9year_explained_net_neutrality_to/)
 > Pretend ice cream stores gave away free milkshakes. But you had to buy a straw to drink them. But that's okay, because you still get free milkshakes. One day you're drinking a free milkshake and you look down and the guy that sold you the straw is pinching it almost shut. You can still get your milkshake, but it's really hard and takes a lot longer.
 
 > So you say, "Hey! Stop that!" And the straw guy says, "NO! Not until the ice cream store pays me money." And you say, "But I already paid you money for the straw." And the straw guy says, "I don't care. I just want more money."

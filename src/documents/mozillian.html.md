@@ -44,6 +44,26 @@ This led to me getting an invitation to the [Mozilla India task force meetup 201
 ## Policy and Advocacy ##
 Policy and Advocacy are two faces of the same coin. And my activities there can be seen on the task force [timeline](https://wiki.mozilla.org/India/task_force/Policy_and_Advocacy/Timeline).
 
+## My Contributions to Mozilla ##
+* [Bugzilla](https://bugzilla.mozilla.org/user_profile?login=asdofindia%40gmail.com) (needs login)
+* Various projects on github:
+ * **[emmairwin/mozilla-community-edu](https://github.com/emmairwin/mozilla-community-edu/commits?author=asdofindia)**
+ * [jdm/asknot](https://github.com/jdm/asknot/commits?author=asdofindia)
+ * [MozillaIndia/asknot](https://github.com/MozillaIndia/asknot/commits?author=asdofindia)
+ * [MozillaKerala/MKO](https://github.com/MozillaKerala/MKO/commits?author=asdofindia)
+ * [mozilla/apk-factory-service](https://github.com/mozilla/apk-factory-service/issues?q=+author%3Aasdofindia+)
+ * [mozilla/makerparty](https://github.com/mozilla/makerparty/commits?author=asdofindia)
+* [locamotion](http://mozilla.locamotion.org/accounts/asdofindia)
+* [Mozilla Location Services](https://location.services.mozilla.com/leaders#asdofindia)
+* **[Mozilla Wiki](https://wiki.mozilla.org/Special:Contributions/Asdofindia)**
+* Mozilla India blog
+ * Drafts
+   * [Fight for the Net Neutrality in India](http://blog.mozillaindia.org/1231)
+   * [Net Neutrality in India – Call For Action](http://blog.mozillaindia.org/1254)
+   * [Mozilla Writes to the Prime Minister of India](http://blog.mozillaindia.org/1287)
+ * Review and edit
+   * [Announcing Policy and Advocacy Task Force](http://blog.mozillaindia.org/1397)
+
 ---
 
 *to be continued indefinitely*

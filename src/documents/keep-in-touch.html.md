@@ -27,7 +27,7 @@ I am just doing something that people have been doing since the internet was cre
 And I do not like it.
 
 ## Follow me ##
-You can follow the updates to this website using a feed reader. The feed is located at [http://learnlearn.in/atom.feed](http://learnlearn.in/atom.feed)
+You can follow the updates to this website using a feed reader. The feed is located at [http://learnlearn.in/feed.atom](http://learnlearn.in/feed.atom)
 
  I might later find a way to bring the updates automatically to all the social networks, but I'll definitely not be doing it manually.
 

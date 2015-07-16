@@ -18,5 +18,5 @@ Read: [3 things about the Internet that millions do not know](/3-things-internet
 
 Communication on the web is always between two computers. The computer on the user's side is called the client.
 
-## [Web Development](/web-development/) ##
-If you are itching to start working.
+## Web Development ##
+If you are itching to start working, read more about [web development](/web-development/)

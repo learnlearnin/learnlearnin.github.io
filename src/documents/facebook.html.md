@@ -5,6 +5,9 @@ keywords: facebook, networking, social networks, diaspora
 ---
 Facebook could have been the best thing on Internet. But the guys behind it have ruined it. It is now the antithesis of social networking.
 
+## Open Web ##
+Facebook is [killing](https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426) the [open web](/open-web/)
+
 ## Censorship ##
 Facebook does and again censor any content that it does not like, arbitarily, unilaterally, quite anti-socially. And no, I'm not talking about [removing pictures of breastfeeding mothers](http://www.theguardian.com/technology/2012/feb/21/facebook-nudity-violence-censorship-guidelines).
 
@@ -24,3 +27,6 @@ This is misleading at best and a blatant lie
 
 ## Squeezing money from pages ##
 Despite pages receiving organic likes, the posts they make aren't seen by users because Facebook intentionally hides posts from people. This is so that Facebook can later ask pages to pay Facebook to "boost posts".
+
+## Why I Still Use Facebook ##
+Having said all that, I still have a Facebook page. This is because I know about how much dangerous power Facebook has over the lives of many people and you have to go inside the matrix to bring people out of it. I make it a point to never create content on Facebook. I always try to post things on my blog or this website and share only links on Facebook. Also, if you're coming here from a facebook post of mine, try to explore other social networks like reddit and start using a feed reader.

@@ -48,6 +48,7 @@ Policy and Advocacy are two faces of the same coin. And my activities there can 
 * [Bugzilla](https://bugzilla.mozilla.org/user_profile?login=asdofindia%40gmail.com) (needs login)
 * Various projects on github:
  * **[emmairwin/mozilla-community-edu](https://github.com/emmairwin/mozilla-community-edu/commits?author=asdofindia)**
+ * [mozilla/kitsune](https://github.com/mozilla/kitsune/commits?author=asdofindia)
  * [jdm/asknot](https://github.com/jdm/asknot/commits?author=asdofindia)
  * [MozillaIndia/asknot](https://github.com/MozillaIndia/asknot/commits?author=asdofindia)
  * [MozillaKerala/MKO](https://github.com/MozillaKerala/MKO/commits?author=asdofindia)
@@ -63,6 +64,9 @@ Policy and Advocacy are two faces of the same coin. And my activities there can 
    * [Mozilla Writes to the Prime Minister of India](http://blog.mozillaindia.org/1287)
  * Review and edit
    * [Announcing Policy and Advocacy Task Force](http://blog.mozillaindia.org/1397)
+* Mozilla India Policy and Advocacy Task Force
+ * Teaching kits
+   * [Zero Rating](https://asdofindia.makes.org/thimble/MTEyODkyMzY0OA==/zero-rating-in-india)
 
 ---
 

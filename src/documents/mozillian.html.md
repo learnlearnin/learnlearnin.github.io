@@ -57,13 +57,16 @@ Policy and Advocacy are two faces of the same coin. And my activities there can 
 * [locamotion](http://mozilla.locamotion.org/accounts/asdofindia)
 * [Mozilla Location Services](https://location.services.mozilla.com/leaders#asdofindia)
 * **[Mozilla Wiki](https://wiki.mozilla.org/Special:Contributions/Asdofindia)**
+ * [Glossary](https://wiki.mozilla.org/Glossary)
 * Mozilla India blog
  * Drafts
    * [Fight for the Net Neutrality in India](http://blog.mozillaindia.org/1231)
    * [Net Neutrality in India – Call For Action](http://blog.mozillaindia.org/1254)
    * [Mozilla Writes to the Prime Minister of India](http://blog.mozillaindia.org/1287)
+   * [Mozilla’s Response to the DoT Committee Report on Net Neutrality](http://blog.mozillaindia.org/1418)
  * Review and edit
    * [Announcing Policy and Advocacy Task Force](http://blog.mozillaindia.org/1397)
+ * [Bug fixes](http://bugz.mozillaindia.org/buglist.cgi?query_format=advanced&emailassigned_to1=1&list_id=197&bug_status=RESOLVED&email1=asdofindia@gmail.com&resolution=FIXED&emailtype1=substring)
 * Mozilla India Policy and Advocacy Task Force
  * Teaching kits
    * [Zero Rating](https://asdofindia.makes.org/thimble/MTEyODkyMzY0OA==/zero-rating-in-india)

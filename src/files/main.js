@@ -17,7 +17,7 @@ function tumbleathing(e, thingid){
 }
 
 
-var fonts=["Fauna One","comic sans ms","Helvetica","Verdana","Garamond","Times New Roman","Arial","monospace"];
+var fonts=["Oxygen-Sans","Helvetica Neue","Verdana","Garamond","Times New Roman","Arial","monospace", "sans-serif"];
 // var fontsizes=["25px","20px","30px","40px"]
 // var themes=["light","dark","coral","coral-dark"]
 // var colors={"light":["cyan","black"], "dark":["grey","white"],"coral":["coral","white"],"coral-dark":["coral","black"]}
@@ -25,9 +25,10 @@ var fonts=["Fauna One","comic sans ms","Helvetica","Verdana","Garamond","Times N
 var bodystyle=document.body.style;
 
 function readpreferences(){
-	bodystyle.fontFamily=localStorage.getItem("fontfamily") || fonts[0];
+	if (localStorage.getItem("fontfamily")) {
+		bodystyle.fontFamily=localStorage.getItem("fontfamily");
+	}
 	// bodystyle.fontSize=localStorage.getItem("fontsize") || fontsizes[0];
-
 	// var usertheme=localStorage.getItem("theme") || themes[0];
 	// bodystyle.backgroundColor=colors[usertheme][0];
 	// bodystyle.color=colors[usertheme][1];

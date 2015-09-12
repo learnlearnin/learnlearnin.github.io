@@ -12,7 +12,6 @@
   <meta property="og:url" content="<%= @getAbsoluteUrl() %>" />
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
-  <%- @partial('googlefontload') %>
   <%- @partial('favicon') %>
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
   <%- @getBlock('styles').add(@document.styles).toHTML() %>

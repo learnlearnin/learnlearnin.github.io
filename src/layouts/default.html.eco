@@ -12,72 +12,54 @@
   <meta property="og:url" content="<%= @getAbsoluteUrl() %>" />
   <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
   <%- @getBlock('meta').toHTML() %>
-  <%- @partial('favicon') %>
+
+  <link rel="shortcut icon apple-itouch-icon" type="image/png" href="/LofL.png" />
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
   <%- @getBlock('styles').add(@document.styles).toHTML() %>
-
   <link href="/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
-
 
 </head>
 <body>
-  <div id="all-wrapper">
-    <div id="headerarticlewrap">
-      <nav>
-        <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
-      </nav>
-      <header>
-        <a href=""><h1><%= @document.title || @site.title %> </h1></a>
-      </header>
-      <!-- <button id="toggletoc">Table of Contents</button>
-      <div id="toc"></div> --> <!-- Disabling Table of Contents till it can be made look better -->
-      <div id="articlesharewrap">
-        <article>
-          <% if @document.img: %>
-            <img class="articleimg" src="/images/<%- @document.img %>">
-            <div class="imgattr">
-              <%- @document.imgattr %>
-            </div>
-          <% end %>
-          <%- @content %>
-        </article>
-        <div class="share">
-          <span id="shareButton"><a href="">Share this »</a></span><span id="shareTools">
-          <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a> |
-          <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a> |
-          <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">Twitter</a> |
-          <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a> |
-          <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
-          <span class="mobileshare">
-          | <a href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>
-          | <a href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
-          </span>
-          </span>
-        </div>
-      </div> <!-- close article share wrap -->
-    </div> <!-- close headerarticlewrap -->
-  <footer id="footer">
-  <span class="comment no-wrap">
-    <a href="/keep-in-touch/#comments">Comment</a>
-  </span> |
-  <a href="/about/">About</a> |
-  <span class="no-wrap">
-    <a href="/"> Home</a>
-  </span> |
-  <a id="install" href="#" class="no-wrap"> FxOS app</a>
-  | <span class="no-wrap"> Subscribe: <a href="mailto:akshay@learnlearn.in?subject=subscribe">Email</a></span> -
-  <span class="no-wrap"><a href="https://telegram.me/akshay">Telegram</a></span>
-   - <span class="no-wrap"><a href="/feed.atom"> Feed</a></span>
-  <br>
-  Site tools:
-      <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
-      <a href="" id="clearstorage"> Clear settings</a> |
-      <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
-	            <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
-              <input id="search_button_homepage" type="submit" value="Duck!"/>
-      </form>
-  </footer>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1><%= @document.title || @site.title %> </h1></a>
+  </header>
+  <article>
+    <% if @document.img: %>
+      <img class="articleimg" src="/images/<%- @document.img %>">
+      <div class="imgattr">
+        <%- @document.imgattr %>
+      </div>
+    <% end %>
+    <%- @content %>
+  </article>
+  <div class="share separator separatorpipe">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a>
+    <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
+    <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
   </div>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+     |
+    <span class="subscribe separator separatordash">
+      Subscribe:
+      <a href="mailto:akshay@learnlearn.in?subject=subscribe">Email</a>
+      <a href="https://telegram.me/learnlearninbot?start">Telegram</a>
+      <a href="/feed.atom"> Feed</a>
+    </span>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
   <%- @getBlock('scripts').add(@document.scripts).toHTML() %>
 </body>

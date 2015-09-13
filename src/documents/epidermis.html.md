@@ -20,7 +20,7 @@ The spines of this layer is a result of desmosomes holding cell membranes togeth
 
 Acantholysis is the loss of this cohesion between epidermal cells. "Acantho-" stands for spiny or thorny. And "lysis" is breakdown as usual.
 
-Antibodies against desmosome proteins (desmoglein 1 and 3) are the cause of [Pemphigus Vulgaris](/pemphigus/#pemphigus-vulgaris)
+Antibodies against desmosome proteins (desmoglein 1 and 3) are the cause of [Pemphigus Vulgaris](../pemphigus/#pemphigus-vulgaris)
 
 ### Stratum Granulosum ###
 Nucleus lost, cytoplasm granular with leftovers.

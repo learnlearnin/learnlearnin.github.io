@@ -6,7 +6,7 @@ keywords: facebook, networking, social networks, diaspora
 Facebook could have been the best thing on Internet. But the guys behind it have ruined it. It is now the antithesis of social networking.
 
 ## Open Web ##
-Facebook is [killing](https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426) the [open web](/open-web/)
+Facebook is [killing](https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426) the [open web](../open-web/)
 
 ## Censorship ##
 Facebook does and again censor any content that it does not like, arbitarily, unilaterally, quite anti-socially. And no, I'm not talking about [removing pictures of breastfeeding mothers](http://www.theguardian.com/technology/2012/feb/21/facebook-nudity-violence-censorship-guidelines).

@@ -11,14 +11,14 @@ urls: ["herpes-zoster","chicken-pox"]
 
 ## Herpesviridae ##
 8 infect humans in this family.
-1. [HSV 1](/hsv-1/)
-2. [HSV 2](/hsv-2/)
+1. [HSV 1](../hsv-1/)
+2. [HSV 2](../hsv-2/)
 3. **VZV**
-4. [EBV](/ebv/)
-5. [Cytomegalovirus](/cytomegalovirus/)
-6. [HHV 6](/hhv-6/)
-7. [HHV 7](/hhv-7/)
-8. [Kaposi's sarcoma associated herpes virus](/kaposi-sarcoma/)
+4. [EBV](../ebv/)
+5. [Cytomegalovirus](../cytomegalovirus/)
+6. [HHV 6](../hhv-6/)
+7. [HHV 7](../hhv-7/)
+8. [Kaposi's sarcoma associated herpes virus](../kaposi-sarcoma/)
 
 ## Chicken Pox ##
 

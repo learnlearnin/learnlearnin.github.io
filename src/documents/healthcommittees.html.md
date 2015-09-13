@@ -5,7 +5,7 @@ keywords: health committees, health policy
 ---
 Think
 * How is the health system of India the way it is? (PHCs, CHCs, District Hospitals, free/cheap treatment, etc)
-* What shapes the [Health Policy](/publichealth/) of a country?
+* What shapes the [Health Policy](../publichealth/) of a country?
 
 **To begin with**, there was no India. And in the geographic region that constituted India in the past, there were many systems of medicine being practised - ayurveda, unani, etc.
 

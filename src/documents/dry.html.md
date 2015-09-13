@@ -20,4 +20,4 @@ Second, when you code something that could be a library, make it a library and r
 ## Automation ##
 Everything can be automated (except maybe the creativity part). Do not type out code, use snippets. Do not compile manually, use Makefile. For every language, there are automation tools that does most repeated tasks with a single command.
 
-Like [gulp](/gulpjs/), grunt (and yeoman) for [web development](/web-development/).
+Like [gulp](../gulpjs/), grunt (and yeoman) for [web development](../web-development/).

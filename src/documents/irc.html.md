@@ -7,7 +7,7 @@ IRC is the predecessor of all instant messaging apps in the market today. It is 
 
 IRC is more of a protocol. People can run IRC servers on their own, using whatever server software they want. And client applications can connect to these servers.
 
-For example, [Mozilla](/mozilla/) runs Moznet at irc.mozilla.org which is used by Mozillians around the world. I use hexchat on my computer, and atomic on my android phone as client apps to connect to IRC servers.
+For example, [Mozilla](../mozilla/) runs Moznet at irc.mozilla.org which is used by Mozillians around the world. I use hexchat on my computer, and atomic on my android phone as client apps to connect to IRC servers.
 
 Once connected, one can join several channels (chatrooms, groups, whatever you call it) and strike up conversations with other users. For example, the most active channels on Mozilla server are #firefox, #introduction, #webmaker, etc.
 

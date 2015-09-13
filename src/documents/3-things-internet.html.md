@@ -7,14 +7,14 @@ imgattr: '"<a href="https://commons.wikimedia.org/wiki/File:Internet_map_1024.jp
 ---
 As the world is moving to the Internet for even grocery shopping, it is important that we stay informed about how the Internet works, lest we should be caught off guard by agencies that fight to destroy it.
 
-In this article, I'll talk about three very important things about [the Internet](/web/)  that many people are unaware of.
+In this article, I'll talk about three very important things about [the Internet](../web/)  that many people are unaware of.
 
 ## One: The Domain Name System ##
 Every device that is connected to the Internet has a unique address called an IP address. This looks like 46.51.216.186 ([in the old format](https://en.wikipedia.org/wiki/IPv4)) or 2606:2800:220:6d:26bf:1447:1097:aa7 ([in the upcoming format](https://en.wikipedia.org/wiki/IPv6)).  
 
 Even the servers of large websites like Wikipedia or small ones like Learn Learnin' are identified on the Internet with such IP addresses. For example, try going to [91.198.174.192](http://91.198.174.192/) in your browser and you should reach Wikimedia's central server.
 
-But remembering such numbers is difficult for humans, and [whenever that happens computers](/computers/) come to our help. There is a simple but effective way of converting those random numbers to easily rememberable names like `wikipedia.org` or `learnlearn.in` and that is called Domain Name System ([DNS](https://en.wikipedia.org/wiki/Domain_Name_System)).
+But remembering such numbers is difficult for humans, and [whenever that happens computers](../computers/) come to our help. There is a simple but effective way of converting those random numbers to easily rememberable names like `wikipedia.org` or `learnlearn.in` and that is called Domain Name System ([DNS](https://en.wikipedia.org/wiki/Domain_Name_System)).
 
 The DNS is like a phonebook service. You give it a name (say `duckduckgo.com`) and it gives you the corresponding IP address (`176.34.131.233` here). That way you do not have to remember the address and also, the address can easily be changed.
 

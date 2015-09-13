@@ -11,7 +11,7 @@ I've seen it and it is a stable portrayal of the situation. There was no reason 
 
 These excuses might seem necessary because the truth is that rapists are not a special species of people, but members of the society who are waiting for their chance. It makes the word "Indian culture" (of looking down on women) sound really bad. 
 
-[India's Daughter](/indias-daughter/) - A documentary by Leslee Udwin about December 16 gang rape and murder of Jyoti Singh in Delhi. It documents the attitude of the guilty, their guilty lawyers, victim's friends and relatives, the public, and the judiciary. Some horrifying defences by the lawyers of the guilty - like "A woman is a flower, she should be protected, a man is like thorn, strong and tough.", and so many more worse things. Read the controversies surrounding it [here](/indias-daughter/)
+[India's Daughter](../indias-daughter/) - A documentary by Leslee Udwin about December 16 gang rape and murder of Jyoti Singh in Delhi. It documents the attitude of the guilty, their guilty lawyers, victim's friends and relatives, the public, and the judiciary. Some horrifying defences by the lawyers of the guilty - like "A woman is a flower, she should be protected, a man is like thorn, strong and tough.", and so many more worse things. Read the controversies surrounding it [here](../indias-daughter/)
 
 It was banned in India. 
 
@@ -30,7 +30,7 @@ Rukmini Shrinivasan writes about how India desperately need an insight into how 
 > If India had read the minds of its rapists and molesters correctly, and had acknowledged that women's freedoms are what offend these criminals and their defenders, there would have been no need for an "India's Daughter." Unfortunately, it is only when interviews of this nature are conducted that we will ever know how many men in India still think of women. The least we can do is act honestly and immediately on these repugnant attitudes.
 
 ## Mirrors ##
-[Report broken links, send more links](/about/#contact). Free speech, ftw!
+[Report broken links, send more links](../about/#contact). Free speech, ftw!
 
 If you're in UK you can [watch it on BBC's website](http://www.bbc.co.uk/programmes/b05534p0) till 10th March
 

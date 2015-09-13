@@ -33,7 +33,7 @@ Initially I thought all things would stop working. But no, only some notificatio
 
 * You'll miss play store but you can download [f-droid](http://f-droid.org/) and direct download apks for other apps.
 
-[Read more about f-droid and other recommended free apps](/f-droid/)
+[Read more about f-droid and other recommended free apps](../f-droid/)
 
 * In case you don't want to get rid of them, you could download <del>[droidwall](https://code.google.com/p/droidwall/)</del> [AFWall+](https://github.com/ukanth/afwall/) (a fork based on the no longer maintained droidwall) (requires root) and block internet to all apps except Firefox and Telegram (saves data too)
 
@@ -42,7 +42,7 @@ Don't forget to configure duckduckgo as the default search engine inside Firefox
 
 * k-9 mail and openkeychain for encrypted mail. Again, things won't look as smooth as gmail, but you should anyhow be more productive replying to mails from desktop
 
-* Osmand~ is an excellent navigation app to replace google maps. Thanks to Pablo [who gave me the tip on telegram](/about/#contact).
+* Osmand~ is an excellent navigation app to replace google maps. Thanks to Pablo [who gave me the tip on telegram](../about/#contact).
 
 ## On Phone ##
 
@@ -50,7 +50,7 @@ Sometimes it makes sense to take out android entirely and replace it with actual
 
 ## More links ##
 
-[Setting up F-droid](/f-droid/) and [freeing android](/free-android/)
+[Setting up F-droid](../f-droid/) and [freeing android](../free-android/)
 
 [Prism Break](http://prism-break.org) has a collection of applications like the above list. The list is definitely more comprehensive and accurate than this one.
 

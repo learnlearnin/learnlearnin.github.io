@@ -33,4 +33,4 @@ I plan to expand this section later.
 
 
 ###Private, secure communication###
-Encryption is one word for safe communication on the net. Read about [public key cryptography](/public-key-cryptography/) which is now widely used to ensure that your communications are readable only by you and the recipient.
+Encryption is one word for safe communication on the net. Read about [public key cryptography](../public-key-cryptography/) which is now widely used to ensure that your communications are readable only by you and the recipient.

@@ -10,7 +10,7 @@ The purpose of a computer is to do things for humans that humans find boring/mun
 
 #### Some links ####
 
-* [Keeping yourself safe while using a computer](/security/)
-* [Quitting Google](/quit-google/)
-* [Using public key cryptography](/public-key-cryptography/)
-* The [web](/web/) and [web development](/web-development/)
+* [Keeping yourself safe while using a computer](../security/)
+* [Quitting Google](../quit-google/)
+* [Using public key cryptography](../public-key-cryptography/)
+* The [web](../web/) and [web development](../web-development/)

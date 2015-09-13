@@ -3,7 +3,7 @@ title: Public Key Cryptography
 description: Imagine you hold the key to an auto-locking lock. Anyone can send you a suitcase locked with that. But only you can open it.
 keywords: cryptography, rsa, modular arithmetic, dh key exchange
 ---
-There are two levels of understanding public key cryptography and assymmetric cryptography (which are very important in [security](/security/)
+There are two levels of understanding public key cryptography and assymmetric cryptography (which are very important in [security](../security/)
 
 * The superficial details of [how it works](#how-it-works) in practice
 * The exciting [math behind it](#the-math-behind-it)

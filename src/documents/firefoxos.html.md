@@ -12,4 +12,4 @@ As of now FirefoxOS is stable and running on quite a few cool devices like [this
 ## Building apps ##
 Creating apps for FirefoxOS is as simple as creating a website in html. Because that is exactly what FirefoxOS apps are - webpages with access to phone features. 
 
-[Read more about building Open Web Apps](/open-web-apps/)
+[Read more about building Open Web Apps](../open-web-apps/)

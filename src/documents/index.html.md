@@ -16,15 +16,15 @@ If you use [computers](./computers/), you should definitely know what [FOSS](./f
 You might also want to explore [all the apps I like](./applications/) and read about [security](./security/) and [privacy](./privacy/)
 
 ## Medicine ##
-There is very little organized information about medicine on the Internet. There is no go-to website for a medical student to visit and read to their mind's content when they are bored. I plan to do something towards this here. Right now I have a couple of links for you: [ophthalmology](/ophthalmology/), [dermatology](/dermatology/)
+There is very little organized information about medicine on the Internet. There is no go-to website for a medical student to visit and read to their mind's content when they are bored. I plan to do something towards this here. Right now I have a couple of links for you: [ophthalmology](./ophthalmology/), [dermatology](./dermatology/)
 
 ## Learning ##
-I believe in [learning](/learning/) things as efficiently as possible. If you are a learner and want to learn any of the things I am interested in with me, please [contact me](/about/#contact)
+I believe in [learning](./learning/) things as efficiently as possible. If you are a learner and want to learn any of the things I am interested in with me, please [contact me](./about/#contact)
 
 ## Philosophy ##
-I am a rationalist, I call myself an atheist, and I usually am proactive in getting involved in religious issues because there are [issues in religion](/issues-in-religion/). I am a [feminist](/feminism/). My core values are [Gandhian](/gandhianism/).
+I am a rationalist, I call myself an atheist, and I usually am proactive in getting involved in religious issues because there are [issues in religion](../issues-in-religion/). I am a [feminist](./feminism/). My core values are [Gandhian](./gandhianism/).
 
-Read more about [my likes](/things-i-love/) and [dislikes](/things-i-hate/)
+Read more about [my likes](./things-i-love/) and [dislikes](./things-i-hate/)
 
 ## What? ##
 Okay, if you are coming here for the first time and you don't have a clue what is happening, read the [about](./about/) page.

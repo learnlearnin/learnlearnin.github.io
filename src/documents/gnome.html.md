@@ -3,7 +3,7 @@ title: Gnome, Shell, GTK, and everything
 description: Setting up everything gnome
 keywords: gnome, themes, suggestions, setup, how-to
 ---
-Here's my set-up of desktop managers, its themes, etc. I'll just list down the steps I used on my favorite [Arch Linux](/archlinux/) to get to my current set up.
+Here's my set-up of desktop managers, its themes, etc. I'll just list down the steps I used on my favorite [Arch Linux](../archlinux/) to get to my current set up.
 
 ## GNOME display manager ##
 
@@ -49,4 +49,4 @@ You can now switch to these themes in Tweak tool -> Appearance -> (GTK+|Icons|Sh
 
 To update the themes a month or so later, you just go to the respective directories in `~/Downloads` and do `git pull`
 
-Now you can install some of [my favorite applications](/applications/).
+Now you can install some of [my favorite applications](../applications/).

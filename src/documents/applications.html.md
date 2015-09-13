@@ -8,7 +8,7 @@ This is probably a subset of that.
 
 ## Internet ##
 * networkmanager - for managing connections
-* [Firefox](/firefox/) - for web browsing
+* [Firefox](../firefox/) - for web browsing
 * Transmission - for p2p
 * Thunderbird - for email
 * Pidgin - for IM (which I rarely do on computer)
@@ -36,4 +36,4 @@ This is probably a subset of that.
 
 
 ## Other ##
-[GNOME](/gnome/) - login manager, desktop environment, everything. 
+[GNOME](../gnome/) - login manager, desktop environment, everything. 

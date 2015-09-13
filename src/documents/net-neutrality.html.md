@@ -3,15 +3,15 @@ title: Net Neutrality
 description: What is Net Neutrality and why fight for it?
 keywords: net neutrality, open internet
 ---
-My love for the [Web](/web/) is [public](/keep-in-touch/). Now it needs you. Telecom Regulatory Authority of India ([TRAI](http://trai.gov.in/)) is coming up with plans to kill the [Open Web](/open-web/). [Read and respond](#trai-consultation-paper).
+My love for the [Web](../web/) is [public](../keep-in-touch/). Now it needs you. Telecom Regulatory Authority of India ([TRAI](http://trai.gov.in/)) is coming up with plans to kill the [Open Web](../open-web/). [Read and respond](#trai-consultation-paper).
 
 ## What is Net Neutrality ##
 Net Neutrality is the principle that all data on the Internet shall be considered equal. There are various [analogies](#analogies) people come up with to explain Net Neutrality. But no analogy is perfect - there's nothing like Internet. And therefore, we have to be very careful when using analogies to explain it.
 
 ## Why is it important? ##
-It is important because it is what makes the Web the [cool thing](/cool-things/) it is. It allows for new comers to serve users as much as old players. It allows no monopoly. It allows choice.
+It is important because it is what makes the Web the [cool thing](../cool-things/) it is. It allows for new comers to serve users as much as old players. It allows no monopoly. It allows choice.
 
-If it wasn't for choice you'd have never heard of the search engine called Google (or DuckDuckGo), you'd have never heard of the social network called Facebook (or diaspora*), you'd have never heard of the browser called [Mozilla Firefox](/firefox/) (or Opera).
+If it wasn't for choice you'd have never heard of the search engine called Google (or DuckDuckGo), you'd have never heard of the social network called Facebook (or diaspora*), you'd have never heard of the browser called [Mozilla Firefox](../firefox/) (or Opera).
 
 Besides leveling the playing field, it ensures one important property of the Internet - free speech. If nobody can prevent a voice from getting heard, that is free speech. If telecom providers can arbitrarily slow down websites, they're preventing voices from getting heard, ideas from spreading. This is detrimental even to democracy.
 

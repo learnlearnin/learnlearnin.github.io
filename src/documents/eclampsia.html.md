@@ -33,6 +33,6 @@ Also read [WHO recommendations for prevention and treatment of pre-eclampsia and
 * WHO recommends the use of calcium(1.5-2 g/day), aspirin (75mg), antihypertensives, magnesium sulphate, and induction of labor. When, in what cases?
 * WHO not recommends bed rest, salt intake restriction, vitamin D, C, E supplementation, diuretics (thiazides), and corticosteroids. When, in what cases?
 
-Before going to the etiopathology, make sure you read about [placenta](/placenta/)
+Before going to the etiopathology, make sure you read about [placenta](../placenta/)
 
 Read [this article from Journal of OBG, India 2014 titled Preeclampisa - eclampsia](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3931898/)

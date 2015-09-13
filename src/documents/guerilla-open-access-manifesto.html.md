@@ -27,7 +27,7 @@ We need to take information, wherever it is stored, make our copies and share th
 
 With enough of us, around the world, we'll not just send a strong message opposing the privatization of knowledge — we'll make it a thing of the past. Will you join us?
 
-[Aaron Swartz](/aaron-swartz/)
+[Aaron Swartz](../aaron-swartz/)
 
 July 2008, Eremo, Italy
 

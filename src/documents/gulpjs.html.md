@@ -3,7 +3,7 @@ title: Gulp.js
 description: Easy front end development with gulp.js - a primer
 keywords: web, html, gulp, npm
 ---
-Gulp is the slave of a front end [developer](/web-development/) to [DRY](/dry/) concatting, minifying, uglifying, compressing, and everything.
+Gulp is the slave of a front end [developer](../web-development/) to [DRY](../dry/) concatting, minifying, uglifying, compressing, and everything.
 
 Read [this beautiful introduction by Travis Maynard](http://travismaynard.com/writing/getting-started-with-gulp).
 

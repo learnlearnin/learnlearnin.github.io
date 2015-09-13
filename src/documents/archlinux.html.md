@@ -37,7 +37,7 @@ After going through all DEs I settled on Gnome Shell.
 
 I was using lightdm as the DM but then Gnome Shell's screen lock won't work with lightdm, so I had to switch to gdm. And it works super awesome after that.
 
-[Read more about GNOME setup](/gnome/)
+[Read more about GNOME setup](../gnome/)
 
 ### Other applications ###
-[List of my preferred applications](/applications/)
+[List of my preferred applications](../applications/)

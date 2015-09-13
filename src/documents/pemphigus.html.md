@@ -5,14 +5,14 @@ keywords: pemphigus vulgaris
 ---
 Pemphigus is a group of immunologically mediated skin diseases.
 
-Pemphigus means blister. Pemphigus is a term reserved for auto-antibody diseases where the antibody is against structures intra-epidermal (as opposed to sub-epidermal in bullous pemphigoid). Read [differences between pemphigus vulgaris and bullous pemphigoid](/pemphigus-vulgaris-vs-bullous-pemphigoid/).
+Pemphigus means blister. Pemphigus is a term reserved for auto-antibody diseases where the antibody is against structures intra-epidermal (as opposed to sub-epidermal in bullous pemphigoid). Read [differences between pemphigus vulgaris and bullous pemphigoid](../pemphigus-vulgaris-vs-bullous-pemphigoid/).
 
-This loss of cohesion between epidermal cell is called **acantholysis**. "Acantho-" means spinous or thorny. Remember [the spinous layer of epidermis](/epidermis/#stratum-spinosum)?
+This loss of cohesion between epidermal cell is called **acantholysis**. "Acantho-" means spinous or thorny. Remember [the spinous layer of epidermis](../epidermis/#stratum-spinosum)?
 
 ## Pemphigus Vulgaris ##
 PV is life threatening because a lot of epithelium is lost (just like in burns). Around 5% mortality.
 
-Antibodies are against desmoglein 1 and 3 in desmosomes ([macula adherens](/cell-junctions/#macula-adherens)). This leaves the blister very flaccid and easily breaking leading to the following signs
+Antibodies are against desmoglein 1 and 3 in desmosomes ([macula adherens](../cell-junctions/#macula-adherens)). This leaves the blister very flaccid and easily breaking leading to the following signs
 
 ### Nikolsky sign ###
 The blister breaks when you just touch it. In fact, it is difficult to find an intact blister.

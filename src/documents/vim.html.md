@@ -3,7 +3,7 @@ title: vim
 description: The advanced editor
 keywords: vim, text editor
 ---
-Learning vim might seem a futile exercise when modern day editors like [atom](/atom-editor/) are available.
+Learning vim might seem a futile exercise when modern day editors like [atom](../atom-editor/) are available.
 
 But the beauty and strength of vim is appreciated the moment you enter a remote console. All of a sudden you feel like handicapped, without your pretty mouse. Using vim is like training for a day when you might become blind by choosing to close your eyes. And while you're at it, you could add that extra strength even when you can see.
 

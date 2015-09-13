@@ -12,13 +12,13 @@ There are multiple ways to contact me. The easiest is to send me a message on te
 
 You can send me an email too to [akshay@learnlearn.in](mailto:akshay@learnlearn.in) or [akshay@autistici.org](mailto:akshay@autistici.org)
 
-If you want a more secure way to communicate, here is [my public key](/akshay.asc)
+If you want a more secure way to communicate, here is [my public key](../akshay.asc)
 
 Key fingerprint = 2314 289E 1800 11C3 821D  6E82 E19A FA78 DCE1 E3DC
 
 gpg --recv-keys 0xDCE1E3DC
 
-Download my pgp public key: [akshay.asc](/akshay.asc) or [just look at it](/my-pgp-key/)
+Download my pgp public key: [akshay.asc](../akshay.asc) or [just look at it](../my-pgp-key/)
 
 The command you are looking for might be `gpg --import`
 
@@ -30,7 +30,7 @@ But there was a problem. He never really was satisfied with the usability of the
 But in the end, he settled for something that was excellent. Something simple, something straight. Something that's just this.
 
 ## Site info ##
-This site is made in [docpad](/docpad/). It's hosted on [github](https://github.com/learnlearnin/learnlearnin.github.io). The skeleton was created using the yo [docpad generator](https://www.npmjs.org/package/generator-docpad).
+This site is made in [docpad](../docpad/). It's hosted on [github](https://github.com/learnlearnin/learnlearnin.github.io). The skeleton was created using the yo [docpad generator](https://www.npmjs.org/package/generator-docpad).
 
 I wanted to use Comic sans, like CERN [uses](http://home.web.cern.ch/about/updates/2014/04/cern-switch-comic-sans), no [really](https://www.youtube.com/watch?v=AzX0dwbY4Yk). But it is not for long reads for all, so I've switched to Oxygen, Helvetica Neue, etc. But still I don't want you to be stuck with that. So the buttons on the bottom of the site can be used to change fonts.
 

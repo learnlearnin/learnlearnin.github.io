@@ -10,18 +10,18 @@ I hate WhatsApp messenger for the following reasons.
 * It does not work on desktop (okay, they have a sucky web support now)
 * It does not work on more than one device at a time
 * It does not care about the privacy of our phone numbers
-* It is owned by [Facebook](/facebook/)
+* It is owned by [Facebook](../facebook/)
 * It does not have a easy way for keeping the message history intact (its backup system sucks)
 * It does not even look good on Android
 
-And all these would have been fine if there were no better alternatives. But there is. I use [Telegram messenger](/telegram/) because it undoes many of these wrongs
+And all these would have been fine if there were no better alternatives. But there is. I use [Telegram messenger](../telegram/) because it undoes many of these wrongs
 
 ## Etiquette ##
 In case you still have to use WhatsApp, please try to follow these etiquettes.
 
 ### Group admins ###
 * Describe the group and ask permission before adding anyone to a group.
-* Alternatively, immediately after creating a new group, give a description of the group and make sure everyone is given a chance to leave immediately. 
+* Alternatively, immediately after creating a new group, give a description of the group and make sure everyone is given a chance to leave immediately.
 * Have clear idea about what the group is about and discourage off-topic posts.
 * Warn and remove members who are ill mannered.
 * Give admin rights to a few capable people.
@@ -44,4 +44,4 @@ In case you still have to use WhatsApp, please try to follow these etiquettes.
 * Do not add people to a broadcast list and send good morning, good afternoon messages with random SMS quotes. They can easily figure it out.
 * If someone does not reciprocate with good morning messages, do not continue sending them every day.
 * When you're messaging someone whom you do not know personally, introduce yourself first before talking about anything else.
-* Acknowledge that you've read requests/questions even if you can't respond to the request/question immediately. Tell them that you'll come back to it later. 
+* Acknowledge that you've read requests/questions even if you can't respond to the request/question immediately. Tell them that you'll come back to it later.

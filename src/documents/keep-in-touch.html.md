@@ -7,7 +7,7 @@ Dear friends,
 
 I was in 8th standard when I first started using internet. BSNL landline connection could be plugged into a dial up modem and typing `bsnlten` as password would fetch unlimited internet, charged by each minute of usage, blocking phone usage all the time. Later broadband internet became commonplace and even my mobile phone has high speed internet access at the moment.
 
-Throughout these few years, I've fallen in inseparable love with internet and [the web](/web/). I had reserved this statement for a day of resounding success, but yet, the web has made me what I am and it will continue to shape what I will be. I owe the web for plenty of my ideas, knowledge, and friendships. Every day on the web brings me fascinating avenues of thoughts to pursue.
+Throughout these few years, I've fallen in inseparable love with internet and [the web](../web/). I had reserved this statement for a day of resounding success, but yet, the web has made me what I am and it will continue to shape what I will be. I owe the web for plenty of my ideas, knowledge, and friendships. Every day on the web brings me fascinating avenues of thoughts to pursue.
 
 If there was a radio generation and a television generation, today's generation will be called a social network & instant message generation. There are tools which let you keep in touch with thousands of friends simultaneously or converse with a friend thousands of miles away instantaneously. Umpteen issues get discussed to the minutest detail bringing out issues that nobody would have noticed before. Content sharing and discovery has become effortless.
 
@@ -31,12 +31,12 @@ You can follow the updates to this website using a feed reader. The feed is loca
 
  I might later find a way to bring the updates automatically to all the social networks, but I'll definitely not be doing it manually.
 
- If you want to be updated via email, just [let me know](/about/#contact).
+ If you want to be updated via email, just [let me know](../about/#contact).
 
 ## Comments ##
 As you can probably see this website has no embedded comments. It is not that I don't want or "like" your comments. I love them! But instead of just commenting on links shared on social networks, or under articles on others' websites, I urge you to make it big. Start your own website or blog. Get a domain name. Post your comments as well thought out articles. Otherwise all that you say, all the nasty fights you pick up on threads, they're all going into trash soon. But when you build something on your own, it stays. For as long as you want.
 
-And then [send me](/about/#contact) a link to what you write. I promise to edit the relevant article and include your idea with the link.  
+And then [send me](../about/#contact) a link to what you write. I promise to edit the relevant article and include your idea with the link.  
 
 Or you can just send me a plain old email.
 

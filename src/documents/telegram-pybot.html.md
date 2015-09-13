@@ -29,11 +29,11 @@ All useful interaction with any bot is a long chain of calls between different p
 
 ## The Setup ##
 This is the most difficult part or the easiest part depending on what you've been doing with your computer in your life. Here are the essentials required:
-* A GNU/Linux or Mac OS X operating system (because tg-cli runs only on these). I use [Arch Linux](/archlinux/).
+* A GNU/Linux or Mac OS X operating system (because tg-cli runs only on these). I use [Arch Linux](../archlinux/).
 * Command line (Ctrl+Alt+T might work in most cases)
 * Python 3.4, virtualenv, pip, git, etc. (install as and when command not found is thrown)
 * An Internet connection
-* A text editor. I use [atom](/atom-editor/).
+* A text editor. I use [atom](../atom-editor/).
 * An alternate Telegram account. (Because the bot does not respond to its own messages)
 
 ### Downloading ###
@@ -143,4 +143,4 @@ Plugins are even more fun when you can effectively use git to keep your plugin u
 The plugin repository structure can be seen [here](https://github.com/datamachine/telegram-pybot-plugin-repo). Although, a word of caution, there's a very good chance that this architecture will be overhauled soon.
 
 ## Iteration ##
-This page goes through an iterative write-feedback-improve cycle. Please [give me ideas](/about/#contact) of how to improve this page. 
+This page goes through an iterative write-feedback-improve cycle. Please [give me ideas](../about/#contact) of how to improve this page. 

@@ -4,12 +4,12 @@ description: "It is a good thing that the internet allows us to express ourselve
 ---
 To begin with, you need something to write. But this is not really necessary to start working. Anyhow let's say you want to write about idiots.
 
-Since your blog is online, you need to keep the content somewhere online. Although it is possible to [do this on your own](/webhosting/) it's easier to put it in someone else's hands because you don't want to mess with the major annoyances of setting up a server (in fact, this website took at least 2 years to launch because I was always looking for a better host/better cms/better setup). 
+Since your blog is online, you need to keep the content somewhere online. Although it is possible to [do this on your own](../webhosting/) it's easier to put it in someone else's hands because you don't want to mess with the major annoyances of setting up a server (in fact, this website took at least 2 years to launch because I was always looking for a better host/better cms/better setup). 
 
 In the decreasing order of preference, you can choose
-1. Google's [Blogger](//blogger.com)
-2. [Wordpress](//wordpress.com)
-3. Yahoo's [tumblr](//tumblr.com)
+1. Google's [Blogger](..//blogger.com)
+2. [Wordpress](..//wordpress.com)
+3. Yahoo's [tumblr](..//tumblr.com)
 
 Once you choose a host, you'll need a url. Suppose you chose idiotsaregeniuses. You'll get the following URLs on the above 3 hosts.
 1. idiotsaregeniuses.blogspot.com

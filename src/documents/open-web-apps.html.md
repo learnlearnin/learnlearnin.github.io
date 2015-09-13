@@ -20,4 +20,4 @@ If you don't have a FirefoxOS phone, you'll need to download a simulator addon.
 
 Once you have everything ready, you can start building :D
 
-Read my [recommendations for web development](/web-development/)
+Read my [recommendations for web development](../web-development/)

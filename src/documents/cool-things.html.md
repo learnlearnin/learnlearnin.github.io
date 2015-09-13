@@ -3,7 +3,7 @@ title: Cool Things
 description: A list of cool things found from around the world
 keywords: cool, projects
 ---
-The [web](/web/) is full of cool things. Here are some: 
+The [web](../web/) is full of cool things. Here are some: 
 
 ## Browser based ##
 * [asciiflow.com](http://asciiflow.com) - Lets you draw flow charts and write down thoughts in ascii. [Source](https://github.com/lewish/asciiflow2)

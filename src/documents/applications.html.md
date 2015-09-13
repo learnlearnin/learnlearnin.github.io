@@ -7,13 +7,13 @@ Arch Wiki has a [huge list of applications](https://wiki.archlinux.org/index.php
 This is probably a subset of that.
 
 ## Internet ##
-* networkmanager - for managing connections
 * [Firefox](../firefox/) - for web browsing
 * Transmission - for p2p
-* Thunderbird - for email
+* Kmail - for email
 * Pidgin - for IM (which I rarely do on computer)
+* Gajim - for XMPP chat
 * [HexChat](http://hexchat.github.io/) - for IRC
-* Thunderbird (again) - for feeds
+* Akregator - for feeds
 
 ## Multimedia ##
 * GIMP - for photo editing
@@ -36,4 +36,4 @@ This is probably a subset of that.
 
 
 ## Other ##
-[GNOME](../gnome/) - login manager, desktop environment, everything. 
+[KDE](../kde/) - login manager, desktop environment, everything. 

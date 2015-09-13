@@ -3,20 +3,20 @@ title: Gnome, Shell, GTK, and everything
 description: Setting up everything gnome
 keywords: gnome, themes, suggestions, setup, how-to
 ---
-Here's my set-up of desktop managers, its themes, etc. I'll just list down the steps I used on my favorite [Arch Linux](../archlinux/) to get to my current set up.
+Before Gnome started removing all useful features from applications and I switched to [KDE](../kde/), I was using Gnome for a long time.
+
+Here's my Gnome set-up. I'll just list down the steps I used on my favorite [Arch Linux](../archlinux/) to get to my current set up.
 
 ## GNOME display manager ##
 
-Since I'm using GNOME Shell, GDM provides the most seamless integration. Although it is slightly slow, it works without problems.
+For GNOME Shell, GDM provides the most seamless integration. Although it is slightly slow, it works without problems.
 
-I've gdm installed and running automatically at startup.
+I'd gdm installed and running automatically at startup.
 
     pacman -S gdm
     systemctl enable gdm
 
 ## GNOME ##
-
-I've tried various desktop environments in various stages of development and designed for various kinds of users. GNOME is a stable, yet highly developed; simple yet highly extensible; popular desktop environment.
 
     pacman -S gnome gnome-extra
 

@@ -41,7 +41,7 @@
     <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">Twitter</a>
     <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a>
     <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
-    <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>"> Telegram</a>
+    <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - &url=<%= @getAbsoluteUrl() %>"> Telegram</a>
     <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
   </div>
   <footer id="footer" class="separator separatorpipe">
@@ -52,8 +52,8 @@
     <span class="subscribe separator separatordash">
       Subscribe:
       <a href="mailto:akshay@learnlearn.in?subject=subscribe">Email</a>
-      <a href="https://telegram.me/learnlearninbot?start">Telegram</a>
-      <a href="/feed.atom"> Feed</a>
+      <a target="_blank" href="https://telegram.me/learnlearninbot?start">Telegram</a>
+      <a target="_blank" href="/feed.atom"> Feed</a>
     </span>
     <br>
     <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">

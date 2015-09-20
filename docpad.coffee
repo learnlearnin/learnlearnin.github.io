@@ -41,13 +41,17 @@ docpadConfig = {
   collections:
     posts: ->
       @getCollection("html").findAllLive({write:true}).on 'add', (model) ->
-        model.setMetaDefaults({layout:"default"})
+        model.setMetaDefaults({layout:"default", cleanurls: true})
+    cleanurls: ->
+      @getCollection("html").findAllLive({cleanurls: $ne: false})
+
   plugins:
     ghpages:
       deployRemote:"origin"
       deployBranch:"master"
     cleanurls:
       trailingSlashes: true
+      collectionName: "cleanurls"
     marked:
       markedOptions:
         pedantic: false

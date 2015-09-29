@@ -14,6 +14,14 @@ But it is not for historic reasons that I use Firefox as my only browser. Firefo
 </a>
 </pre>
 
+## Tips ##
+### Screenshot ###
+
+There are two awesome ways to take a (full page) screenshot in Firefox.
+
+* Shift + F2 -> type `screenshot --fullpage`
+* Go to dev tools -> settings -> available toolbox buttons -> Take a fullpage screenshot
+
 ## Addons ##
 
 * Adblock: I know blocking ads is not exactly good for web developers. But yeah, I can't live without adblock plus

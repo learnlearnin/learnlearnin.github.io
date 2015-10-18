@@ -10,4 +10,7 @@ keywords: book recommendations, books
 ## Also ##
 * Kite runner
 
+## Medical ##
+* [Clinical Examination - A Systematic Guide to Physical Diagnosis ](https://www.goodreads.com/book/show/1327799.Clinical_Examination)
+
 ## I want to read ##

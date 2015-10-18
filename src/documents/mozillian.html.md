@@ -39,7 +39,7 @@ As an FSA, and more because Shreyas was there and we were thinking of planning a
 
 It was in April 2015 that [TRAI released their consultation paper](../net-neutrality/#trai-consultation-paper) to avoid net neutrality. And I joined [the savetheinternet team](http://blog.savetheinternet.in/the-people-behind-savetheinternet/) to do whatever I could in preventing a broken Internet. The debate in India quickly stopped being about differential rating and started to be about zero rating. Mozilla did not have a public stance about zero rating then. And Mozilla India could not go ahead with a campaign against zero rating while Mozilla was still undecided. Jafar and I composed [a blog post](http://blog.mozillaindia.org/1231) about the fight and Shreyas took it over to the policy advocacy team for their review. A little while passed and they replied that they were still forming an opinion about zero rating. I couldn't wait and I made a small fuss on [netpolicy mailing list](https://mail.mozilla.org/private/netpolicy/2015-April/000457.html) (link visible to members only) and [advocacy discourse](https://discourse.mozilla-advocacy.org/t/net-neutrality-in-india-31-march-2015/35/6). Later I apologized and there was what I believe was a [constructive discussion](https://mail.mozilla.org/private/netpolicy/2015-April/000463.html) too which was probably followed up elsewhere by other wonderful people of Mozilla India. Mozilla finally took an official stance about zero rating and the whole debate in India in a [letter to Prime Minister](http://blog.mozillaindia.org/1287).
 
-This led to me getting an invitation to the [Mozilla India task force meetup 2015](../mozintf15/) where I joined the newly formed [policy and advocacy task force](http://blog.mozillaindia.org/1397). And that is also where I discovered my passion for documentation.
+This led to me getting an invitation to the [Mozilla India task force meetup 2015](http://asdofindia.blogspot.com/2015/05/mozilla-india-task-force-meetup-2015.html) where I joined the newly formed [policy and advocacy task force](http://blog.mozillaindia.org/1397). And that is also where I discovered my passion for documentation.
 
 ## Policy and Advocacy ##
 Policy and Advocacy are two faces of the same coin. And my activities there can be seen on the task force [timeline](https://wiki.mozilla.org/India/task_force/Policy_and_Advocacy/Timeline).
@@ -48,7 +48,7 @@ Policy and Advocacy are two faces of the same coin. And my activities there can 
 I applied for Participation Global Gatherings 2015 to be a member of the cohort of leaders among Mozillians who'll guide participation in Mozilla in the coming year(s). On October 1, 2015 3 things happened. I got email being selected to both MozFest, London and Leadership Summit, Singapore. I passed third year MBBS completely. And I left for Kochi to attend Mozilla Kerala Community Meetup '15.
 
 ## Mozilla Kerala ##
-As a Malayali, it's natural that I'm a member of Mozilla Kerala too. Although I was active in the Telegram group beforehand, the first time I join a Mozilla Kerala event is in [Mozilla Kerala Community Meetup '15](../mozillakeralacommunitymeetup15). 
+As a Malayali, it's natural that I'm a member of Mozilla Kerala too. Although I was active in the Telegram group beforehand, the first time I join a Mozilla Kerala event is in [Mozilla Kerala Community Meetup '15](../mozillakeralacommunitymeetup15).
 
 ## My Contributions to Mozilla ##
 * [Bugzilla](https://bugzilla.mozilla.org/user_profile?login=asdofindia%40gmail.com) (needs login)

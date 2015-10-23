@@ -48,7 +48,7 @@ Policy and Advocacy are two faces of the same coin. And my activities there can 
 I applied for Participation Global Gatherings 2015 to be a member of the cohort of leaders among Mozillians who'll guide participation in Mozilla in the coming year(s). On October 1, 2015 3 things happened. I got email being selected to both MozFest, London and Leadership Summit, Singapore. I passed third year MBBS completely. And I left for Kochi to attend Mozilla Kerala Community Meetup '15.
 
 ## Mozilla Kerala ##
-As a Malayali, it's natural that I'm a member of Mozilla Kerala too. Although I was active in the Telegram group beforehand, the first time I join a Mozilla Kerala event is in [Mozilla Kerala Community Meetup '15](../mozillakeralacommunitymeetup15).
+As a Malayali, it's natural that I'm a member of Mozilla Kerala too. Although I was active in the Telegram group beforehand, the first time I join a Mozilla Kerala event is in [Mozilla Kerala Community Meetup '15](http://asdofindia.blogspot.com/2015/10/mozilla-kerala-community-meetup-15.html).
 
 ## My Contributions to Mozilla ##
 * [Bugzilla](https://bugzilla.mozilla.org/user_profile?login=asdofindia%40gmail.com) (needs login)

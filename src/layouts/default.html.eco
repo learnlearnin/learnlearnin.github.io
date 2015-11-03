@@ -53,7 +53,7 @@
       Subscribe:
       <a href="mailto:akshay@learnlearn.in?subject=subscribe">Email</a>
       <a target="_blank" href="https://telegram.me/learnlearninbot?start">Telegram</a>
-      <a target="_blank" href="/feed.atom"> Feed</a>
+      <a target="_blank" href="http://asd.learnlearn.in/feed.atom"> Feed</a>
     </span>
     <br>
     <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">

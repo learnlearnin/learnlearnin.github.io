@@ -25,7 +25,7 @@
     <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
     <a href=""><h1><%= @document.title || @site.title %> </h1></a>
   </header>
-  <article>
+  <article role="main">
     <% if @document.img: %>
       <img class="articleimg" src="/images/<%- @document.img %>">
       <div class="imgattr">
@@ -34,7 +34,7 @@
     <% end %>
     <%- @content %>
   </article>
-  <div class="share separator separatorpipe">
+  <aside class="share separator separatorpipe" role="complementary">
     Share this »
     <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a>
     <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a>
@@ -43,7 +43,7 @@
     <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
     <a class="mobileshare" href="tg://msg?text=<%= @getPreparedTitle() %> - &url=<%= @getAbsoluteUrl() %>"> Telegram</a>
     <a class="mobileshare" href="whatsapp://send?text=<%= @getPreparedTitle() %> - <%= @getAbsoluteUrl() %>">Whatsapp</a>
-  </div>
+  </aside>
   <footer id="footer" class="separator separatorpipe">
     <a href="/keep-in-touch/#comments">Comment</a>
     <a href="/about/">About</a>

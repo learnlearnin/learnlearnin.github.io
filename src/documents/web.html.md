@@ -20,3 +20,7 @@ Communication on the web is always between two computers. The computer on the us
 
 ## Web Development ##
 If you are itching to start working, read more about [web development](../web-development/)
+
+## Stories ##
+
+* [The birth of Internet in India](http://www.livemint.com/Industry/R3kgewhIhKscbiELV1sHZM/The-birth-of-the-Internet-in-India.html)

@@ -8,6 +8,8 @@ Computers are the most faithful servants of man, after dogs.
 
 The purpose of a computer is to do things for humans that humans find boring/mundane/repititive.
 
+And the art of teaching a computer to do things for you is called [programming](../programming/).
+
 #### Some links ####
 
 * [Keeping yourself safe while using a computer](../security/)

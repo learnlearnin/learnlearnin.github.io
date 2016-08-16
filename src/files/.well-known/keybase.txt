@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/asdofindia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://learnlearn.in
+  * I am asdofindia (https://keybase.io/asdofindia) on keybase.
+  * I have a public key ASA7qxqLxwiNCIgv46yFDxkOvdgYIAKLKTuY-K2jJ0w3TAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c5f3cd632705bb541daf35fb9be7f2b379c33d0a086bb5aa40280c0905203ef50a",
+            "host": "keybase.io",
+            "kid": "01203bab1a8bc7088d08882fe3ac850f190ebdd81820028b293b98f8ada3274c374c0a",
+            "uid": "bad0a30681169c03cd5acb116ffb6219",
+            "username": "asdofindia"
+        },
+        "service": {
+            "hostname": "learnlearn.in",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1471356942,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1471356920,
+        "hash": "3e00e0605bca44a201b8eb3b424d0e570baf139a6b1dfb49e7dc11435ea0b9d25382786c1e1f78df60dadd1b69f00a9fef8d32e13ce76a0fafb70d62de3fc1de",
+        "seqno": 581155
+    },
+    "prev": "32129a33ef32224ed25e4e0c9b044b33c44b8bd86560e7da1962a3720665ac4c",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgO6sai8cIjQiIL+OshQ8ZDr3YGCACiyk7mPitoydMN0wKp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYzVmM2NkNjMyNzA1YmI1NDFkYWYzNWZiOWJlN2YyYjM3OWMzM2QwYTA4NmJiNWFhNDAyODBjMDkwNTIwM2VmNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2JhYjFhOGJjNzA4OGQwODg4MmZlM2FjODUwZjE5MGViZGQ4MTgyMDAyOGIyOTNiOThmOGFkYTMyNzRjMzc0YzBhIiwidWlkIjoiYmFkMGEzMDY4MTE2OWMwM2NkNWFjYjExNmZmYjYyMTkiLCJ1c2VybmFtZSI6ImFzZG9maW5kaWEifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImxlYXJubGVhcm4uaW4iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDcxMzU2OTQyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzEzNTY5MjAsImhhc2giOiIzZTAwZTA2MDViY2E0NGEyMDFiOGViM2I0MjRkMGU1NzBiYWYxMzlhNmIxZGZiNDllN2RjMTE0MzVlYTBiOWQyNTM4Mjc4NmMxZTFmNzhkZjYwZGFkZDFiNjlmMDBhOWZlZjhkMzJlMTNjZTc2YTBmYWZiNzBkNjJkZTNmYzFkZSIsInNlcW5vIjo1ODExNTV9LCJwcmV2IjoiMzIxMjlhMzNlZjMyMjI0ZWQyNWU0ZTBjOWIwNDRiMzNjNDRiOGJkODY1NjBlN2RhMTk2MmEzNzIwNjY1YWM0YyIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQFi5xyu1gmZgoffT00+KzJ+hFctFfDdyo/yC8W7xzTq+MGQMJzcRwTRXydd97ZcrUFMuX4UJWcKoC/1eVRbY8Q2oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAAh2z0MR9GjwW1jV+KV2ZB3jON0+DtPSgGq4GqwrJsk6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/asdofindia
+
+==================================================================

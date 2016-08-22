@@ -28,8 +28,8 @@ The 10 frames that were snapped shall be uploaded for each dataset.
 ## Highest Grossing Bollywood films ##
 Based on the top 10 movies from [List of highest-grossing Bollywood films](https://en.wikipedia.org/wiki/List_of_highest-grossing_Bollywood_films) and all songs from those.
 
-Here's the list I used to feed youtube-dl: [top10bollywoodgross](../projects/songfocus/top10bollywoodgross)
+Here's the list I used to feed youtube-dl: [top10bollywoodgross](https://drive.google.com/file/d/0B0ot3d36B9StSlMyU0lUUlE4VWc/view?usp=sharing)
 
-Here's the script used to process it all: [process.py](../projects/songfocus/process.py)
+Here's the script used to process it all: [process.py](https://drive.google.com/file/d/0B0ot3d36B9StNGptRFBzck1BcGs/view?usp=sharing)
 
 The images have been moved to the [Google Drive folder here](https://drive.google.com/folderview?id=0B0ot3d36B9StfjlBRnc4SGozSVhJUVBRaHlISWtQVWZjMERKRDVLUHFZUF9ZVWpXaFdzc1U&usp=sharing)

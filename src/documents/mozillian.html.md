@@ -50,6 +50,9 @@ I applied for Participation Global Gatherings 2015 to be a member of the cohort 
 ## Mozilla Kerala ##
 As a Malayali, it's natural that I'm a member of Mozilla Kerala too. Although I was active in the Telegram group beforehand, the first time I join a Mozilla Kerala event is in [Mozilla Kerala Community Meetup '15](http://asdofindia.blogspot.com/2015/10/mozilla-kerala-community-meetup-15.html).
 
+## Mozilla India Restructure ##
+Towards the end of 2015, Mozilla India was not making the impact it should. And upon George Roter's initiation there was a restructure process. I had a [proposal of my own](http://asd.learnlearn.in/mozilla-india-restructure-proposal/) among the paltry [10](https://drive.google.com/drive/folders/0BwDg_0rFagbyX3NuZFFNTzc3OUE) that came from the entire community. I later joined the strategy group, along with Kaustav and Deb in drafting a draft final structure for the community. This was the basis of the Mozilla India Meetup of 2016 where the community rebooted itself.
+
 ## My Contributions to Mozilla ##
 * [Bugzilla](https://bugzilla.mozilla.org/user_profile?login=asdofindia%40gmail.com) (needs login)
 * Various projects on github:

@@ -15,6 +15,7 @@ Facebook does and again censor any content that it does not like, arbitarily, un
 * April 12, 2015: Facebook [removes all shared links](https://twitter.com/nixxin/status/587168394354360320) of [AIB's video](https://www.youtube.com/watch?v=mfY1NKrzqi0) in favor of net neutrality
 * June 7, 2015: [Indian Atheists page marked unsafe](http://www.thehindu.com/news/cities/chennai/facebook-clips-wings-of-indian-atheists-page/article7290533.ece) - 28,000 likes
 * October, 2015: Links to [tsu.co](http://www.tsu.co/asdofindia) was [being marked unsafe](http://blogjob.com/lifeandliving/2015/09/26/facebook-has-banned-tsu/) even in [private messages](http://narcosphere.narconews.com/notebook/iv-n-ulchur-rota/2015/10/why-does-facebook-censor-word-tsu). I came to know about this on 9th Nov, 2015 and that's the day I [deleted my facebook profile](#delete-your-account).
+* September, 2016: [Link to article containing the legendary war picture of Kim Phuc removed and the link to article criticizing this removal also removed](http://www.aftenposten.no/meninger/kommentar/Dear-Mark-I-am-writing-this-to-inform-you-that-I-shall-not-comply-with-your-requirement-to-remove-this-picture-604156b.html).
 
 ## Lies, misdirections ##
 Facebook has created a "platform" (better called a partnership) titled Internet.org (better titled Facebook zero). For promoting this all kinds of lies have been sewn together about how it does not violate net neutrality, how it will bring Internet to the remote areas that do not have Internet yet, how it can even be called a set of basic services, etc.
@@ -33,4 +34,4 @@ Despite pages receiving organic likes, the posts they make aren't seen by users 
 
 ## Delete Your Account ##
 
-On 9th November, 2015, (coincidentally, the 11th birthday of [firefox](../firefox/)) I [downloaded my data](https://www.facebook.com/help/212802592074644) and [permanently delete](https://www.facebook.com/help/224562897555674/)d my Facebook account. 
+On 9th November, 2015, (coincidentally, the 11th birthday of [firefox](../firefox/)) I [downloaded my data](https://www.facebook.com/help/212802592074644) and [permanently delete](https://www.facebook.com/help/224562897555674/)d my Facebook account.

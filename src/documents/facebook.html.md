@@ -16,6 +16,7 @@ Facebook does and again censor any content that it does not like, arbitarily, un
 * June 7, 2015: [Indian Atheists page marked unsafe](http://www.thehindu.com/news/cities/chennai/facebook-clips-wings-of-indian-atheists-page/article7290533.ece) - 28,000 likes
 * October, 2015: Links to [tsu.co](http://www.tsu.co/asdofindia) was [being marked unsafe](http://blogjob.com/lifeandliving/2015/09/26/facebook-has-banned-tsu/) even in [private messages](http://narcosphere.narconews.com/notebook/iv-n-ulchur-rota/2015/10/why-does-facebook-censor-word-tsu). I came to know about this on 9th Nov, 2015 and that's the day I [deleted my facebook profile](#delete-your-account).
 * September, 2016: [Link to article containing the legendary war picture of Kim Phuc removed and the link to article criticizing this removal also removed](http://www.aftenposten.no/meninger/kommentar/Dear-Mark-I-am-writing-this-to-inform-you-that-I-shall-not-comply-with-your-requirement-to-remove-this-picture-604156b.html).
+* November, 2016: Donald Trump.
 
 ## Lies, misdirections ##
 Facebook has created a "platform" (better called a partnership) titled Internet.org (better titled Facebook zero). For promoting this all kinds of lies have been sewn together about how it does not violate net neutrality, how it will bring Internet to the remote areas that do not have Internet yet, how it can even be called a set of basic services, etc.

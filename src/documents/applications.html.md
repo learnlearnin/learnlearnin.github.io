@@ -9,11 +9,9 @@ This is probably a subset of that.
 ## Internet ##
 * [Firefox](../firefox/) - for web browsing
 * Transmission - for p2p
-* Kmail - for email
-* Pidgin - for IM (which I rarely do on computer)
-* Gajim - for XMPP chat
+* Thunderbird - for email
 * [HexChat](http://hexchat.github.io/) - for IRC
-* Akregator - for feeds
+* [Brief firefox addon](https://addons.mozilla.org/firefox/addon/brief/) - for RSS
 
 ## Multimedia ##
 * GIMP - for photo editing
@@ -36,4 +34,4 @@ This is probably a subset of that.
 
 
 ## Other ##
-[KDE](../kde/) - login manager, desktop environment, everything. 
+[KDE](../kde/) - login manager, desktop environment, everything.

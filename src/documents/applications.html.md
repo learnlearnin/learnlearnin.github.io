@@ -1,5 +1,5 @@
 ---
-title: My favorite (preferred) applications
+title: My favorite (preferred/used) applications
 keywords: apps, recommendations, linux,
 description: A collection of my favorite applications for each purposes.
 ---
@@ -24,11 +24,12 @@ This is probably a subset of that.
 ## Utilities ##
 * [Atom](http://atom.io/) - text editor
 * vim - you know.
-* Guake - a terminal emulator
+* [kitty](https://github.com/kovidgoyal/kitty) - a terminal emulator
 * Synapse - file launcher
+* [Redshift](http://jonls.dk/redshift/) - color adjustment
 
 ## Documents ##
-* evince - for pdf
+* okular - for pdf
 * kchmviewer - for chm
 * Calibre - for epub and everything!
 

@@ -10,6 +10,8 @@ The purpose of a computer is to do things for humans that humans find boring/mun
 
 And the art of teaching a computer to do things for you is called [programming](../programming/).
 
+[Writing a simple operating system from scratch](http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf) [pdf] is probably a good idea to learn the low-level details of how a computer works
+
 #### Some links ####
 
 * [Keeping yourself safe while using a computer](../security/)

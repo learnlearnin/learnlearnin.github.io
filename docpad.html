@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site Properities -->
+  <title>Docpad | Learn Learnin'</title>
+  <meta property="og:title" content="Docpad | Learn Learnin'" />
+  <meta property="og:description" name="description" content="Docpad along with yo generator makes life for web developers easier than anything" />
+  
+  <meta property="og:url" content="http://learnlearn.in/docpad/" />
+  <meta name="keywords" content="learn, learning, docpad, yo, yeoman, docpad-generator, html, web development" />
+  <meta name="generator" content="DocPad v6.78.6" />
+
+  <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+  <link  rel="stylesheet" href="/main.css" />
+  
+  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+
+</head>
+<body>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1>Docpad </h1></a>
+  </header>
+  <article role="main">
+    
+    <p>To begin with you need to get npm installed properly. DO NOT install this from Ubuntu official repository. It will give you all sorts of trouble later on upgrading and stuff.<br>I do not remember how I installed the stuff, but the ideal installation will let you update npm packages without sudo. This will involve placing NODE_PATH in ~/.bashrc and I am sure you can find out how to do that on your own.</p>
+<p>But once you have node and npm correctly installed, installing docpad is a piece of cake. <code>npm install -g docpad</code></p>
+<p>FOr my workflow, you need yeoman generator also. <code>npm install -g yeoman</code>. It is then invoked via <code>yo</code> command</p>
+<h2 id="workflow">Workflow</h2>
+<p>The workflow I use is the following.</p>
+<h3 id="one-time-steps">One time steps</h3>
+<pre><code>mkdir my-project
+cd my-project
+yo docpad
+</code></pre><p>During the yo interactive choices, I choose gh-pages plugin also. This helps me deploy the site to github-pages easily. The gh-pages plugin might need a small configuration (which branch to push to). This is gh-pages by default. But if you are hosting an organization repo, you will need to change that to master (after renaming the source branch to &quot;source&quot; maybe?). Check <a href="https://github.com/learnlearnin/learnlearnin.github.io/blob/source/docpad.coffee">my docpad.coffee file</a>.</p>
+<p>You will have to adjust various other settings in docpad.coffee and also change the layout and other things.  </p>
+<p>Additionally, I create an alias in ~/.zshrc (or ~/.bashrc for bash people),<code>alias cdgh=&#39;git push &amp;&amp; docpad deploy-ghpages --env static&#39;</code>. This is useful in pushing all changes to source branch and master (or gh-pages) simultaneously.  </p>
+<p>Now we are ready to hack away.  </p>
+<h3 id="each-time-steps">Each time steps</h3>
+<p>Every new post I need to make, I do just this.</p>
+<pre><code>vim src/newfile.html.md  #and edit that
+git add src/newfile.html.md
+git commit -m &quot;added a newfile&quot;
+cdgh #our earlier alias
+</code></pre>
+  </article>
+  <aside class="share separator separatorpipe" role="complementary">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=Docpad | Learn Learnin'&url=http://learnlearn.in/docpad/">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/docpad/">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/docpad/">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/docpad/">Google+</a>
+    <a target="_blank" href="mailto:?subject=Docpad | Learn Learnin'&body=Check this out: http://learnlearn.in/docpad/">Email</a>
+    <a target="_blank" href="https://telegram.me/share/url?url=Docpad | Learn Learnin' - &url=http://learnlearn.in/docpad/"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=Docpad | Learn Learnin' - http://learnlearn.in/docpad/">Whatsapp</a>
+  </aside>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
+  <script defer="defer"  src="/main.js"></script>
+  
+</body>
+</html>

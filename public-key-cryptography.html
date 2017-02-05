@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site Properities -->
+  <title>Public Key Cryptography | Learn Learnin'</title>
+  <meta property="og:title" content="Public Key Cryptography | Learn Learnin'" />
+  <meta property="og:description" name="description" content="Imagine you hold the key to an auto-locking lock. Anyone can send you a suitcase locked with that. But only you can open it." />
+  
+  <meta property="og:url" content="http://learnlearn.in/public-key-cryptography/" />
+  <meta name="keywords" content="learn, learning, cryptography, rsa, modular arithmetic, dh key exchange" />
+  <meta name="generator" content="DocPad v6.78.6" />
+
+  <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+  <link  rel="stylesheet" href="/main.css" />
+  
+  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+
+</head>
+<body>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1>Public Key Cryptography </h1></a>
+  </header>
+  <article role="main">
+    
+    <p>There are two levels of understanding public key cryptography and assymmetric cryptography (which are very important in <a href="../security/">security</a></p>
+<ul>
+<li>The superficial details of <a href="#how-it-works">how it works</a> in practice</li>
+<li>The exciting <a href="#the-math-behind-it">math behind it</a></li>
+</ul>
+<p>They are both interesting and will be presented (with links of course) on this page.</p>
+<h2 id="how-it-works">How it works</h2>
+<p><a href="http://www.pgpi.org/doc/pgpintro/">PGP manual</a> gives a very simple introduction to cryptography leading to the inner workings of pgp.</p>
+<p>To be precise, all messages are encrypted with the recipients public key, and decrypted by the recipient using their own private key. The private key and public key are an intricately tied together unique pair of keys that can lock what the other closed and close what the other opens.</p>
+<p>To safely execute this algorithm, we make use of software like <code>gpg</code>. Enigmail plugin for thunderbird, and <a href="https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain">openkeychain</a> app for android along with <a href="https://play.google.com/store/apps/details?id=com.fsck.k9">k-9 mail</a> allows communication on computer and phone respectively.</p>
+<p>First, we create a key pair - <strong>the private key and the public key</strong>. Along with it, we also create a <strong>revokation certificate</strong> which we will keep separate and safe, so that in case we lose our keys (which is very likely for people like me) we could use the revokation certificate to establish our identity to say the key is no longer valid.</p>
+<p>GPG does not save the key in plaintext. It secures the key itself by encrypting it with a passphrase. Forgetting this passphrase is an easy way to lose your keys earlier on.</p>
+<p>We will add different identities inside this key. Different email addresses, mainly.</p>
+<p>Then, we submit our public key to various keyservers around the world, which will make our identity and public key searchable. Notice that anyone can create a key on <a href="http://pgp.mit.edu/pks/lookup?search=rms%40gnu.org&amp;op=index">anyone&#39;s identity</a> and therefore, verification of the key is an important and non-optional step. The verification is done by comparing key fingerprint, or asking a lot of people we trust to have verified others (web of trust - trusting the friend of friend of friend).</p>
+<p>Once we have a few public keys of our friends imported to our computer, we can send them messages encrypted with their public key such that only they can decrypt them.</p>
+<p>Encryption and decryption does not necessarily have to be within email communication. One can encrypt any piece of text or whatever and write the encrypted version (probably not write, maybe copy paste) and send them in any means to the recipient (USBs, floppys, CDs - remember spy movies?)</p>
+<h3 id="put-it-simply">Put it simply</h3>
+<p>Encryption is like locking something. They key is the only thing that can open the lock.</p>
+<p>Public key cryptography involves creation of special kinds of locks which can be locked with one key and opened with a different key. Distributing the locker key and keeping the opener key safe = successfully keeping secrets.</p>
+<p>Here is another, more detailed into to <a href="http://math.uchicago.edu/~mann/encryption.pdf">what it is, and some math behind it.</a></p>
+<h2 id="the-math-behind-it">The math behind it</h2>
+<p>To understand the math behind public key encryption, there are certain prerequisites.</p>
+<ul>
+<li><a href="http://www.math.rutgers.edu/~erowland/modulararithmetic.html">Modular arithmetic</a> - <a href="https://en.wikipedia.org/wiki/Modular_arithmetic">page on wikipedia</a></li>
+<li><a href="http://mathcircle.berkeley.edu/BMC3/rsa/node6.html">Fermat&#39;s theorem and Chinese remainder theorem</a></li>
+</ul>
+<p>Now we can read about the actual rsa math.</p>
+<ul>
+<li><a href="http://pajhome.org.uk/crypt/rsa/maths.html">a concise introduction</a></li>
+<li><a href="http://mathcircle.berkeley.edu/BMC3/rsa/node4.html">a somewhat detailed introduction</a></li>
+<li><a href="http://www.woodmann.com/crackz/Tutorials/Rsa.htm">one more concise text to recheck the understanding</a></li>
+</ul>
+<p>Congrats! Now you can move to setting up pgp on all your devices.</p>
+
+  </article>
+  <aside class="share separator separatorpipe" role="complementary">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=Public Key Cryptography | Learn Learnin'&url=http://learnlearn.in/public-key-cryptography/">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/public-key-cryptography/">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/public-key-cryptography/">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/public-key-cryptography/">Google+</a>
+    <a target="_blank" href="mailto:?subject=Public Key Cryptography | Learn Learnin'&body=Check this out: http://learnlearn.in/public-key-cryptography/">Email</a>
+    <a target="_blank" href="https://telegram.me/share/url?url=Public Key Cryptography | Learn Learnin' - &url=http://learnlearn.in/public-key-cryptography/"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=Public Key Cryptography | Learn Learnin' - http://learnlearn.in/public-key-cryptography/">Whatsapp</a>
+  </aside>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
+  <script defer="defer"  src="/main.js"></script>
+  
+</body>
+</html>

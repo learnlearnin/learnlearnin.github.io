@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site Properities -->
+  <title>Reserve telegram username | Learn Learnin'</title>
+  <meta property="og:title" content="Reserve telegram username | Learn Learnin'" />
+  <meta property="og:description" name="description" content="Learning how to learn is more important than learning itself." />
+  
+  <meta property="og:url" content="http://learnlearn.in/reserve-telegram-username/" />
+  <meta name="keywords" content="learn, learning" />
+  <meta name="generator" content="DocPad v6.78.6" />
+
+  <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+  <link  rel="stylesheet" href="/main.css" />
+  
+  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+
+</head>
+<body>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1>Reserve telegram username </h1></a>
+  </header>
+  <article role="main">
+    
+    <p>If you don&#39;t want to do anything go down to lazy</p>
+<p>If you&#39;re like my unfortunate friend Marco, and do not have a linux installation handy follow No-linux and then common.<br>If you have linux, node, and git, follow Linux and then common.</p>
+<h2 id="linux">Linux</h2>
+<p>Download webogram by :</p>
+<pre><code>git clone git@github.com:zhukov/webogram.git
+cd webogram
+</code></pre><p>(You don&#39;t have to have git installed. Just use the link <a href="https://github.com/zhukov/webogram/archive/master.zip">https://github.com/zhukov/webogram/archive/master.zip</a> if you don&#39;t have git)</p>
+<p>Run the server: </p>
+<pre><code>node server.js
+</code></pre><p>Go to localhost:8000/app/index.html in a browser, log in with your phone number and get your keys and stuff from the server (this is required because after we change the schema webogram will stop working and you can&#39;t sign in)<br>ctrl+c the server to stop it</p>
+<p>Open the file webogram/app/js/lib/config.js<br>We need to change the lines 78 and 80<br>78 should become &quot;Config.Schema.API = &quot; followed by whatever is in this file: <a href="https://core.telegram.org/scheme/json">https://core.telegram.org/scheme/json</a> (just copy paste that)<br>80 should become &quot;Config.Schema.API.layer = 18;&quot; I think</p>
+<p>Now that we&#39;ve changed the API schema,<br>Run the server again</p>
+<pre><code>node server.js
+</code></pre><p>Go to localhost:8000/app/index.html (The chats won&#39;t load because the schema is damaged)</p>
+<h2 id="no-linux">No linux</h2>
+<p>First sign in and test stuff at <a href="http://learnlearn.in/webogram">learnlearn.in/webogram</a></p>
+<p>Then, go to <a href="http://learnlearn.in/webogram-broken">learnlearn.in/webogram-broken</a> where I have made the necessary changes</p>
+<h2 id="common-steps">Common steps</h2>
+<p>Go to firefox -&gt; tools -&gt; web developer -&gt; web console<br>In the console type this (where &quot;whatever&quot; is your username which you want):</p>
+<pre><code>a=angular.injector([&#39;myApp&#39;]);
+b=a.get(&#39;MtpApiManager&#39;);
+b.invokeApi(&#39;account.checkUsername&#39;,{username:&quot;whatever&quot;});
+b.invokeApi(&#39;account.updateUsername&#39;,{username:&quot;whatever&quot;});
+</code></pre><p>If &quot;Api call&quot; &quot;account.checkUsername&quot; is followed by &quot;Rpc response&quot; &quot;true&quot; it means your username is available<br>And &quot;Rpc response&quot; &quot;false&quot; means your username is taken</p>
+<h2 id="lazy">Lazy</h2>
+<ul>
+<li>Go to <a href="http://learnlearn.in/webogram">learnlearn.in/webogram</a> and sign in </li>
+<li>then go to <a href="http://learnlearn.in/webogram-broken">learnlearn.in/webogram-broken</a></li>
+<li>press ok for &quot;runs&quot;</li>
+<li>scroll down.</li>
+<li>Scroll down.</li>
+<li>Enter username</li>
+<li>Click &quot;get username&quot;</li>
+<li>press ok for the username you entered</li>
+<li>check with someone who runs cli</li>
+</ul>
+
+  </article>
+  <aside class="share separator separatorpipe" role="complementary">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=Reserve telegram username | Learn Learnin'&url=http://learnlearn.in/reserve-telegram-username/">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/reserve-telegram-username/">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/reserve-telegram-username/">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/reserve-telegram-username/">Google+</a>
+    <a target="_blank" href="mailto:?subject=Reserve telegram username | Learn Learnin'&body=Check this out: http://learnlearn.in/reserve-telegram-username/">Email</a>
+    <a target="_blank" href="https://telegram.me/share/url?url=Reserve telegram username | Learn Learnin' - &url=http://learnlearn.in/reserve-telegram-username/"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=Reserve telegram username | Learn Learnin' - http://learnlearn.in/reserve-telegram-username/">Whatsapp</a>
+  </aside>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
+  <script defer="defer"  src="/main.js"></script>
+  
+</body>
+</html>

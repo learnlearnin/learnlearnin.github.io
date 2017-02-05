@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site Properities -->
+  <title>Arch Linux | Learn Learnin'</title>
+  <meta property="og:title" content="Arch Linux | Learn Learnin'" />
+  <meta property="og:description" name="description" content="An intro to why arch is arch" />
+  
+  <meta property="og:url" content="http://learnlearn.in/archlinux/" />
+  <meta name="keywords" content="learn, learning, arch, distro, linux, best" />
+  <meta name="generator" content="DocPad v6.78.6" />
+
+  <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+  <link  rel="stylesheet" href="/main.css" />
+  
+  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+
+</head>
+<body>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1>Arch Linux </h1></a>
+  </header>
+  <article role="main">
+    
+    <p>Arch Linux is my favorite Linux distro, for the following reasons:</p>
+<ul>
+<li>It does not contain anything</li>
+<li>It contains everything</li>
+<li>It does not decide anything</li>
+<li>It helps you decide everything</li>
+</ul>
+<p>After having used <a href="http://bosslinux.in/">bosslinux</a> and <a href="http://linuxmint.com/">Linux Mint</a> for a few months, I was using Ubuntu for a few years.</p>
+<p>But then, I was tired of the package management system, not knowing exactly how the configurations worked, etc. and so I started <a href="http://www.linuxfromscratch.org/">lfs</a>. This was a fail since I never proceeded after building the build tools.</p>
+<p>That is when I discovered arch, its excellent wiki, and everything good.</p>
+<p>Arch is special because when it is first installed, it is just kernel, build tools, and a log in shell. After that, following the wiki, you can install whichever <a href="https://wiki.archlinux.org/index.php/List_of_Applications">applications</a> you want. And that is a blessing because I do not want bloatware on my computers.</p>
+<p>Also, configuration of every application is documented on the Arch Wiki.</p>
+<p>Then, the most beautiful concept called Arch User Repository. Anyone can build arch packages and submit it to the AUR. This can easily be installed by anyone else.</p>
+<h2 id="my-installation">My Installation</h2>
+<p>I followed the Arch Installation Guide and got most things working. I had to figure out a few quirks, though.</p>
+<h3 id="disable-auto-suspend-on-lid-close">Disable auto-suspend on lid close</h3>
+<p>Read wiki: <a href="https://wiki.archlinux.org/index.php/Power_management">Power Management</a></p>
+<p>Set <code>HandleLidSwitch</code> to <code>lock</code> in <code>/etc/systemd/logind.conf</code></p>
+<p><code>systemctl restart systemd-logind.service</code> to take effect.</p>
+<h3 id="dm">DM</h3>
+<p>After going through all DEs I settled on Gnome Shell.</p>
+<p>I was using lightdm as the DM but then Gnome Shell&#39;s screen lock won&#39;t work with lightdm, so I had to switch to gdm. And it works super awesome after that.</p>
+<p><a href="../gnome/">Read more about GNOME setup</a></p>
+<h3 id="other-applications">Other applications</h3>
+<p><a href="../applications/">List of my preferred applications</a></p>
+
+  </article>
+  <aside class="share separator separatorpipe" role="complementary">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=Arch Linux | Learn Learnin'&url=http://learnlearn.in/archlinux/">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/archlinux/">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/archlinux/">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/archlinux/">Google+</a>
+    <a target="_blank" href="mailto:?subject=Arch Linux | Learn Learnin'&body=Check this out: http://learnlearn.in/archlinux/">Email</a>
+    <a target="_blank" href="https://telegram.me/share/url?url=Arch Linux | Learn Learnin' - &url=http://learnlearn.in/archlinux/"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=Arch Linux | Learn Learnin' - http://learnlearn.in/archlinux/">Whatsapp</a>
+  </aside>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
+  <script defer="defer"  src="/main.js"></script>
+  
+</body>
+</html>

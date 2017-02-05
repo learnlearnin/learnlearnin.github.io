@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site Properities -->
+  <title>Gnome, Shell, GTK, and everything | Learn Learnin'</title>
+  <meta property="og:title" content="Gnome, Shell, GTK, and everything | Learn Learnin'" />
+  <meta property="og:description" name="description" content="Setting up everything gnome" />
+  
+  <meta property="og:url" content="http://learnlearn.in/gnome/" />
+  <meta name="keywords" content="learn, learning, gnome, themes, suggestions, setup, how-to" />
+  <meta name="generator" content="DocPad v6.78.6" />
+
+  <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+  <link  rel="stylesheet" href="/main.css" />
+  
+  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+
+</head>
+<body>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1>Gnome, Shell, GTK, and everything </h1></a>
+  </header>
+  <article role="main">
+    
+    <p>Before Gnome started removing all useful features from applications and I switched to <a href="../kde/">KDE</a>, I was using Gnome for a long time.</p>
+<p>Here&#39;s my Gnome set-up. I&#39;ll just list down the steps I used on my favorite <a href="../archlinux/">Arch Linux</a> to get to my current set up.</p>
+<h2 id="gnome-display-manager">GNOME display manager</h2>
+<p>For GNOME Shell, GDM provides the most seamless integration. Although it is slightly slow, it works without problems.</p>
+<p>I&#39;d gdm installed and running automatically at startup.</p>
+<pre><code>pacman -S gdm
+systemctl enable gdm
+</code></pre><h2 id="gnome">GNOME</h2>
+<pre><code>pacman -S gnome gnome-extra
+</code></pre><p>To start using GNOME, choose GNOME in GDM while logging in.</p>
+<p>Install Tweak tool to edit a myriad of options.</p>
+<pre><code>pacman -S gnome-tweak-tool
+</code></pre><h2 id="shell-extensions">Shell extensions</h2>
+<p>Go to <a href="http://extensions.gnome.org/">extensions.gnome.org</a> to install these:</p>
+<ul>
+<li><a href="https://extensions.gnome.org/extension/15/alternatetab/">AlternateTab</a></li>
+<li><a href="https://extensions.gnome.org/extension/307/dash-to-dock/">Dash to Dock</a></li>
+<li><a href="https://extensions.gnome.org/extension/545/hide-top-bar/">Hide top bar</a></li>
+</ul>
+<h2 id="themes">Themes</h2>
+<p>A beautiful, material design based theme is <a href="http://snwh.org/paper">Paper</a>. To install it you can either download the tar balls and extract it to the specific folder, or clone git (so that updating is easier). Let&#39;s say you&#39;re cloning the repositories to ~/Downloads</p>
+<pre><code>cd ~/Downloads
+git clone git@github.com:snwh/paper-gtk-theme.git
+git clone git@github.com:snwh/paper-icon-theme.git
+cd ~
+mkdir .themes # if doesn&#39;t exist
+mkdir .icons  # if doesn&#39;t exist
+ln -s ~/Downloads/paper-gtk-theme/Paper .themes/
+ln -s ~/Downloads/paper-icon-theme/Paper .icons/
+</code></pre><p>You can now switch to these themes in Tweak tool -&gt; Appearance -&gt; (GTK+|Icons|Shell theme) -&gt; Paper</p>
+<p>To update the themes a month or so later, you just go to the respective directories in <code>~/Downloads</code> and do <code>git pull</code></p>
+<p>Now you can install some of <a href="../applications/">my favorite applications</a>.</p>
+
+  </article>
+  <aside class="share separator separatorpipe" role="complementary">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=Gnome, Shell, GTK, and everything | Learn Learnin'&url=http://learnlearn.in/gnome/">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/gnome/">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/gnome/">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/gnome/">Google+</a>
+    <a target="_blank" href="mailto:?subject=Gnome, Shell, GTK, and everything | Learn Learnin'&body=Check this out: http://learnlearn.in/gnome/">Email</a>
+    <a target="_blank" href="https://telegram.me/share/url?url=Gnome, Shell, GTK, and everything | Learn Learnin' - &url=http://learnlearn.in/gnome/"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=Gnome, Shell, GTK, and everything | Learn Learnin' - http://learnlearn.in/gnome/">Whatsapp</a>
+  </aside>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
+  <script defer="defer"  src="/main.js"></script>
+  
+</body>
+</html>

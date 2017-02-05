@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title type="text">Learn Learnin'</title>
+	<subtitle type="html">The quintessential insight aggregator</subtitle>
+	<updated>2015-03-10T08:24:59Z</updated>
+	<id>http://learnlearn.in/feed.atom</id>
+	<link href="http://learnlearn.in/" hreflang="en" rel="alternate" type="text/html"/>
+	<link href="http://learnlearn.in/feed.atom" rel="self" type="application/atom+xml"/>
+	<generator uri="http://github.com/learnlearnin/learnlearnin.github.io/blob/source/src/feed/feeder.py" version="1.0">Hand written python json to feed converter</generator>
+	<icon>http://learnlearn.in/LofL60.png</icon>
+	<entry>
+		<title>India's Daughter, why and how to watch it</title>
+		<link href="http://learnlearn.in/indias-daughter/"/>
+		<id>urn:uuid:095d1cd3-4a8f-4452-a8c2-7b373c412360</id>
+		<updated>2015-03-10T08:24:59Z</updated>
+		<published>2015-03-10T08:24:59Z</published>
+		<author>
+			<name>Akshay S Dinesh</name>
+			<uri>http://learnlearn.in/about/</uri>
+			<email>akshay@learnlearn.in</email>
+		</author>
+		<content type="text">India's Daughter is a documentary portraying realities. Why is our government scared of it?
+
+Read at http://learnlearn.in/indias-daughter/</content>
+	</entry>
+	<entry>
+		<title>Three important things about the Internet that millions do not know about</title>
+		<link href="http://learnlearn.in/3-things-internet/"/>
+		<id>urn:uuid:68014b5d-5452-404a-bf64-152ea3f16de3</id>
+		<updated>2015-01-05T18:58:54Z</updated>
+		<published>2015-01-05T18:58:54Z</published>
+		<author>
+			<name>Akshay S Dinesh</name>
+			<uri>http://learnlearn.in/about/</uri>
+			<email>akshay@autistici.org</email>
+		</author>
+		<content type="text">These will change the way you think about and use the Internet
+
+Read more at http://learnlearn.in/3-things-internet/</content>
+	</entry>
+	<entry>
+		<title>I promoted myself to a first class citizen of the web</title>
+		<link href="http://learnlearn.in/keep-in-touch/"/>
+		<id>urn:uuid:035683da-4358-4286-bfbd-98614c8c82e8</id>
+		<updated>2015-01-02T13:39:33Z</updated>
+		<published>2015-01-02T13:39:33Z</published>
+		<author>
+			<name>Akshay S Dinesh</name>
+			<uri>http://learnlearn.in/about/</uri>
+			<email>akshay@autistici.org</email>
+		</author>
+		<content type="text">This new year I gifted myself a promotion. From being just a number under facebook or any other web service, to being a first class citizen of the web. This website will be my identity.
+Read more at http://learnlearn.in/keep-in-touch</content>
+	</entry>
+</feed>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site Properities -->
+  <title>vim | Learn Learnin'</title>
+  <meta property="og:title" content="vim | Learn Learnin'" />
+  <meta property="og:description" name="description" content="The advanced editor" />
+  
+  <meta property="og:url" content="http://learnlearn.in/vim/" />
+  <meta name="keywords" content="learn, learning, vim, text editor" />
+  <meta name="generator" content="DocPad v6.78.6" />
+
+  <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+  <link  rel="stylesheet" href="/main.css" />
+  
+  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+
+</head>
+<body>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1>vim </h1></a>
+  </header>
+  <article role="main">
+    
+    <p>Learning vim might seem a futile exercise when modern day editors like <a href="../atom-editor/">atom</a> are available.</p>
+<p>But the beauty and strength of vim is appreciated the moment you enter a remote console. All of a sudden you feel like handicapped, without your pretty mouse. Using vim is like training for a day when you might become blind by choosing to close your eyes. And while you&#39;re at it, you could add that extra strength even when you can see.</p>
+<p>Vim apparently has the largest learning curve. But only if you&#39;re trying to do all the advanced things on day 1.</p>
+<h2 id="modes">Modes</h2>
+<p><strong>Vim is not Notepad</strong> (nor nano)</p>
+<p>The moment someone enters <code>vim newfile</code> in their terminal they&#39;re facing an empty slate that looks just like it needs some text to be written. This is the first step where people get really stuck. In vim, there are three different modes. </p>
+<ol>
+<li>command mode (default)</li>
+<li>insert mode (notepad mode)</li>
+<li>last line mode (the actual command mode)</li>
+</ol>
+<p>When you just entered vim, you were in command mode. And command mode does not let you type things. For that you need to enter insert mode, by pressing i or Insert button. To go back to command mode, you press Esc. To go to last line mode, from command mode, enter :</p>
+<h2 id="edit-exit">Edit, exit</h2>
+<p>To successfully use vim like notepad, all you need to know are these.</p>
+<ul>
+<li>Moving around is done in command mode.<ul>
+<li>Use h, j, k, l to move around</li>
+</ul>
+</li>
+<li>Typing is done in insert mode. <ul>
+<li>Move cursor wherever you want, and enter insert mode. Type text.</li>
+</ul>
+</li>
+<li>Saving and quitting is done in last line mode<ul>
+<li>Tap Esc, Type :wq</li>
+<li>: takes you to last line mode</li>
+<li>w writes the file</li>
+<li>q quits</li>
+</ul>
+</li>
+</ul>
+<p>That&#39;s it. That&#39;s all you need to know to use vim like notepad. </p>
+<h2 id="configuration">Configuration</h2>
+<p>Vim configuration is done in <code>~/.vimrc</code></p>
+<h2 id="plugins">Plugins</h2>
+<p>If vim is atom-editor, vim plugins are atom packages.</p>
+<h3 id="installation">Installation</h3>
+<p>Usual way of installing is by placing the plugin&#39;s .vim file in ~/.vim/plugin/<br>But we will use Vundle for managing plugins. </p>
+<p>Here are my favourite plugins and their useful commands and configuration.</p>
+<h3 id="vundle">Vundle</h3>
+<p><a href="https://github.com/gmarik/Vundle.vim">Vundle</a> should probably be the first plugin you install. An alternative is <a href="https://github.com/tpope/vim-pathogen">Pathogen</a>. </p>
+<p>Follow the <a href="https://github.com/gmarik/Vundle.vim#quick-start">Vundle installation guide</a> and you should be having no problem getting started.</p>
+<p>One thing you should remember is that although there&#39;s a command :PluginInstall which allows you to download and install plugins, for example, <code>:PluginInstall scrooloose/nerdcommenter</code> will download nerdcommenter plugin from github repo of scrooloose, plugins downloaded in this way should be added to the .vimrc manually. So it might make sense to add those plugins to the .vimrc first, and then run <code>:PluginInstall</code></p>
+<h3 id="vim-gnupg">vim-gnupg</h3>
+<p><a href="https://github.com/jamessan/vim-gnupg/">vim-gnupg</a> is a must use plugin when you use gpg. </p>
+<p>With it, whenever you create a file with extensions <em>.gpg, </em>.pgp, etc a list of recipients is asked for and the file is encrypted automatically on write quit. Thus saving you the trouble of writing confidential information in plain text and then <code>gpg -e</code>-ing that. This plugin basically eliminates that step.</p>
+<p>Also, if you&#39;re opening a *.gpg file signed with your public key, it will automatically ask for your passphrase and decrypt it on the fly.</p>
+<p>If you don&#39;t want to lookup <code>gpg --list-keys</code> each time you are creating an encrypted file, you can edit .vimrc and include the recipients like this:</p>
+<pre><code>let g:GPGPossibleRecipients=[
+ \&quot;Example User &lt;example@example.com&gt;&quot;,
+ \&quot;Other User &lt;otherexample@example.com&gt;&quot;
+\]
+</code></pre><p>With that, any new file will automatically be populated by those recipients, but commented out. You can uncomment to add recipient.</p>
+<h3 id="vim-fugitive">vim-fugitive</h3>
+<p><a href="https://github.com/tpope/vim-fugitive">vim-fugitive</a> allows easy integration with git.</p>
+<h3 id="emmet-vim">emmet-vim</h3>
+<p><a href="https://github.com/mattn/emmet-vim/">emmet-vim</a> is useful if you are an HTML writer. It allows you to write things like &quot;html:5&quot; press Ctrl+y followed by , and suddenly you will have the basic layout of an empty html page.</p>
+<h3 id="sparkup">sparkup</h3>
+<p><a href="https://github.com/rstacruz/sparkup">sparkup</a> is the perfect companion for emmet-vim. Sparkup lets you write <code>div#header</code>, press Ctrl+e and you have a div with id header opened and closed for you.</p>
+
+  </article>
+  <aside class="share separator separatorpipe" role="complementary">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=vim | Learn Learnin'&url=http://learnlearn.in/vim/">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/vim/">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/vim/">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/vim/">Google+</a>
+    <a target="_blank" href="mailto:?subject=vim | Learn Learnin'&body=Check this out: http://learnlearn.in/vim/">Email</a>
+    <a target="_blank" href="https://telegram.me/share/url?url=vim | Learn Learnin' - &url=http://learnlearn.in/vim/"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=vim | Learn Learnin' - http://learnlearn.in/vim/">Whatsapp</a>
+  </aside>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
+  <script defer="defer"  src="/main.js"></script>
+  
+</body>
+</html>

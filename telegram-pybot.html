@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site Properities -->
+  <title>Datamachine's telegram-pybot - building a bot for yourself | Learn Learnin'</title>
+  <meta property="og:title" content="Datamachine's telegram-pybot - building a bot for yourself | Learn Learnin'" />
+  <meta property="og:description" name="description" content="Learning how to learn is more important than learning itself." />
+  
+  <meta property="og:url" content="http://learnlearn.in/telegram-pybot/" />
+  <meta name="keywords" content="learn, learning, telegram, python, bots" />
+  <meta name="generator" content="DocPad v6.78.6" />
+
+  <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+  <link  rel="stylesheet" href="/main.css" />
+  
+  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+
+</head>
+<body>
+  <header>
+    <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
+    <a href=""><h1>Datamachine's telegram-pybot - building a bot for yourself </h1></a>
+  </header>
+  <article role="main">
+    
+    <p>Datamachine studios has developed <a href="https://github.com/datamachine/telegram-pybot">telegram-pybot</a> which is a beautiful, plugins based (similar to Yago&#39;s Lua based <a href="https://github.com/yagop/telegram-bot">telegram-bot</a>) Python bot.</p>
+<p>You can <a href="http://asdofindia.blogspot.com/2015/05/early-preview-telegram-pybot-telegram.html">read an introduction about it on my blog</a>.</p>
+<h2 id="dogfeeding">Dogfeeding</h2>
+<p>Now that we have a Python bot framework there is no more an excuse to not write your own Jacondas or Anacondas or what not?</p>
+<p>Below, I shall put together a small high level overview of all that needs to be understood so that one can directly jump into building plugins for telegram-pybot and enjoy it in group chats. For all the low level details, it is preferrable to read the linked code, source, or docs.</p>
+<h2 id="the-chain">The chain</h2>
+<p>All useful interaction with any bot is a long chain of calls between different programs. It is fun to think of the actual physical connection and the software connection. Just for that fun:</p>
+<ul>
+<li>You, from your Telegram client send a command, say &quot;/wiki Telegram&quot; to a group in which the bot is running.</li>
+<li>Your telegram client converts into gibberish by encypting with MTProto and passes it over to your phone&#39;s data connection to be sent over.</li>
+<li>The mobile data carrier, using air waves picks up the data at the cell tower and hoping through all loops the data reaches Telegram server.</li>
+<li>Telegram server sends it to all members of the group, including the bot.</li>
+<li>And <strong>here&#39;s where it gets interesting</strong>. The bot is running vysheng&#39;s <a href="https://github.com/vysheng/tg">tg</a>, which decodes the MTProto encryption. It then passes the details about the message (sender, recipient, text, etc.) through the Python bindings.</li>
+<li>That&#39;s where telegram-pybot gets hold of the message. It runs it through the various plugins and passes control to the plugin that needs to run on each particular command.</li>
+<li>The plugin itself does the most specialized job of applying logic and composing a response. This could be:<ul>
+<li>A simple mapped response. Like, command &quot;Hi&quot; would return &quot;Hello&quot;</li>
+<li>Some kind of processing and stuff. Say &quot;2+2&quot; returns &quot;4&quot;</li>
+<li>Connecting to a web API/website and fetching a result. Say &quot;/wiki Telegram&quot; would go to wikipedia page on Telegram and fetch the first paragraph and respond with that. (<strong>This is the part we have to code</strong>)</li>
+</ul>
+</li>
+<li>Once the plugin returns something the whole chain runs in reverse and you get a reply to your command.</li>
+</ul>
+<h2 id="the-setup">The Setup</h2>
+<p>This is the most difficult part or the easiest part depending on what you&#39;ve been doing with your computer in your life. Here are the essentials required:</p>
+<ul>
+<li>A GNU/Linux or Mac OS X operating system (because tg-cli runs only on these). I use <a href="../archlinux/">Arch Linux</a>.</li>
+<li>Command line (Ctrl+Alt+T might work in most cases)</li>
+<li>Python 3.4, virtualenv, pip, git, etc. (install as and when command not found is thrown)</li>
+<li>An Internet connection</li>
+<li>A text editor. I use <a href="../atom-editor/">atom</a>.</li>
+<li>An alternate Telegram account. (Because the bot does not respond to its own messages)</li>
+</ul>
+<h3 id="downloading">Downloading</h3>
+<p>Assuming you&#39;ve all that handy, you can follow the instructions in <a href="https://github.com/datamachine/telegram-pybot#telegram-pybot">the readme</a> of telegram-pybot to clone itself, clone tg, configure and make tg, and even launch the bot.</p>
+<h3 id="tg-cli">tg-cli</h3>
+<p>This is probably the first biggest hurdle</p>
+<h4 id="-newhere">#newhere</h4>
+<p>If you&#39;ve never used tg-cli you&#39;ll be asked to enter your phone number. And the input won&#39;t work because the bot runs in a subprocess.</p>
+<p>Just do this</p>
+<pre><code>cd tg
+bin/telegram-cli
+</code></pre><p>enter your alternate phone number, verification code, and then</p>
+<pre><code>safe_quit
+cd ..
+./launch.sh
+</code></pre><h4 id="-oldhere">#oldhere</h4>
+<p>If you have used tg-cli with your primary number once, the bot&#39;ll start running in that. And when I tried last night it wasn&#39;t able to respond to its own commands.</p>
+<p>tg-cli comes with an excellent way to run multiple profiles. Profiles are defined in a <a href="https://github.com/vysheng/tg/blob/master/config.sample">config file</a>.</p>
+<p>By default, the ~/.telegram-cli folder is used as the directory to save authentication info. There&#39;s a config file created in this folder automatically.  </p>
+<p>Delete the ~/.telegram-cli folder, and follow #newhere steps to register your alternate number.</p>
+<p>Later if you want to use your primary number, just create a new profile using ~/.telegram-cli/config and use -p switch while running bin/telegram-cli to choose that profile.</p>
+<h3 id="launch">Launch</h3>
+<p><code>./launch.sh</code> is our command to run the bot. It&#39;ll take care of everything.</p>
+<h2 id="configuration">Configuration</h2>
+<p>There is very little configuration to be done. In <code>permissions.conf</code>, <code>admins = 0</code> should become <code>admins = 1234567</code> if 1234567 is your Telegram user id. You can use tg-cli to find out your user id with the command <code>user_info YourName</code></p>
+<h2 id="plugin-management">Plugin Management</h2>
+<p>Plugin management is best done via a Telegram chat itself. Once you have added yourself as an admin, you will be authorized to use the PluginManager plugin and <code>!pkg update</code> will sync the plugin list. <code>pkg install dice</code> will install the dice plugin and so on.</p>
+<h2 id="writing-your-own-plugin">Writing your own plugin</h2>
+<p>This is the most interesting part.</p>
+<h3 id="plugin-folder-structure">Plugin folder structure</h3>
+<p>For the sake of avoiding git, maintaining plugin repo, etc, we will build plugins directly inside the plugins folder inside telegram-pybot. If you are interested to see how an advanced plugin would look like, checkout the folder structure of <a href="https://github.com/datamachine/telegram-pybot-spyfall/">spyfall</a></p>
+<h3 id="sample-plugin">Sample plugin</h3>
+<p>Use the echo plugin in plugins folder to base your work on. Let&#39;s call our new plugin &quot;ping-pong&quot;.</p>
+<pre><code>cp echo.py pingpong.py
+cp echo.plugin pingpong.plugin
+</code></pre><p><code>pingpong.plugin</code> contains metadata about the plugin. Name and Module info are important in it. Change it to PingPong and pingpong respectively.</p>
+<p><code>pingpong.py</code> contains the basics of a plugin. Read the comments beneath to see what each line in this file does. The new function of our plugin is to respond with pong when someone says /ping.</p>
+<pre><code>import plugintypes
+</code></pre><p>import plugintypes module so that we can subclass TelegramPlugin.</p>
+<pre><code>class PingPongPlugin(plugintypes.TelegramPlugin):
+</code></pre><p>define a class called PingPongPlugin which&#39;s a subclass of TelegramPlugin</p>
+<pre><code>    &quot;&quot;&quot;
+    Just say pong when someone says ping
+    &quot;&quot;&quot;
+</code></pre><p>This is just a docstring for developers</p>
+<pre><code>    patterns = [
+        &quot;^/ping$&quot;
+    ]
+</code></pre><p>define the patterns that need to be captured by the plugin. This does a regex matching and we will talk about matching later. <code>^</code> refers to the beginning of a line and <code>$</code> refers to the end of a line.</p>
+<pre><code>    usage = [
+        &quot;/ping: pongs&quot;,
+    ]
+</code></pre><p>This is the string that is shown when someone says !help PingPong</p>
+<pre><code>    def run(self, msg, matches):
+</code></pre><p>this is the function that&#39;ll run if our pattern matches. msg is the object that has all the information about the message that matched. matches is a python object that is the result of the match, it can be used to access the text that matched. We can ignore it now.</p>
+<pre><code>        return &quot;pong&quot;
+</code></pre><p>whatever is returned is send as a message back to the user. In this case, pong</p>
+<h3 id="make-this-plugin-seen">Make this plugin seen</h3>
+<p>To enable this plugin we can manually edit <code>plugins.conf</code> file and add <code>;;PingPong</code> to the default_plugins_to_load list. Then launch the bot.</p>
+<h2 id="pattern-matching">Pattern matching</h2>
+<p>Pattern matching is an brain twister. Read Python docs of <a href="https://docs.python.org/3.4/library/re.html">re module</a> to know how this works.</p>
+<h2 id="advanced">Advanced</h2>
+<p>Plugins are even more fun when you can effectively use git to keep your plugin updated and curate plugins in a repository. Checkout <a href="https://github.com/datamachine/telegram-pybot-emoticons">telegram-pybot-emoticons</a> to see a simple sample plugin structure.<br>The plugin repository structure can be seen <a href="https://github.com/datamachine/telegram-pybot-plugin-repo">here</a>. Although, a word of caution, there&#39;s a very good chance that this architecture will be overhauled soon.</p>
+<h2 id="iteration">Iteration</h2>
+<p>This page goes through an iterative write-feedback-improve cycle. Please <a href="../about/#contact">give me ideas</a> of how to improve this page.</p>
+
+  </article>
+  <aside class="share separator separatorpipe" role="complementary">
+    Share this »
+    <a target="_blank" href="http://sharetodiaspora.github.io/?title=Datamachine's telegram-pybot - building a bot for yourself | Learn Learnin'&url=http://learnlearn.in/telegram-pybot/">diaspora*</a>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/telegram-pybot/">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/telegram-pybot/">Twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/telegram-pybot/">Google+</a>
+    <a target="_blank" href="mailto:?subject=Datamachine's telegram-pybot - building a bot for yourself | Learn Learnin'&body=Check this out: http://learnlearn.in/telegram-pybot/">Email</a>
+    <a target="_blank" href="https://telegram.me/share/url?url=Datamachine's telegram-pybot - building a bot for yourself | Learn Learnin' - &url=http://learnlearn.in/telegram-pybot/"> Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=Datamachine's telegram-pybot - building a bot for yourself | Learn Learnin' - http://learnlearn.in/telegram-pybot/">Whatsapp</a>
+  </aside>
+  <footer id="footer" class="separator separatorpipe">
+    <a href="/keep-in-touch/#comments">Comment</a>
+    <a href="/about/">About</a>
+    <a href="/"> Home</a>
+    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <br>
+    <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
+      <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>
+      <input id="search_button_homepage" type="submit" value="Duck!"/>
+    </form>
+  </footer>
+  <script defer="defer"  src="/main.js"></script>
+  
+</body>
+</html>

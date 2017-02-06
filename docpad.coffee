@@ -52,7 +52,6 @@ docpadConfig = {
     cleanurls:
       trailingSlashes: true
       collectionName: "cleanurls"
-      static: false
     marked:
       markedOptions:
         pedantic: false

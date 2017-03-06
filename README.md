@@ -3,7 +3,7 @@ Learn Learnin'
 
 Learn Learnin' is the quintessential insight aggreggator
 
-Read [about the site](http://learnlearn.in/about/).
+Read [about the site](https://learnlearn.in/about/).
 
 This is a personal project. I do not mind accepting contributions, but please keep in mind that things are/will be written from my point of view.
 

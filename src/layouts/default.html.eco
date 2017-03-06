@@ -17,7 +17,7 @@
   <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
   <%- @getBlock('styles').add(@document.styles).toHTML() %>
-  <link href="//asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+  <link href="https://asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
 </head>
 <body>
   <header>
@@ -35,8 +35,8 @@
   </article>
   <aside class="share separator separatorpipe" role="complementary">
     Share this »
-    <a target="_blank" href="http://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a>
-    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a>
+    <a target="_blank" href="https://sharetodiaspora.github.io/?title=<%= @getPreparedTitle() %>&url=<%= @getAbsoluteUrl() %>">diaspora*</a>
+    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<%= @getAbsoluteUrl() %>">Facebook</a>
     <a target="_blank" href="https://twitter.com/intent/tweet?url=<%= @getAbsoluteUrl() %>">Twitter</a>
     <a target="_blank" href="https://plus.google.com/share?url=<%= @getAbsoluteUrl() %>">Google+</a>
     <a target="_blank" href="mailto:?subject=<%= @getPreparedTitle() %>&body=Check this out: <%= @getAbsoluteUrl() %>">Email</a>
@@ -47,7 +47,7 @@
     <a href="/keep-in-touch/#comments">Comment</a>
     <a href="/about/">About</a>
     <a href="/"> Home</a>
-    <a href="http://asd.learnlearn.in">Follow ASD</a>
+    <a href="https://asd.learnlearn.in">Follow ASD</a>
     <br>
     <form id="ducksearch" name="ducksearch" action="https://duckduckgo.com/" target="_top">
       <input type="search" class="search-bar" autocomplete="off" name="q" id="searchinput"  placeholder="Search this site" value=" site:learnlearn.in "/>

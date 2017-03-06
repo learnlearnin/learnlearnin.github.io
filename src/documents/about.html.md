@@ -1,11 +1,11 @@
 ---
 title: "About this whole thing"
 description: "This site is very confusing unless you read this about page"
-scripts: ["http://platform.twitter.com/widgets.js"]
+scripts: ["https://platform.twitter.com/widgets.js"]
 ---
 
 ## Why ##
-So, once upon a time there was [a guy](http://asd.learnlearn.in/about/) with a lot of free time and a lot of things to talk about.
+So, once upon a time there was [a guy](https://asd.learnlearn.in/about/) with a lot of free time and a lot of things to talk about.
 He decided that the best way to share his ideas for the world is to put it all on the web.
 But there was a problem. He never really was satisfied with the usability of the site.
 

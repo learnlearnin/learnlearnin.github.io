@@ -5,11 +5,10 @@ pages:
     paths:
     - node_modules/
   script:
-  - npm install docpad -g
   - npm install
-  - npm run generate
+  - node node_modules/docpad/bin/docpad generate -o public --env static
   artifacts:
     paths:
-    - out
+    - public
   only:
   - source

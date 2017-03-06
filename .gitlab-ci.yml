@@ -1,0 +1,15 @@
+image: node:7.7
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - npm install docpad -g
+  - npm install
+  - npm run generate
+  artifacts:
+    paths:
+    - out
+  only:
+  - source

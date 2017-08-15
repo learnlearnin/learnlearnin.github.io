@@ -22,7 +22,7 @@ There is very little organized information about medicine on the Internet. There
 I believe in [learning](./learning/) things as efficiently as possible. If you are a learner and want to learn any of the things I am interested in with me, please [contact me](./about/#contact)
 
 ## Philosophy ##
-I am a rationalist, I call myself an atheist, and I usually am proactive in getting involved in religious issues because there are [issues in religion](../issues-in-religion/). I am a [feminist](./feminism/). My core values are [Gandhian](./gandhianism/).
+I am a rationalist, I call myself an atheist, and I usually am proactive in getting involved in religious issues because there are [issues in religion](../issues-in-religion/). I am a [feminist](./feminism/). My core values are [Gandhian](./gandhianism/). I used to like thinking about [spirituality](./spirituality/).
 
 Read more about [my likes](./things-i-love/) and [dislikes](./things-i-hate/)
 

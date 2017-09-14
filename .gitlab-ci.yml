@@ -14,3 +14,6 @@ pages:
     - public
   only:
   - source
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive

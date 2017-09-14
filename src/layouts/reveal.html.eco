@@ -19,6 +19,7 @@
   <link href="https://asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
   <link rel="stylesheet" href="/reveal.js/css/reveal.css">
   <link rel="stylesheet" href="/reveal.js/css/theme/white.css">
+  <link rel="stylesheet" href="/reveal-extra.css">
 </head>
 <body>
   <script type="text/javascript">
@@ -33,6 +34,7 @@
     </div>
   </div>
   <script src="/reveal.js/js/reveal.js"></script>
+  <script src="/reveal.js/plugin/zoom-js/zoom.js" charset="utf-8"></script>
   <script>
     Reveal.initialize();
   </script>

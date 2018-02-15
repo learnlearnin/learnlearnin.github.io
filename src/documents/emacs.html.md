@@ -12,3 +12,5 @@ Emacs has to be taught of as a programming language, rather than as a text edito
 Everything in emacs is a lisp function call.
 
 Follow braveclojure
+
+If you are going to try emacs, you may as well try [spacemacs](http://spacemacs.org/)

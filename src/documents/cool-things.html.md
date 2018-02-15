@@ -15,3 +15,6 @@ The [web](../web/) is full of cool things. Here are some:
 
 ## Electronics ##
 * [The Megaprocessor](http://www.megaprocessor.com/) - Walk-in microprocessor.
+
+## Blogs ##
+* [Noufal Ibrahim](http://nibrahim.net.in/)

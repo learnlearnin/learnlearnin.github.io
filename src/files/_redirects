@@ -1,3 +1,4 @@
 # Redirects from what the browser requests to what we serve
 /urlhosted https://urlhosted.learnlearn.in
+/urlhosted/* https://urlhosted.learnlearn.in/:splat
 

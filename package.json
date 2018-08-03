@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "The quintessential insight aggregator",
   "engines": {
-    "node": "4",
-    "npm": "3"
+    "node": "8",
+    "npm": "5"
   },
   "dependencies": {
     "docpad": "~6.80.6",

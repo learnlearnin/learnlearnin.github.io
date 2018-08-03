@@ -46,3 +46,11 @@ By its nature, the latter three takes some time while doing. And that is probabl
 I like [open book exams](http://www.iiserpune.ac.in/~mohanan/educ/openbook.pdf). It is difficult for a teacher to create an open book question paper and that is probably why these kind of tests are rarely seen.
 
 I like frequent examinations. Once a week is ideal.
+
+## Specialization ##
+
+[I love this illustrated guide to PhD](http://matt.might.net/articles/phd-school-in-pictures/) by the wonderful [Professor Matt Might](http://matt.might.net/articles/tenure/). What I like about it is not that doing PhD helps you make a dent in the circle of all human knowledge. It is that even if you do PhD you can make only a very small dent in the circle.
+
+Sure that excites some people. But what really excites me is the prospect of being able to cover as much area as possible of the circle. I believe in [despecialization](https://bigthink.com/praxis/how-to-be-a-polymath).
+
+It might make sense for at least some people to learn multiple things as this broad knowledge might generate crucial insights that can solve certain problems of the world. Besides, learning is fun and there is no reason one should restrict oneself to one or two particular topics.

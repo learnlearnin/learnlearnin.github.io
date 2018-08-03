@@ -46,9 +46,6 @@ docpadConfig = {
       @getCollection("html").findAllLive({cleanurls: $ne: false})
 
   plugins:
-    ghpages:
-      deployRemote:"origin"
-      deployBranch:"master"
     cleanurls:
       trailingSlashes: true
       collectionName: "cleanurls"

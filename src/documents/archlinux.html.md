@@ -41,3 +41,62 @@ I was using lightdm as the DM but then Gnome Shell's screen lock won't work with
 
 ### Other applications ###
 [List of my preferred applications](../applications/)
+
+
+## Server ##
+On a server running archlinux, my configuration would be roughly like this:
+
+As root
+```
+pacman -Syu
+pacman -S zsh
+useradd -m -G adm,wheel -s /bin/zsh yourpreferredusername
+visudo
+```
+
+Uncomment the line which allows users in group wheel to execute commands without sudo.
+
+`%wheel ALL=(ALL) NOPASSWD: ALL`
+
+```
+sudo -i -u yourpreferredusername
+```
+
+Now you are working as your user. Let's setup logging in first.
+
+```
+mkdir .ssh
+chmod 700 .ssh
+cd .ssh
+touch authorized_keys
+chmod 600 authorized_keys
+```
+
+Now you put your public key inside authorized keys
+
+```
+echo "ssh-rsa thelongrsapublickeywithrandomasdkfjaslkdjfaklsdfjlaskdjflaksjdflaksjdflkasjdflkajsflkjasldfkjaslkdfjlaksdfjlaskjdfkalsdjflaksjdflkasdflasdflkjwflkasjdfalkjflksjdflaksjdflkasjfdlaskjdf comment" >> authorized_keys
+```
+Now you exit the root and login as admin
+
+Secure up your installation by locking root login
+```
+sudo passwd -l root
+```
+
+Edit sshd to change a few other security settings. `PermitRootLogin no` and `PasswordAuthentication no`
+
+
+Change hostname
+
+```
+sudo hostnamectl set-hostname server.example.com
+```
+
+Follow various other options in [secure archlinux](https://wiki.archlinux.org/index.php/Security)
+
+Enjoy. I install [my preferred applications](../applications/) at this point.
+
+```
+sudo pacman -S git python mosh tmux
+```

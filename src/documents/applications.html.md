@@ -28,6 +28,9 @@ This is probably a subset of that.
 * Synapse - file launcher
 * [Redshift](http://jonls.dk/redshift/) - color adjustment
 
+## Shell ##
+* ZSH with [oh-my-zsh](https://ohmyz.sh)
+
 ## Documents ##
 * okular - for pdf
 * kchmviewer - for chm

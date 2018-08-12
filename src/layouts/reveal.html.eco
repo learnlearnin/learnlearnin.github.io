@@ -18,7 +18,11 @@
   <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
   <link href="https://asd.learnlearn.in/feed.atom" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
   <link rel="stylesheet" href="/reveal.js/css/reveal.css">
-  <link rel="stylesheet" href="/reveal.js/css/theme/white.css">
+  <% if @document.theme: %>
+    <link rel="stylesheet" href="/reveal.js/css/theme/<%- @document.theme %>.css">
+  <% else: %>
+    <link rel="stylesheet" href="/reveal.js/css/theme/white.css">
+  <% end %> 
   <link rel="stylesheet" href="/reveal-extra.css">
 </head>
 <body>

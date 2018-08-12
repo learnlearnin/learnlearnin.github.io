@@ -38,6 +38,5 @@ Tools like [gulp.js](../gulpjs/) and yeoman allows you to automate most of the s
 ## Test ##
 [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
-
 ## Resources ##
 * [Interneting is Hard](https://internetingishard.com/)

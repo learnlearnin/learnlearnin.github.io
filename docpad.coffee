@@ -30,7 +30,7 @@ docpadConfig = {
       if @document.title
         "#{@document.title} | #{@site.title}"
       else
-        @site.title
+        "#{@document.basename} | #{@site.title}"
     getPreparedDescription: ->
       @document.description or @site.description
     getPreparedKeywords: ->
@@ -41,7 +41,10 @@ docpadConfig = {
   collections:
     posts: ->
       @getCollection("html").findAllLive({write:true}).on 'add', (model) ->
-        model.setMetaDefaults({layout:"default", cleanurls: true})
+        if(model.toJSON().relativeOutDirPath=='man')
+          model.setMetaDefaults({layout:"manpage", cleanurls: true})
+        else
+          model.setMetaDefaults({layout:"default", cleanurls: true})
     cleanurls: ->
       @getCollection("html").findAllLive({cleanurls: $ne: false})
 

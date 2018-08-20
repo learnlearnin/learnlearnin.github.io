@@ -42,9 +42,12 @@ docpadConfig = {
     posts: ->
       @getCollection("html").findAllLive({write:true}).on 'add', (model) ->
         if(model.toJSON().relativeOutDirPath=='man')
-          model.setMetaDefaults({layout:"manpage", cleanurls: true})
+          description = "Simple manual for the " + model.toJSON().basename + " command"
+          model.setMetaDefaults({layout:"manpage", cleanurls: true, description: description})
         else
           model.setMetaDefaults({layout:"default", cleanurls: true})
+    manpages: ->
+      @getCollection("html").findAllLive({layout: "manpage"})
     cleanurls: ->
       @getCollection("html").findAllLive({cleanurls: $ne: false})
 

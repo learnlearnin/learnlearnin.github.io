@@ -23,7 +23,8 @@
 <body>
   <header>
     <a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
-    <a href=""><h1><%= @document.title || @document.basename || @site.title %></h1></a>
+    <h3><a href="../">man</a></h3>
+    <h1><a href=""><%= @document.title || @document.basename || @site.title %></a></h1>
   </header>
   <article role="main">
     <% if @document.img: %>

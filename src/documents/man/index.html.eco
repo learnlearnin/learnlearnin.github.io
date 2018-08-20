@@ -1,0 +1,11 @@
+<ul>
+    <% for page in @getCollection("manpages").toJSON(): %>
+        <% if page.id isnt @document.id : %>
+            <li>
+                <a href="<%= page.url %>">
+                    <%= page.title %>
+                </a>
+            </li>
+        <% end %>
+    <% end %>
+</ul>

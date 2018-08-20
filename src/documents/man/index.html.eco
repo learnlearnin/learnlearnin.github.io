@@ -1,9 +1,12 @@
+---
+title: "man"
+---
 <ul>
     <% for page in @getCollection("manpages").toJSON(): %>
         <% if page.id isnt @document.id : %>
             <li>
                 <a href="<%= page.url %>">
-                    <%= page.title %>
+                    <%= page.basename %>
                 </a>
             </li>
         <% end %>

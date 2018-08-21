@@ -22,7 +22,6 @@
     "grunt-contrib-uglify": "^0.7.0",
     "util": "^0.10.3"
   },
-  "main": "node node_modules/.bin/docpad run",
   "scripts": {
     "start": "node node_modules/.bin/docpad run --env static",
     "generate": "node node_modules/.bin/docpad generate --env static"

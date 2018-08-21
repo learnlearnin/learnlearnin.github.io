@@ -1,3 +1,6 @@
 [submodule "src/files/reveal.js"]
 	path = src/raw/reveal.js
 	url = git://github.com/hakimel/reveal.js.git
+[submodule "src/documents/man"]
+	path = src/documents/man
+	url = git@gitlab.com:learnlearnin/man.git

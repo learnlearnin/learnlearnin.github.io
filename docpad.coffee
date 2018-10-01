@@ -24,6 +24,7 @@ docpadConfig = {
       ]
       # The JavaScript files for the site.
       scripts: [
+        "/pjax.min.js",
         "/main.js"
       ]
     getPreparedTitle: ->

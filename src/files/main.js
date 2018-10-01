@@ -30,6 +30,17 @@ function scrollToHash(){
   return;
 }
 
+function pjax(){
+  var pjax = new Pjax({
+    cacheBust: false,
+    selectors: [
+      "title",
+      "meta",
+      "body"
+    ]
+  });
+}
+
 window.onload = function (){
   scrollToHash();
 	permalinks();
@@ -43,5 +54,6 @@ window.onload = function (){
 			document.ducksearch.q.value = 'about site:learnlearn.in';
 		}
 	  return true;
-	});
+    });
+  pjax();
 };

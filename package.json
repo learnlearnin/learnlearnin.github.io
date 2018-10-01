@@ -20,10 +20,12 @@
     "fs": "0.0.2",
     "grunt": "^0.4.5",
     "grunt-contrib-uglify": "^0.7.0",
+    "pjax": "^0.2.7",
     "util": "^0.10.3"
   },
   "scripts": {
-    "start": "node node_modules/.bin/docpad run --env static",
-    "generate": "node node_modules/.bin/docpad generate --env static"
+    "pjax": "cp node_modules/pjax/pjax.min.js src/files/pjax.min.js",
+    "start": "npm run pjax && node node_modules/.bin/docpad run --env static",
+    "generate": "npm run pjax && node node_modules/.bin/docpad generate --env static"
   }
 }

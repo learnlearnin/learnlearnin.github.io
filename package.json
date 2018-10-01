@@ -26,7 +26,7 @@
   },
   "scripts": {
     "assets": "cp node_modules/pjax/pjax.min.js src/files/pjax.min.js && cp node_modules/topbar/topbar.min.js src/files/topbar.min.js",
-    "start": "npm run assets && node node_modules/.bin/docpad run --env static",
-    "generate": "npm run assets && node node_modules/.bin/docpad generate --env static"
+    "start": "node node_modules/.bin/docpad run --env static",
+    "generate": "node node_modules/.bin/docpad generate --env static"
   }
 }

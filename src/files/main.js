@@ -30,6 +30,28 @@ function scrollToHash(){
   return;
 }
 
+function topbarInit(){
+  document.addEventListener('pjax:send', topbar.show);
+  document.addEventListener('pjax:complete', topbar.hide);
+}
+
+function whenDOMReady(){
+  scrollToHash();
+  permalinks();
+  sharebuttons();
+  document.ducksearch.q.value="";
+  document.getElementById("ducksearch").addEventListener('submit', function(){
+    if (document.ducksearch.q.value){
+	  document.ducksearch.q.value += ' site:learnlearn.in';
+	}
+	else {
+	  document.ducksearch.q.value = 'about site:learnlearn.in';
+	}
+	return true;
+  });
+  topbarInit();
+}
+
 function pjax(){
   var pjax = new Pjax({
     cacheBust: false,
@@ -39,23 +61,10 @@ function pjax(){
       "body"
     ]
   });
-  document.addEventListener('pjax:send', topbar.show);
-  document.addEventListener('pjax:complete', topbar.hide);
+  document.addEventListener('pjax:success', whenDOMReady)
 }
 
 window.onload = function (){
-  scrollToHash();
-	permalinks();
-	sharebuttons();
-	document.ducksearch.q.value="";
-	document.getElementById("ducksearch").addEventListener('submit', function(){
-		if (document.ducksearch.q.value){
-			document.ducksearch.q.value += ' site:learnlearn.in';
-		}
-		else {
-			document.ducksearch.q.value = 'about site:learnlearn.in';
-		}
-	  return true;
-    });
   pjax();
+  whenDOMReady();
 };

@@ -21,11 +21,12 @@
     "grunt": "^0.4.5",
     "grunt-contrib-uglify": "^0.7.0",
     "pjax": "^0.2.7",
+    "topbar": "^0.1.3",
     "util": "^0.10.3"
   },
   "scripts": {
-    "pjax": "cp node_modules/pjax/pjax.min.js src/files/pjax.min.js",
-    "start": "npm run pjax && node node_modules/.bin/docpad run --env static",
-    "generate": "npm run pjax && node node_modules/.bin/docpad generate --env static"
+    "assets": "cp node_modules/pjax/pjax.min.js src/files/pjax.min.js && cp node_modules/topbar/topbar.min.js src/files/topbar.min.js",
+    "start": "npm run assets && node node_modules/.bin/docpad run --env static",
+    "generate": "npm run assets && node node_modules/.bin/docpad generate --env static"
   }
 }

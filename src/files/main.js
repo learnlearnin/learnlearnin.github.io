@@ -39,6 +39,8 @@ function pjax(){
       "body"
     ]
   });
+  document.addEventListener('pjax:send', topbar.show);
+  document.addEventListener('pjax:complete', topbar.hide);
 }
 
 window.onload = function (){

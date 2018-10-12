@@ -1,0 +1,21 @@
+media_folder: "src/files/uploads"
+public_folder: "uploads"
+
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "src/documents"
+    create: true
+    slug: "{{slug}}.html"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Keywords", name: "keywords", widget: "list"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+backend:
+  name: gitlab
+  repo: learnlearnin/learnlearnin.gitlab.io
+  auth_type: implicit
+  app_id: 2769da40d3710a8dbf89545d606803278efe33332fbebbd502d61869b5cb0a73
+

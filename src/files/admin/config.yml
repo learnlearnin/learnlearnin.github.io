@@ -18,6 +18,7 @@ collections:
 backend:
   name: gitlab
   repo: learnlearnin/learnlearnin.gitlab.io
+  branch: source
   auth_type: implicit
   app_id: 2769da40d3710a8dbf89545d606803278efe33332fbebbd502d61869b5cb0a73
 

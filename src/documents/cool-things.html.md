@@ -18,3 +18,6 @@ The [web](../web/) is full of cool things. Here are some:
 
 ## Blogs ##
 * [Noufal Ibrahim](http://nibrahim.net.in/)
+
+## Music ##
+* [Mixcloud](https://mixcloud.com)

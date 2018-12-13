@@ -42,6 +42,10 @@ Synthesis is when we come up with alternative solutions to problems we discover 
 
 By its nature, the latter three takes some time while doing. And that is probably why students avoid these. Time management might help.
 
+## Learning Pit ##
+
+Learning is challenging for everyone. If there is no challenge, either there is no new learning or you aren't doing it correctly. The pit is that point in time when you are trying to learn but nothing is happening. Learning is all about going into the pit and then climbing back up. [Read more about it in James Nottingham's blog](https://sustainedsuccess.blogspot.com/2009/06/learning-pit.html)
+
 ## Exams ##
 I like [open book exams](http://www.iiserpune.ac.in/~mohanan/educ/openbook.pdf). It is difficult for a teacher to create an open book question paper and that is probably why these kind of tests are rarely seen.
 

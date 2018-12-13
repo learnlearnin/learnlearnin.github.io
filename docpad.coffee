@@ -20,7 +20,8 @@ docpadConfig = {
         """
       # The cascading stylesheets for the site.
       styles: [
-        "/main.css"
+        "/main.css",
+        "https://use.typekit.net/tmh0gxo.css"
       ]
       # The JavaScript files for the site.
       scripts: [

@@ -15,7 +15,7 @@ So, why does the CCR5-Δ32 mutation confer protection from only some strains? To
 
 [HIV-1 receptors and cell tropism](https://academic.oup.com/bmb/article/58/1/43/337216) is a free article from British Medical Bulletin which you can read if you know something about fusion in lifecycle of HIV. Otherwise, come back here once you finish reading about fusion. This article talks about how gp120 connects with CD4 and then how the co-receptor CCR5 is important for entry, but also how even in people with CCR5-Δ32 mutation who didn't have CCR5 HIV was found which led to the knowledge that CXCR4 can also be a co-receptor. It also talks about so many other co-receptors (which aren't really active in vivo but helps in binding when the concentration of CD4 is low)
 
-[HIV-1 Coreceptor Use: A Molecular Window into Viral Tropism](https://www.hiv.lanl.gov/content/sequence/HIV/REVIEWS/doms.html) (a review article by the HIV databases project hosted by Los Alamos National Laboratory) 
+[HIV-1 Coreceptor Use: A Molecular Window into Viral Tropism](https://www.hiv.lanl.gov/content/sequence/HIV/REVIEWS/doms.html) (a review article by the HIV databases project hosted by Los Alamos National Laboratory)
 
 [Understanding HIV Tropism](https://www.prn.org/index.php/management/article/hiv_tropism_1002) article on Physician's Research Network has nice photos that explain all of these facts and more.
 
@@ -42,3 +42,7 @@ One important factor to remember is that most of the resistance studies have bee
 
 ## Replication Cycle ##
 [Neat diagram about HIV Replication Cycle on Viral Zone](https://viralzone.expasy.org/5096)
+
+## Chronic Care ##
+
+Watch [this video by Dr Gordon Liu](https://www.youtube.com/watch?v=Mz4n2unyj04) to know about chronic inflammation, cancer screening, [depression](../mental-health/#depression) and other aspects of primary care in HIV.

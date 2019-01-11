@@ -1,5 +1,5 @@
 ---
-title: Donte
+title: Donate
 description: Donate to support continued work
 keywords: donate
 ---

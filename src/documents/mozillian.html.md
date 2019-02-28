@@ -82,4 +82,6 @@ Towards the end of 2015, Mozilla India was not making the impact it should. And 
 
 ---
 
-*to be continued indefinitely*
+~~*to be continued indefinitely*~~
+
+I decided to end calling myself a Mozillian when Mozilla finally figured out that [contributing to Mozilla is essentially impossible now](https://discourse.mozilla.org/t/catalyzing-diverse-communities-in-india-2019-strategy/36218).

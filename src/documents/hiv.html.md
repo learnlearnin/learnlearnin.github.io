@@ -43,6 +43,12 @@ One important factor to remember is that most of the resistance studies have bee
 ## Replication Cycle ##
 [Neat diagram about HIV Replication Cycle on Viral Zone](https://viralzone.expasy.org/5096)
 
+## Acute HIV ##
+
+What is acute HIV? Does it present with any symptoms?
+
+Read up [Fiebig staging](https://www.projectinform.org/glossary/fiebig-stages/)
+
 ## Chronic Care ##
 
 Watch [this video by Dr Gordon Liu](https://www.youtube.com/watch?v=Mz4n2unyj04) to know about chronic inflammation, cancer screening, [depression](../mental-health/#depression) and other aspects of primary care in HIV.

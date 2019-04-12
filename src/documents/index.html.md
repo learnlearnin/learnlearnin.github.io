@@ -18,6 +18,8 @@ You might also want to explore [all the apps I like](./applications/) and read a
 ## Medicine ##
 There is very little organized information about medicine on the Internet. There is no go-to website for a medical student to visit and read to their mind's content when they are bored. I plan to do something towards this here. Right now I have a couple of links for you: [ophthalmology](./ophthalmology/), [dermatology](./dermatology/), [obstetrics](./obstetrics/)
 
+Also read this [list of cool resources for medicine](./medicine-resources/)
+
 ## Learning ##
 I believe in [learning](./learning/) things as efficiently as possible. If you are a learner and want to learn any of the things I am interested in with me, please [contact me](./about/#contact)
 

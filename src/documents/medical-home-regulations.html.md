@@ -70,18 +70,54 @@ After online submission there will be inspection of the facility
 
 ### Karnataka State Pollution Control Board ###
 
-KSPCB takes care of air, water, waste, etc. [Forms are available online](https://www.kspcb.gov.in/downloadableforms.html)
+KSPCB takes care of air, water, waste, etc. [Forms are available online](https://www.kspcb.gov.in/downloadableforms.html).
 
+Which consents are required depends on the [category of industry](https://www.kspcb.gov.in/consentCategory.html). Red category includes health-care establishment (as defined in BMW rules). But white category includes non-bedded HCEs and HCEs less than 30 beds.
+
+[Link to BMW rules, 2016](http://mpcb.gov.in/biomedical/pdf/BMW_Rules_2016.pdf) (from Maharashtra's website)
+[Amendment in 2018](https://www.kspcb.gov.in/BMW-(A)Rules-2016.pdf)
+[Amendment in 2019](https://www.kspcb.gov.in/BMW-(A)Rules-2016.pdf)
+
+#### Biomedical waste ####
+
+If one considers a "clinic", which should come under white category, there are is at least one form to be filled as per BMW rules.
+
+That is: [Form No. II Under Bio Medical Waste (Management & Handling) Rules 2016 [Rule(10)]](https://www.kspcb.gov.in/BMW_FormII.pdf) - Application For Authorization or Renewal Of Authorization(Management & Handling) Rules 2016
+
+The rule 10 also says "The authorisation shall be one  time  for non-bedded occupiersand  the  authorisation in such  cases shall be deemed to have been granted, if not objected by the prescribed authority within a period of ninety  days  from  the  date  of  receipt  of  duly  completed  application  along  with  such  necessary documents."
+
+#### Water Cess ####
+
+Monthly returns regarding water consumption have to be made and the form is available on this website.
+[Rules](http://cpcb.nic.in/displaypdf.php?id=aG9tZS93YXRlci1wb2xsdXRpb24vR1NSLTM3OEUucGRm)
+[Act](http://cpcb.nic.in/displaypdf.php?id=aG9tZS93YXRlci1wb2xsdXRpb24vRG9jMi5wZGY=)
 
 ### PCPNDT ###
 
+Required only if scanning facility. [Here is the act book](http://www.pcpndt.karnataka.gov.in/PDFs/PCPNDT%20Act%20Book%20English.pdf)
+
 ### VAT ###
+
+Possibly replaced by [GST](#gst)
 
 ### Service Tax ###
 
+Possibly replaced by [GST](#gst)
+
+### GST ###
+
+We are now in GST regime. Everything is based on GST - credit, debit, blah blah. There are books written about GST.
+
+[Services provided by health care services by a clinical establishment, an authorised medical practitioner or para-medics](http://ctax.kar.nic.in/latestupdates/602%20-%20IVA%20-%20FD%2048%20CSL%202017-12.pdf) may not come under GST.
+
+
 ### Professional Tax ###
 
+On behalf of employees, professional tax may have to be paid. [Online](http://pt.kar.nic.in/)
+
 ### BBMP ###
+
+You may have to make sure the property that the clinic operates out of is in a [commerical area](http://bbmp.gov.in/documents/10180/504904/Zoning_Regulations_RMP2015f.pdf/0a916060-b198-4903-b7cd-d18db7096ebd).
 
 ### Medicare Waste Management ###
 

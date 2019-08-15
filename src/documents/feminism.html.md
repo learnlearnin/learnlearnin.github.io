@@ -7,11 +7,11 @@ I am a feminist.
 
 That is, I believe that men and women are born equal and that any apparent differences in their capacities are only a result of biased interaction with the environment which we must strive to remove.
 
-Currently in practice, there are two kinds of feminism.
-1. The sensible feminism which is inclusive of both genders and aims at bringing together both genders.
-2. [The extremism where women label everything that a man does/says "sexist" and attack men whenever possible.](#extremist-feminism)
-
-It is obvious that I belong to the first category.
+In practice, there are multiple kinds of feminism
+* The sensible feminism which is inclusive of both genders and aims at bringing together both genders. (HeForShe, etc)
+* White feminism - which is focused on breaking glass cielings and often misses the perspectives of race, caste, etc.
+* [Intersectional feminism](#intersectional-feminism) - which speaks about the additive effect of belonging to oppressed race, caste, etc that adds colour to the discourse about feminism
+* [The extremism where women label everything that a man does/says "sexist" and attack men whenever possible.](#extremist-feminism)
 
 ## Discrimination ##
 Gender discrimination is so prevalent and systematized that we often fail to see where they exist. Here's a list of links which point things out:
@@ -38,6 +38,10 @@ But she also featured in this Vogue campaign called ["My Choice"](https://www.yo
 
 She apparently holds this opinion on feminism:
 > "New feminism isn't about being aggressive; it's about reaching the top yet being soft. It's about being you — feminine, strong and full of will power." <footer>[Consumer India](http://books.google.co.in/books?id=Uw-XCvE9G4YC&q=new+feminism#v=snippet&q=new%20feminism&f=false)</footer>
+
+## Intersectional Feminism ##
+
+White feminism usually answers questions like "[Does reverse sexism exist?](https://asd.learnlearn.in/reverse-sexism/)" with "No". But in intersectional feminism, the answer is "it is complicated"
 
 ## Extremist Feminism ##
 Extremist feminism is what some irrational females end up doing by blaming men for any action they do. They would even consider using the word "female" as a sexist remark.

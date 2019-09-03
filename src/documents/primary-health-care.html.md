@@ -9,6 +9,8 @@ What are some of the business models in primary health care?
 
 ## Organizations ##
 
+
+
 ### Rural Health Collective ###
 
 The rural health collective is a group of organisations involved in rural
@@ -16,7 +18,7 @@ health work:
 
 1. Ashwini, Gudalur, Tamil Nadu http://ashwini.org/new/
 
-2. Basic Health Services, Rajasthan https://bhs.org.in/
+2. Basic Health Services, Rajasthan https://bhs.org.in/ - high quality, low cost primary health care to last mile communities
 
 3. Tribal Health Initiative, Sittilingi, Tamil Nadu
 http://www.tribalhealth.org/

@@ -33,6 +33,10 @@ What kind of virus is HIV? Lentivirus? What is that? All answered in [this page 
 
 Here is another [page on the HIV-1 subtypes](https://www.aidsmap.com/HIV-1-subtypes/page/1322996/) and on this page you will find a citation to [High replication fitness and transmission efficiency of HIV-1 subtype C from India: Implications for subtype C predominance](https://www.sciencedirect.com/science/article/pii/S0042682208008477) which helps you remember that subtype C is common in India.
 
+## Readings ##
+
+* [Top HIV/AIDS Research papers](https://academic.oup.com/ofid/article/6/8/ofz348/5546064)
+
 
 
 ## Resistance ##

@@ -1,0 +1,13 @@
+{
+  "addons": {
+    "pornunban@free.gen.in": {
+      "updates": [
+        {
+          "version": "0.0.3",
+          "update_link": "https://github.com/asdofindia/porn-unban/releases/download/v0.0.3/porn_unban-0.0.3-an+fx.xpi",
+          "update_info_url": "https://learnlearn.in/projects/porn-unban"
+        }
+      ]
+    }
+  }
+}

@@ -3,12 +3,14 @@ title: "Feminism"
 description: "A man and a woman are only as different as a man and another man or a woman and another woman are"
 keywords: feminism, gender equality
 ---
+**Update: This page was created while I still used to think of gender as binary + other. My understanding of gender has evolved to a form where gender is a fluid concept and this page is not yet updated to reflect that**
+
 I am a feminist.
 
 That is, I believe that men and women are born equal and that any apparent differences in their capacities are only a result of biased interaction with the environment which we must strive to remove.
 
 In practice, there are multiple kinds of feminism
-* The sensible feminism which is inclusive of both genders and aims at bringing together both genders. (HeForShe, etc)
+* The sensible feminism which is inclusive of all genders and aims at bringing together all genders. (HeForShe, etc)
 * White feminism - which is focused on breaking glass cielings and often misses the perspectives of race, caste, etc.
 * [Intersectional feminism](#intersectional-feminism) - which speaks about the additive effect of belonging to oppressed race, caste, etc that adds colour to the discourse about feminism
 * [The extremism where women label everything that a man does/says "sexist" and attack men whenever possible.](#extremist-feminism)

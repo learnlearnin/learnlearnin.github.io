@@ -15,3 +15,8 @@ keywords: copd, respiratory, lungs
 * Occupational exposure (espcially coal mine workers), ambient air pollution (urban, biomass) fade in comparison to smoking.
 * Respiratory infections are yet to be proved as an association.
 * Genetics - alpha 1 antitrypsin deficiency
+
+## Papers ##
+
+* [The Pathological Changes in Chronic Bronchitis and Emphysema - Lynne Reid(1958)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2501035/pdf/postmedj00494-0026.pdf)
+  * Review [histology of bronchial tree here](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html)

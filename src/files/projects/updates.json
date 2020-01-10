@@ -1,5 +1,14 @@
 {
   "addons": {
+    "blogger-navigate@free.gen.in": {
+      "updates": [
+        {
+          "version": "0.0.1",
+          "update_link": "https://github.com/asdofindia/blogger-navigate-extension/releases/download/v0.0.1/blogger_navigate-0.0.1-an+fx.xpi",
+          "update_info_url": "https://github.com/asdofindia/blogger-navigate-extension/releases/tag/v0.0.1"
+        }
+      ]
+    },
     "pornunban@free.gen.in": {
       "updates": [
         {

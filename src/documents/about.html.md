@@ -27,8 +27,5 @@ I am [ASD](//asd.learnlearn.in/about/)
 ## Contact ##
 [Contact me](http://asd.learnlearn.in/about/#contact)
 
-You can use this embedded shoutbox to reach me directly.
-<iframe src="https://kiwiirc.com/client/irc.mozilla.org/#asd" style="border:0; width:100%; height:450px;"></iframe>
-
 ### Latest Tweets ###
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/asdofindia" data-widget-id="580485866143019008">Tweets by @asdofindia</a>

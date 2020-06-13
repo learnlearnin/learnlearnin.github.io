@@ -9,3 +9,9 @@ keywords: cs, computer science, programming, coding
 * Do not copy paste code. Read code and type it out yourself from memory. ([Even protects you from Pastejacking](https://github.com/dxa4481/Pastejacking))
 * Use a text editor [you love](../atom-editor/)
 * Learn [software architecture](https://martinfowler.com/architecture/)
+
+
+## Resources ##
+
+* [The Amazon Builders' Library](https://aws.amazon.com/builders-library/)
+* [Venkat Subramaniam](https://www.youtube.com/results?search_query=venkat+subramaniam)

@@ -58,3 +58,9 @@ I like frequent examinations. Once a week is ideal.
 Sure that excites some people. But what really excites me is the prospect of being able to cover as much area as possible of the circle. I believe in [despecialization](https://bigthink.com/praxis/how-to-be-a-polymath).
 
 It might make sense for at least some people to learn multiple things as this broad knowledge might generate crucial insights that can solve certain problems of the world. Besides, learning is fun and there is no reason one should restrict oneself to one or two particular topics.
+
+## Tacit Knowledge ##
+
+There are certain things that are too hard to put in words. For example, in medical school experienced doctors might make a spot diagnosis (based on many perceptible and imperceptible signs) and try to explain why they made the diagnosis - and learners will be as confused as they were before, just nodding "yes". The reason is that the former doctor would have relied on tacit knowledge in pattern matching over those imperceptible signs. These, this doctor will not realize they've used in reaching a diagnosis and in turn the learners won't hear about these either.
+
+Read [this essay about why tacit knowledge is real](https://commoncog.com/blog/tacit-knowledge-is-a-real-thing/) and as many links as possible on that blog.

@@ -1,19 +1,21 @@
 ---
 title: "Feminism"
-description: "A man and a woman are only as different as a man and another man or a woman and another woman are"
-keywords: feminism, gender equality
+description: "Equality for all"
+keywords: feminism, equality
 ---
-**Update: This page was created while I still used to think of gender as binary + other. My understanding of gender has evolved to a form where gender is a fluid concept and this page is not yet updated to reflect that**
 
-I am a feminist.
+**Update: This page was initially written when I used to think of gender as a binary + other. But now I think of gender as a fluid concept and this page hasn't fully been updated to include that**
 
-That is, I believe that men and women are born equal and that any apparent differences in their capacities are only a result of biased interaction with the environment which we must strive to remove.
+I am an intersectional feminist.
 
-In practice, there are multiple kinds of feminism
-* The sensible feminism which is inclusive of all genders and aims at bringing together all genders. (HeForShe, etc)
+That is, I believe that there are a lot of inequalities in our society (gender, caste, race, etc in no particular order), that the effect of these inequalities get compounded disproportionately in the intersections, and that a lot of work is needed to eliminate such systemic oppression.
+
+In practice, there are multiple kinds of feminism. Let us go through some examples:
+* [HeForShe](https://www.heforshe.org/en) - a movement where the focus is on gender alone and explicitly wants to avoid misandry by including cis-men in the equation.
 * White feminism - which is focused on breaking glass cielings and often misses the perspectives of race, caste, etc.
-* [Intersectional feminism](#intersectional-feminism) - which speaks about the additive effect of belonging to oppressed race, caste, etc that adds colour to the discourse about feminism
+* [Intersectional feminism](#intersectional-feminism) - which speaks about the additive effect of belonging to an oppressed gender, race, caste, etc.
 * [The extremism where women label everything that a man does/says "sexist" and attack men whenever possible.](#extremist-feminism)
+* TERF - trans-exclusionary radical feminist.
 
 ## Discrimination ##
 Gender discrimination is so prevalent and systematized that we often fail to see where they exist. Here's a list of links which point things out:
@@ -43,7 +45,9 @@ She apparently holds this opinion on feminism:
 
 ## Intersectional Feminism ##
 
-White feminism usually answers questions like "[Does reverse sexism exist?](https://asd.learnlearn.in/reverse-sexism/)" with "No". But in intersectional feminism, the answer is "it is complicated"
+White feminism usually answers questions like "[Does reverse sexism exist?](https://asd.learnlearn.in/reverse-sexism/)" with "No". But in intersectional feminism, the answer is "it is complicated".
+
+Also read my post [Is Feminism Brahmanism](https://blog.learnlearn.in/2020/06/is-feminism-brahmanism.html)
 
 ## Extremist Feminism ##
 Extremist feminism is what some irrational females end up doing by blaming men for any action they do. They would even consider using the word "female" as a sexist remark.

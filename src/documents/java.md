@@ -16,3 +16,8 @@ Some other points I figured out:
 
 It will be tempting to use Hibernate. [But it is cake mix](https://vimeo.com/28885655). Use [jooq](jooq.org/) if you want. Or even [sql2o](https://www.sql2o.org/).
 
+### Web Development ###
+
+#### JAX-RS ####
+
+* [Intercepting Jersey resource method calls](https://blog.dejavu.sk/intercepting-jersey-resource-method-calls/)

@@ -1,17 +1,32 @@
 ---
 title: My favorite (preferred/used) applications
-keywords: apps, recommendations, linux,
+keywords: apps, recommendations, linux, android
 description: A collection of my favorite applications for each purposes.
 ---
 Arch Wiki has a [huge list of applications](https://wiki.archlinux.org/index.php/List_of_applications) for most things.
 This is probably a subset of that.
 
 ## Internet ##
+
+### General ###
+
 * [Firefox](../firefox/) - for web browsing
 * Transmission - for p2p
-* Thunderbird - for email
+* [FreshRSS](https://freshrss.github.io/) - for RSS
+
+### Communication ###
+
+#### Email ####
+
+* Thunderbird - Desktop
+* [FairMail](https://email.faircode.eu/) - Android
+
+#### Chat ####
+
 * [HexChat](http://hexchat.github.io/) - for IRC
-* [Brief firefox addon](https://addons.mozilla.org/firefox/addon/brief/) - for RSS
+* [Convos](https://github.com/Nordaaker/convos/) - for cloud IRC
+* [Element](https://element.io/) - for Matrix.org chat
+* Telegram - for large groups
 
 ## Multimedia ##
 * GIMP - for photo editing
@@ -22,20 +37,13 @@ This is probably a subset of that.
 * Kdenlive - for simple video editing
 
 ## Utilities ##
-* [Atom](http://atom.io/) - text editor
-* vim - you know.
-* [kitty](https://github.com/kovidgoyal/kitty) - a terminal emulator
-* Synapse - file launcher
+* vim - you know, but at the same time I like Emacs and VS Code too.
+* Intellij Idea for Java/Android projects
 * [Redshift](http://jonls.dk/redshift/) - color adjustment
 
 ## Shell ##
-* ZSH with [oh-my-zsh](https://ohmyz.sh)
+* ZSH
 
 ## Documents ##
-* okular - for pdf
-* kchmviewer - for chm
 * Calibre - for epub and everything!
 
-
-## Other ##
-[KDE](../kde/) - login manager, desktop environment, everything.

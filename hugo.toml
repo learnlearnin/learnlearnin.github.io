@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = "Learn Learnin'"
 
 theme = "learnlearnin"
+
+[markup.goldmark.renderer]
+unsafe = true

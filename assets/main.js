@@ -2,9 +2,6 @@
  * JavaScript for Learn Learnin'
  */
 
-const Pjax = require('./pjax.min.js')
-const topbar = require('./topbar.min.js')
-
 function permalinks(){
 	var headings=document.querySelectorAll("h2,h3,h4,h5,h6");
 	for (var i=0; i<headings.length; i++){
@@ -33,11 +30,6 @@ function scrollToHash(){
   return;
 }
 
-function topbarInit(){
-  document.addEventListener('pjax:send', topbar.show);
-  document.addEventListener('pjax:complete', topbar.hide);
-}
-
 function whenDOMReady(){
   scrollToHash();
   permalinks();
@@ -52,23 +44,10 @@ function whenDOMReady(){
 	}
 	return true;
   });
-  topbarInit();
 }
 
-function pjax(){
-  var pjax = new Pjax({
-    cacheBust: false,
-    selectors: [
-      "title",
-      "meta",
-      "body"
-    ]
-  });
-  document.addEventListener('pjax:success', whenDOMReady)
-}
 
 window.onload = function (){
-  pjax();
   whenDOMReady();
 };
 

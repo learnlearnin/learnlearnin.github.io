@@ -1,3 +1,21 @@
 {{ define "main" }}
-  {{ .Content }}
+    <article role="main">
+      {{ if .Params.img }}
+        <img class="articleimg" src="/images/{{ .Params.img }}">
+        <div class="imgattr">
+          {{ .Params.imgattr | safeHTML }}
+        </div>
+      {{ end }}
+      {{ .Content }}
+    </article>
+    <aside class="share separator separatorpipe" role="complementary">
+      Share this »
+      <a target="_blank" href="https://sharetodiaspora.github.io/?title={{ .Title }}&url={{ .Permalink }}">diaspora*</a>
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">Facebook</a>
+      <a target="_blank" href="https://twitter.com/intent/tweet?url={{ .Permalink }}">Twitter</a>
+      <a target="_blank" href="https://plus.google.com/share?url={{ .Permalink }}">Google+</a>
+      <a target="_blank" href="mailto:?subject={{ .Title }}&body=Check this out: {{ .Permalink }}">Email</a>
+      <a target="_blank" href="https://telegram.me/share/url?url={{ .Title }} - &url={{ .Permalink }}"> Telegram</a>
+      <a class="mobileshare" href="whatsapp://send?text={{ .Title }} - {{ .Permalink }}">Whatsapp</a>
+    </aside>
 {{ end }}

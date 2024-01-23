@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ printf "%s | %s" .Title site.Title }}</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var host = "learnlearn.in";
+    if ((host == window.location.host) && (window.location.protocol != 'https:')) {
+      window.location = window.location.toString().replace(/^http:/, "https:");
+    }
+  </script>
+  {{ if .Params.googlelink }}
+  <script type="text/javascript">
+    window.location = "{{ .Params.googlelink }}";
+  </script>  
+  {{ end }}
+
+  {{ .Content }}
+</body>
+</html>

@@ -1,0 +1,8 @@
+baseURL = 'https://learnlearn.in/'
+languageCode = 'en-us'
+title = "Learn Learnin'"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

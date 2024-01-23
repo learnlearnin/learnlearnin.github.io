@@ -1,28 +1,13 @@
-# v1.3.10 December 10, 2013
-# https://github.com/bevry/base
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-# Temp Files
-**/*.log
-**/.docpad.db
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# Build Files
-build/
-components/
-bower_components/
-node_modules/
-out/
-
-# =====================================
-# CUSTOM MODIFICATIONS
-
-src/files/vendor
-
-
-# vim swap
-*~
-*.swp
-*.swo
-
-config.py
-**/__pycache__
-src/temp/
+# Temporary lock file while building
+/.hugo_build.lock

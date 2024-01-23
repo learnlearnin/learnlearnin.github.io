@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+    <link rel="shortcut icon" type="image/png" href="/LofL.png" />
+    <link rel="apple-touch-icon" type="image/png" href="/LofL128.png" />
+{{ with .Params.relcanonical }}
+    <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
+{{ else -}}
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+{{ end -}}  
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}

@@ -14,11 +14,11 @@ Most websites run on old php frameworks like wordpress or drupal or joomla.
 Nowadays node based web servers are on a high. So is django and others.
 ### Static ###
 Static (html) websites are the latest thing among coders and programmers. Like [this website](https://github.com/learnlearnin/learnlearnin.github.io) itself.
-I use and love [docpad](../docpad/). But I've also used jekyll in the past. If you're starting on jekyll, you may as well checkout octopress.
+I use and love [hugo](./hugo/). I also use jekyll. This site used to be in [docpad](../docpad/) in the past.
 
 ## Coding ##
 ### IDE ###
-I use [atom editor](../atom-editor/) for coding web. Use autocomplete plugins, syntax highlighting, linter plugins (and beautifier if you can't write beautiful code on your own.)
+I use ~~[atom editor](../atom-editor/)~~ [visual studio code](https://code.visualstudio.com/) for coding web. Use autocomplete plugins, syntax highlighting, linter plugins (and beautifier if you can't write beautiful code on your own.)
 
 ### HTML ###
 Write accessible, valid HTML.

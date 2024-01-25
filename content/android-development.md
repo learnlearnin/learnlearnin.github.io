@@ -10,6 +10,10 @@ First and foremost, you need to know Java and possibly Kotlin too. That is to sa
 
 You also need to have Android Studio and a computer that can run Android Studio without crashing.
 
+### Gradle
+
+Gradle is complicated. Build a good mental model of how it works. For example, all the "configuration" you see are actually function calls [as this article explains](https://www.bruceeckel.com/2021/01/02/the-problem-with-gradle/). Then you read a [very passionate response to that by a gradle lover](https://melix.github.io/blog/2021/01/the-problem-with-gradle.html). Make sure you [saw this video turning complex build into a plugin](https://www.youtube.com/watch?v=MaansFoPHKg) and the [accompanying blog post](https://melix.github.io/blog/2019/11/gradle-scripting.html)
+
 ## Architecture patterns
 
 Listen to [Adam McNeilly talk about MVC, MVP, MVVM, and MVI](https://www.youtube.com/watch?v=T7A-JbJBjyg). That gives you a pretty good start on what these architectures do.
@@ -19,5 +23,4 @@ We will use Adam's [sampleapp](https://github.com/AdamMc331/MVWTF/tree/master/sa
 ## Model
 
 A model is the simplest thing to get started with. A model is like a plain old java object. But with one difference. It needs to be parcelable. [Why?](https://joaoalves.dev/posts/kotlin-playground/parcelable-in-kotlin-here-comes-parcelize/). One of the things with Android is that things keep getting destroyed. Read about Android activity life cycle for reading about this.
-
 

@@ -14,7 +14,7 @@ Some other points I figured out:
 
 ### Database / Persistence ###
 
-It will be tempting to use Hibernate. [But it is cake mix](https://vimeo.com/28885655). Use [jooq](jooq.org/) if you want. Or even [sql2o](https://www.sql2o.org/).
+It will be tempting to use Hibernate. [But it is cake mix](https://vimeo.com/28885655). Use [jooq](https://jooq.org/) if you want. Or even [sql2o](https://www.sql2o.org/).
 
 ### Web Development ###
 

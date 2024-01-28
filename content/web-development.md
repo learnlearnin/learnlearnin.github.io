@@ -14,7 +14,7 @@ Most websites run on old php frameworks like wordpress or drupal or joomla.
 Nowadays node based web servers are on a high. So is django and others.
 ### Static ###
 Static (html) websites are the latest thing among coders and programmers. Like [this website](https://github.com/learnlearnin/learnlearnin.github.io) itself.
-I use and love [hugo](./hugo/). I also use jekyll. This site used to be in [docpad](../docpad/) in the past.
+I use and love [hugo](https://gohugo.io/). I also use jekyll. This site used to be in [docpad](../docpad/) in the past.
 
 ## Coding ##
 ### IDE ###

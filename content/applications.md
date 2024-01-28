@@ -12,7 +12,7 @@ This is probably a subset of that.
 
 * [Firefox](../firefox/) - for web browsing
 * Transmission - for p2p
-* [FreshRSS](https://freshrss.github.io/) - for RSS
+* [FreshRSS](https://freshrss.github.io/FreshRSS/) - for RSS
 
 ### Communication ###
 

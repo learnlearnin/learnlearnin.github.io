@@ -29,6 +29,6 @@ There are two awesome ways to take a (full page) screenshot in Firefox.
 * [ImageBlock](https://addons.mozilla.org/en-US/firefox/addon/image-block/): Internet is sucky in India. And when it really sucks, blocking images is an easy way for faster page load, and lesser bandwidth. ImageBlock makes that painless.
 * [Live HTTP Headers](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers/): This is a nifty tool in the web hackers tool kit. I've used this to do a great deal of things I couldn't have done without it. Purchasing xiamoi phones for others using direct flipkart api link is only one of them
 
-[**Download Firefox**](..//affiliates.mozilla.org/link/banner/55725) (affiliate link)
+[**Download Firefox**](https://affiliates.mozilla.org/link/banner/55725) (affiliate link)
 
 [Mozilla](../mozilla/) also has developed [FirefoxOS](../firefoxos/) which is a super friendly, adaptive, web first, web native operating system for running smartphones, smart TVs, smart PCs, everything. So, Firefox is now an OS.

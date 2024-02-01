@@ -55,3 +55,10 @@ Extremist feminism is what some irrational females end up doing by blaming men f
 Here are examples of how they create more problems than solve (if any)
 * [A Dongle Joke That Spiraled Way Out Of Control](http://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/)
 * [In defence of Rosetta mission scientist Dr Matt Taylor and his controversial shirt](http://metro.co.uk/2014/11/15/in-defense-of-rosetta-mission-scientist-dr-matt-taylor-and-his-controversial-shirt-4949004/) - women can wear anything, men can't.
+
+
+## India ##
+
+### Manusmriti ###
+
+* [How the courts misuse Manusmriti to deny women constitutional rights in India](https://mailchi.mp/thenewsminute/the-next-wave-2476778)

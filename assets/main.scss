@@ -117,6 +117,16 @@ article {
   text-align: center;
 }
 
+a.share {
+  box-shadow: 1px 1px 1px 1px teal;
+  border-radius: 5px;
+}
+
+a.share:active {
+  box-shadow: 0px 0px 0px 0px teal;
+  border-radius: 5px;
+}
+
 @mixin Separator($sep){
   >a:before {
     content: $sep + " ";

@@ -25,14 +25,17 @@ function sharebuttons(){
 
   const btn = document.createElement("a");
   btn.href="";
-  btn.appendChild(document.createTextNode("Elsewhere"));
+  btn.className = "share"
+  btn.appendChild(document.createTextNode("Share"));
   
   btn.addEventListener("click", async (e) => {
     e.preventDefault();
     navigator.share(shareData);
   });
 
-  document.querySelector("aside.share").appendChild(btn);
+  const share = document.querySelector("aside.share");
+  share.innerHTML = "";
+  share.appendChild(btn);
 }
 
 function scrollToHash(){

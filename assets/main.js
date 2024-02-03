@@ -24,10 +24,11 @@ function sharebuttons(){
   if (!navigator.canShare(shareData)) return;
 
   const btn = document.createElement("a");
-  btn.href="#";
+  btn.href="";
   btn.appendChild(document.createTextNode("Elsewhere"));
   
-  btn.addEventListener("click", async () => {
+  btn.addEventListener("click", async (e) => {
+    e.preventDefault();
     navigator.share(shareData);
   });
 

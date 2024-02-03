@@ -13,13 +13,22 @@ function permalinks(){
 }
 
 function sharebuttons(){
-	if (!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )) {
-		var elements = document.getElementsByClassName('mobileshare');
-	    for (var i = 0; i < elements.length; i++){
-	        elements[i].style.display = "none";
-	    }
+  if (!('canShare' in navigator)) return;
+  if (!navigator.canShare()) return;
 
-	}
+  const shareData = {
+    title: document.title,
+    url: location.href,
+  };
+  
+  const btn = document.createElement("a");
+  btn.appendChild(document.createTextNode("Share elsewhere"));
+  
+  btn.addEventListener("click", async () => {
+    navigator.share(shareData);
+  });
+
+  document.querySelector("aside.share").appendChild(btn);
 }
 
 function scrollToHash(){

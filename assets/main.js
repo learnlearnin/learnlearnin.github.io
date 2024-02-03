@@ -14,15 +14,18 @@ function permalinks(){
 
 function sharebuttons(){
   if (!('canShare' in navigator)) return;
-  if (!navigator.canShare()) return;
 
   const shareData = {
     title: document.title,
+    text: document.title,
     url: location.href,
   };
   
+  if (!navigator.canShare(shareData)) return;
+
   const btn = document.createElement("a");
-  btn.appendChild(document.createTextNode("Share elsewhere"));
+  btn.href="#";
+  btn.appendChild(document.createTextNode("Elsewhere"));
   
   btn.addEventListener("click", async () => {
     navigator.share(shareData);

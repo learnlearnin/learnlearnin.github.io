@@ -6,8 +6,6 @@ description: "A very light insight wiki"
 ## Welcome ##
 This is a knowledge aggregator. You can click on all the links and reach a lot of nice places on the Internet to read a lot of nice things about a lot of nice topics.
 
-Broadly, there are three topics on this website: [**Computers**](#computers) (running [GNU/Linux](./gnu-linux/) and used to explore the [web](./web/)) and [**human body**](#medicine) (with the all complex [mind](./mind/) and stuff).
-
 Broadly, the content on this website is divided into:
 
 * [Computers](#computers) - which includes things like programming, internet, FOSS, etc.

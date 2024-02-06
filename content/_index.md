@@ -6,16 +6,23 @@ description: "A very light insight wiki"
 ## Welcome ##
 This is a knowledge aggregator. You can click on all the links and reach a lot of nice places on the Internet to read a lot of nice things about a lot of nice topics.
 
-Broadly, there are two topics on this website: [**Computers**](#computers) (running [GNU/Linux](./gnu-linux/) and used to explore the [web](./web/)) and [**human body**](#medicine) (with the all complex [mind](./mind/) and stuff).
+Broadly, there are three topics on this website: [**Computers**](#computers) (running [GNU/Linux](./gnu-linux/) and used to explore the [web](./web/)) and [**human body**](#medicine) (with the all complex [mind](./mind/) and stuff).
 
-There are also some topics that overlap the two above like [learning](#learning) and [AI](./ai/)
+Broadly, the content on this website is divided into:
+
+* [Computers](#computers) - which includes things like programming, internet, FOSS, etc.
+* [Medicine](#medicine) - which includes things like human biology (this section is very sparse)
+* [Philosophy](#philosophy) - which talks about political stuff like feminism
+* [Learning](#learning) - which is focused on learning
 
 ## Computers ##
 If you use [computers](./computers/), you should definitely know what [FOSS](./foss/) and the [open Web](./open-web/) are.
 
 You might also want to explore [all the apps I like](./applications/) and read about [security](./security/) and [privacy](./privacy/).
 
-I love [programming](./programming/). Languages I use include javascript, [java](./java/). Mostly I program for [web development](./web-development/). I am also [learning android development](./android-development/)
+I love [programming](./programming/). Languages I use include javascript, [java](./java/). Mostly I program for [web development](./web-development/). I am also [learning android development](./android-development/).
+
+See also: [AI](./ai/)
 
 ## Medicine ##
 There is very little organized information about medicine on the Internet. There is no go-to website for a medical student to visit and read to their mind's content when they are bored. I plan to do something towards this here. Right now I have a couple of links for you: [ophthalmology](./ophthalmology/), [dermatology](./dermatology/), [obstetrics](./obstetrics/)

@@ -24,3 +24,7 @@ If you are itching to start working, read more about [web development](../web-de
 ## Stories ##
 
 * [The birth of Internet in India](http://www.livemint.com/Industry/R3kgewhIhKscbiELV1sHZM/The-birth-of-the-Internet-in-India.html)
+
+## Diversity ##
+
+* [We need to rewild the internet](https://www.noemamag.com/we-need-to-rewild-the-internet/)

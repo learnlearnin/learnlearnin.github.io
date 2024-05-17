@@ -4,6 +4,10 @@ description: Programming is the art of taming your computer,
 keywords: cs, computer science, programming, coding
 ---
 
+## General reading
+
+* [Programming is mostly thinking](http://agileotter.blogspot.com/2014/09/programming-is-mostly-thinking.html?utm_source=hackernewsletter&utm_medium=email&utm_term=code&m=1)
+
 ## Tips ##
 
 * Do not copy paste code. Read code and type it out yourself from memory. ([Even protects you from Pastejacking](https://github.com/dxa4481/Pastejacking))
@@ -24,3 +28,7 @@ keywords: cs, computer science, programming, coding
 
 * [The Amazon Builders' Library](https://aws.amazon.com/builders-library/)
 * [Venkat Subramaniam](https://www.youtube.com/results?search_query=venkat+subramaniam)
+
+## Skills ##
+
+* [Skill levels of programmers](https://basecamp.com/handbook/titles-for-programmers)

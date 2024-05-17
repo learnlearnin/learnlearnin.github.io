@@ -9,3 +9,9 @@ keyword: social justice, caste
 
 ## In medical field
 * [Caste-washing](https://ijme.in/articles/caste-washing-the-healthcare-system-will-do-little-to-address-its-discriminatory-practices/?galley=html)
+
+## Nuacned reading
+
+* https://sanhati.com/journal-2013/
+* https://sanhati.com/excerpted/6366/
+

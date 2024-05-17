@@ -64,3 +64,30 @@ It might make sense for at least some people to learn multiple things as this br
 There are certain things that are too hard to put in words. For example, in medical school experienced doctors might make a spot diagnosis (based on many perceptible and imperceptible signs) and try to explain why they made the diagnosis - and learners will be as confused as they were before, just nodding "yes". The reason is that the former doctor would have relied on tacit knowledge in pattern matching over those imperceptible signs. These, this doctor will not realize they've used in reaching a diagnosis and in turn the learners won't hear about these either.
 
 Read [this essay about why tacit knowledge is real](https://commoncog.com/blog/tacit-knowledge-is-a-real-thing/) and as many links as possible on that blog.
+
+## Adult Learning ##
+
+* https://en.wikipedia.org/wiki/Lifelong_learning
+* https://en.wikipedia.org/wiki/Andragogy
+* https://en.wikipedia.org/wiki/Adult_education
+* [Methodology, Fake Learning, and Emotional Performativity](https://journals.sagepub.com/doi/10.1177/2096531120984786)
+* 
+
+## Outdoor Learning ##
+
+* https://link.springer.com/chapter/10.1007/978-3-030-75980-3_15?fromPaywallRec=false
+* https://link.springer.com/chapter/10.1007/978-94-6209-215-0_2?fromPaywallRec=false
+* https://link.springer.com/content/pdf/10.1007/978-3-031-04108-2_1.pdf?pdf=inline%20link
+* https://link.springer.com/chapter/10.1007/978-3-031-04108-2_1
+* https://archive.org/details/in.ernet.dli.2015.155699/page/n593/mode/2up?view=theater
+
+## Psychology ##
+
+* https://en.m.wikipedia.org/wiki/Thomas_theorem#Definition_of_the_situation
+* https://en.m.wikipedia.org/wiki/Superficial_charm
+* https://en.m.wikipedia.org/wiki/Impression_management
+* https://en.m.wikipedia.org/wiki/The_Presentation_of_Self_in_Everyday_Life
+
+## Freire etc
+* [Barefoot college](https://sci-hub.se/10.1162/itgg.2008.3.2.67)
+

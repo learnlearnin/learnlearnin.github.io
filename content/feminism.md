@@ -62,3 +62,7 @@ Here are examples of how they create more problems than solve (if any)
 ### Manusmriti ###
 
 * [How the courts misuse Manusmriti to deny women constitutional rights in India](https://mailchi.mp/thenewsminute/the-next-wave-2476778)
+
+## Gayatri Spivak ##
+
+* [Interview with Anshul Kumar](https://www.newindianexpress.com/cities/delhi/2024/May/30/interview-anshul-kumar-on-gayatri-spivak-and-the-circle-of-sycophancy)

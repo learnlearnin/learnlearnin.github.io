@@ -96,6 +96,7 @@ But if there's value in exploring some of these for political reasons, they can 
 
 ### Potential Collaborators
 
+* IPH Bengaluru
 * IT for Change - Anita and Guru
 * CIS
 * IIT Delhi Reetika Khera

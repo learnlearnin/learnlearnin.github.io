@@ -83,6 +83,17 @@ There is great value in bringing lots of digital work together. For example:
 - self-hosted services like archives, wiki
 
 
+### Distractions
+
+There are so many questions that are actually distractions.
+
+* Consent
+* Privacy
+* Confidentiality
+* "Bioethics"
+
+But if there's value in exploring some of these for political reasons, they can be engaged with.
+
 ### Potential Collaborators
 
 * IT for Change - Anita and Guru

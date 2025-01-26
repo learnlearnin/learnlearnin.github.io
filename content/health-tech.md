@@ -81,3 +81,14 @@ There is great value in bringing lots of digital work together. For example:
 - critical digital pedagogy
 - a directory of good software
 - self-hosted services like archives, wiki
+
+
+### Potential Collaborators
+
+* IT for Change - Anita and Guru
+* CIS
+* IIT Delhi Reetika Khera
+* MKSS
+* SAFAR
+* SOCHARA
+* ...

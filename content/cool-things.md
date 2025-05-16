@@ -11,6 +11,9 @@ The [web](../web/) is full of cool things. Here are some:
 
 ## Command Line ##
 * [TextQL](https://github.com/dinedal/textql) - Execut SQL commands against CSV/TSV files
+* [wish](https://github.com/charmbracelet/wish) - make SSH apps
+* [bubbletea](https://github.com/charmbracelet/bubbletea) - TUI framework
+* [pico.sh](https://pico.sh/) - ssh based services like website hosting
 
 
 ## Electronics ##

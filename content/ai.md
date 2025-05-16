@@ -12,6 +12,8 @@ To understand why the question of ethics arises in AI, one has to understand wha
 
 ## LLMs ##
 
+[Course on LLM Bullshits and Uses](https://thebullshitmachines.com/)
+
 ### Tools
 
 * [LMSYS](https://lmsys.org/) - Large Model Systems Organization has various tools like [Arena](https://arena.lmsys.org/) to benchmark LLMs

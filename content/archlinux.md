@@ -100,3 +100,17 @@ Enjoy. I install [my preferred applications](../applications/) at this point.
 ```
 sudo pacman -S git python mosh tmux
 ```
+
+## Pacman tips 
+
+To clean up unnecessary packages:
+
+```bash
+pacman -Qdtq | sudo pacman -Rns -
+```
+
+Vice versa, you can find explicitly installed packages, and choose to delete them using
+
+```bash
+pacman -Qetq
+```

@@ -52,3 +52,8 @@ Biases are rooted in our brain biology. It is quicker and less energy intensive 
 Mere awareness of biases is not enough. We will have to do the difficult, embarrassing, vulnerable thing called changing ourselves. We will have to change our beliefs.
 
 [Outsmart Your Own Biases](https://hbr.org/2015/05/outsmart-your-own-biases)
+
+
+## Bullshit
+
+[Calling Bullshit](https://callingbullshit.org)

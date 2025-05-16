@@ -55,8 +55,11 @@ To be a good developer, get rid of attachments. Delete code ruthlessly. Refactor
 
 ## Resources ##
 
+* [Learn GDScript](https://gdquest.github.io/learn-gdscript/) - although this is a tutorial for GDScript the language used in GoDot, it is a useful way to learn programming from scratch.
+* [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
 * [The Amazon Builders' Library](https://aws.amazon.com/builders-library/)
 * [Venkat Subramaniam](https://www.youtube.com/results?search_query=venkat+subramaniam)
+* [Crafting Interpreters](https://craftinginterpreters.com/) - a good book on learning how to implement a programming language (so meta?)
 
 ## Skills ##
 
@@ -87,4 +90,5 @@ React Server Components are taking us back to the times of backend development. 
 * [Making Sense of React Server Components](https://www.joshwcomeau.com/react/server-components/)
 * [RSC from Scratch](https://github.com/reactwg/server-components/discussions/5)
 * [React for Two Computers Talk](https://www.youtube.com/watch?v=wcj5LSVcxJc)
+
 

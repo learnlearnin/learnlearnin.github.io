@@ -24,3 +24,7 @@ The [web](../web/) is full of cool things. Here are some:
 
 ## Music ##
 * [Mixcloud](https://mixcloud.com)
+
+
+## Development ##
+* [Visualizing ISBNs](https://annas-archive.org/blog/all-isbns-winners.html)

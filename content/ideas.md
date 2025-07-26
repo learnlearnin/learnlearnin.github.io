@@ -17,3 +17,4 @@ keywords: ideas
 
 * Desktop app for data management that makes it easy to manage JSON APIs (can be downstream consumed by hugo)
 * Multiplayer card game - 28
+* Beat Clock widget

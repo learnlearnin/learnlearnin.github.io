@@ -12,3 +12,8 @@ keywords: ideas
 
 * Can a live/working model of a lung be used such that when patients deposit their bidi/cigarette into it, the lung turns black proportionate to how much bidi/cigarette would turn in black death?
 * Explore Virtual Reality as a means of patient education
+
+## Software ##
+
+* Desktop app for data management that makes it easy to manage JSON APIs (can be downstream consumed by hugo)
+* Multiplayer card game - 28

@@ -4,12 +4,25 @@ description: How to help human beings make sense of the world and do good for it
 keywords: education, pedagogy
 ---
 
+## Resources
+
+* [MIT Open Course Ware](https://ocw.mit.edu/)
+* [CK-12 Flexbooks](https://flexbooks.ck12.org)
+
+
 ## How to
 
 * [This article on outdoor learning gives a good sense of the complexity of the world and the role of real world experience](https://link.springer.com/chapter/10.1007/978-3-031-04108-2_1)
 
 
 ## Books
+
+### Don't Shoot The Dog
+
+**Don't Shoot the Dog: The New Art of Teaching and Training** is about using a positive reinforcement only style of training. Applies to dogs, applies to humans as well. 
+
+* [Notes by juliawise](https://www.lesswrong.com/posts/Cf2xxC3Yx9g6w7yXN/notes-from-don-t-shoot-the-dog)
+* [My own review](https://blog.learnlearn.in/dont-shoot-your-colleagues/)
 
 ### We make the road by walking
 

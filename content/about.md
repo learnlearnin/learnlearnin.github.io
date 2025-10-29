@@ -1,7 +1,6 @@
 ---
 title: "About this whole thing"
 description: "This site is very confusing unless you read this about page"
-scripts: ["https://platform.twitter.com/widgets.js"]
 ---
 
 ## Why ##
@@ -12,7 +11,7 @@ But there was a problem. He never really was satisfied with the usability of the
 But in the end, he settled for something that was excellent. Something simple, something straight. Something that's just this.
 
 ## Site info ##
-This site is made in [docpad](../docpad/). It's hosted on netlify+[gitlab](https://gitlab.com/learnlearnin/learnlearnin.gitlab.io). The skeleton was created using the yo [docpad generator](https://www.npmjs.org/package/generator-docpad).
+This site is made in hugo. [Source code](https://gitlab.com/learnlearnin/learnlearnin.gitlab.io).
 
 I wanted to use Comic sans, like CERN [uses](http://home.web.cern.ch/about/updates/2014/04/cern-switch-comic-sans), no [really](https://www.youtube.com/watch?v=AzX0dwbY4Yk). But it is not for long reads for all, so I've switched to Oxygen, Helvetica Neue, etc.
 
@@ -27,5 +26,3 @@ I am [ASD](//asd.learnlearn.in/about/)
 ## Contact ##
 [Contact me](http://asd.learnlearn.in/about/#contact)
 
-### Latest Tweets ###
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/asdofindia" data-widget-id="580485866143019008">Tweets by @asdofindia</a>

@@ -27,6 +27,7 @@ This is probably a subset of that.
 * [Convos](https://github.com/Nordaaker/convos/) - for cloud IRC
 * [Element](https://element.io/) - for Matrix.org chat
 * Telegram - for large groups
+* [Gajim](https://gajim.org/) - for XMPP chat
 
 ## Multimedia ##
 * GIMP - for photo editing
@@ -35,18 +36,21 @@ This is probably a subset of that.
 * VLC - video player
 * Audacity - audio editing
 * Kdenlive - for simple video editing
+* Inkscape - for vector images
 
 ## Utilities ##
 * vim - you know, but at the same time I like Emacs and VS Code too.
 * Intellij Idea for Java/Android projects
-* [Redshift](http://jonls.dk/redshift/) - color adjustment
+* zed editor for editing
+* Night Light in KDE for color management
+
+* [r-quick-share](https://github.com/Martichou/rquickshare) for Android Quick Share to work with Linux
 
 ## Shell ##
-* ZSH
+* ZSH (but bash is fine)
 
 ## Documents ##
 * Calibre - for epub and everything!
-
 
 ## Server
 

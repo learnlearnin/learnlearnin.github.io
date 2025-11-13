@@ -85,6 +85,10 @@ The best thing to come out of these groups, is something called a "rural sensiti
 
 Also, there is [NIRMAN program by SEARCH](https://nirman.mkcl.org/)
 
+Here are some other groups not listed above:
+
+* [Ekta Niketan TB Centre by Fourth World Action](https://fourthworldaction.net/ekta-niketan)
+
 ## Doctor groups
 
 There is a group called Academy of Family Physicians of India which is working on primary care. They run a journal called Journal of Family Medicine and Primary Care. https://www.afpionline.com/ https://journals.lww.com/jfmpc/pages/default.aspx
@@ -107,3 +111,4 @@ https://www.yumetta.org/ works on programs like go-to-people camp.
 
 https://nivarana.org/ works on becoming an online publication platform.
 
+[Platform People First](https://www.linkedin.com/in/platform-people-first-b21779371/?originalSubdomain=in) ([WordPress](https://platformpeoplefirst.wordpress.com)) - working on TB

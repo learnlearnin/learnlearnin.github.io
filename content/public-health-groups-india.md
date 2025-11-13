@@ -41,7 +41,7 @@ SOCHARA runs a course called Community Health Learning Program which has a large
 
 Several people (often doctor couples) moved to villages and set up rural hospitals. A good directory of these groups is available in http://ruralhospitalnetwork.org/ 
 
-As of April 2025, here are the groups that are listed on RHN website:
+As of November 2025, here are the groups that are listed on RHN website:
 
 1. Gudalur Adivasi Hospital (Tamil Nadu)
 2. Swasthya Swaraj Comprehensive Community Health Programme (Odisha)
@@ -79,6 +79,8 @@ As of April 2025, here are the groups that are listed on RHN website:
 34. Anjali Hospital (Gujarat)
 35. ARTH Health Centers (Gujarat)
 36. LOK BIRADARI PRAKALP HOSPITAL, HEMALKASA (Maharashtra)
+37. JMJ HOSPITAL KADABA (Karnataka)
+38. Lady Willingdon Hospital Manali (Himachal Pradesh)
 
 
 The best thing to come out of these groups, is something called a "rural sensitization program". For example, [here's THI's page on it](https://tribalhealth.org/what-we-do/rural-sensitization/). There is also the [Travel Fellowship](https://www.travelfellowship.org/) which literally produces the next generation of public health leaders in India.

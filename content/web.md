@@ -18,6 +18,8 @@ Read: [3 things about the Internet that millions do not know](../3-things-intern
 
 Communication on the web is always between two computers. The computer on the user's side is called the client.
 
+* [How Did I Get Here?](https://how-did-i-get-here.net/) - an interactive demo of IP, TCP, etc
+
 ## Web Development ##
 If you are itching to start working, read more about [web development](../web-development/)
 

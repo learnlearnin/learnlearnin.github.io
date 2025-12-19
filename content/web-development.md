@@ -7,6 +7,10 @@ Web development is the process of creating websites.
 
 The things that usually goes through a web developer's mind is what software shall power the website, how shall the user authentication be, how will the URLs look like, etc.
 
+## Read
+
+* [30 Years of \<br> Tags](https://www.artmann.co/articles/30-years-of-br-tags)
+
 ## Server-side ##
 ### Dynamic ###
 Most websites run on old php frameworks like wordpress or drupal or joomla.

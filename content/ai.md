@@ -16,6 +16,10 @@ To understand why the question of ethics arises in AI, one has to understand wha
 
 * [Video about how to use](https://www.youtube.com/watch?v=EWvNQjAaOHw)
 
+## ML ##
+
+* [Good intuitive explanations for algorithms](https://mlu-explain.github.io/)
+
 ### Tools
 
 * [LMSYS](https://lmsys.org/) - Large Model Systems Organization has various tools like [Arena](https://arena.lmsys.org/) to benchmark LLMs

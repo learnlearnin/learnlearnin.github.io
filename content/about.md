@@ -1,5 +1,5 @@
 ---
-title: "About this whole thing"
+title: "About"
 description: "This site is very confusing unless you read this about page"
 ---
 

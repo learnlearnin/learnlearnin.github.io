@@ -6,12 +6,15 @@
   <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
 </head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  {{ partial "footer.html" . }}
+  {{ partial "sidebar.html" . }}
+  <div class="content-wrapper">
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
 </body>
 </html>

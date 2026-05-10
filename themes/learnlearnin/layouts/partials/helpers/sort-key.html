@@ -1,0 +1,10 @@
+{{- $first := lower (substr . 0 1) }}
+{{- $latin := "abcdefghijklmnopqrstuvwxyz" }}
+{{- $digits := "0123456789" }}
+{{- if in $latin $first }}
+  1-{{ lower . }}
+{{- else if in $digits $first }}
+  2-{{ . }}
+{{- else }}
+  3-{{ . }}
+{{- end -}}

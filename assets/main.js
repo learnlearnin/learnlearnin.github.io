@@ -111,12 +111,91 @@ function setupTheme() {
   });
 }
 
+function setupSidebar() {
+  const sidebar = document.getElementById("sidebar");
+  const toggle = document.getElementById("sidebar-toggle");
+  const close = document.getElementById("sidebar-close");
+  if (!sidebar || !toggle) return;
+
+  const overlay = document.createElement("div");
+  overlay.className = "sidebar-overlay";
+  sidebar.parentNode.insertBefore(overlay, sidebar.nextSibling);
+
+  function isDesktop() {
+    return window.innerWidth >= 750;
+  }
+
+  function openSidebar() {
+    if (isDesktop()) {
+      sidebar.classList.remove("closed");
+      sidebar.classList.add("open");
+    } else {
+      sidebar.classList.add("open");
+      overlay.classList.add("visible");
+      document.body.style.overflow = "hidden";
+    }
+    localStorage.setItem("sidebar", "open");
+  }
+
+  function closeSidebar() {
+    if (isDesktop()) {
+      sidebar.classList.add("closed");
+      sidebar.classList.remove("open");
+    } else {
+      sidebar.classList.remove("open");
+      overlay.classList.remove("visible");
+      document.body.style.overflow = "";
+    }
+    localStorage.setItem("sidebar", "closed");
+  }
+
+  const saved = localStorage.getItem("sidebar");
+  if (saved === "closed") {
+    sidebar.classList.add("closed");
+  }
+
+  toggle.addEventListener("click", () => {
+    if (sidebar.classList.contains("open") || (!sidebar.classList.contains("closed") && !isDesktop())) {
+      closeSidebar();
+    } else {
+      openSidebar();
+    }
+  });
+
+  if (close) {
+    close.addEventListener("click", closeSidebar);
+  }
+
+  overlay.addEventListener("click", closeSidebar);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && sidebar.classList.contains("open")) {
+      closeSidebar();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (isDesktop()) {
+      overlay.classList.remove("visible");
+      document.body.style.overflow = "";
+      if (sidebar.classList.contains("open")) {
+        sidebar.classList.remove("open");
+      }
+    } else {
+      if (!sidebar.classList.contains("open") && !sidebar.classList.contains("closed")) {
+        sidebar.classList.add("closed");
+      }
+    }
+  });
+}
+
 function whenDOMReady() {
   scrollToHash();
   permalinks();
   sharebuttons();
   setupSearch();
   setupTheme();
+  setupSidebar();
 }
 
 window.addEventListener("DOMContentLoaded", whenDOMReady);

@@ -1,0 +1,47 @@
+{{- $allRoot := where .Site.RegularPages "Section" "" }}{{- $rootPages := sort $allRoot "Title" }}
+{{- $sections := .Site.Sections }}
+
+{{- $items := slice }}
+{{- range $rootPages }}
+  {{- $key := partial "helpers/sort-key.html" .Title }}
+  {{- $items = $items | append (dict "type" "page" "title" .Title "page" . "sortKey" $key) }}
+{{- end }}
+{{- range $sections }}
+  {{- $filtered := where $.Site.RegularPages "Section" .Section }}{{- $sectionPages := sort $filtered "Title" }}
+  {{- if $sectionPages }}
+    {{- $title := .Title }}{{ if not .File }}{{ $title = .Section | humanize | title }}{{ end }}
+    {{- $key := partial "helpers/sort-key.html" $title }}
+    {{- $items = $items | append (dict "type" "section" "title" $title "section" . "children" $sectionPages "sortKey" $key) }}
+  {{- end }}
+{{- end }}
+
+{{- $sorted := sort $items "sortKey" }}
+
+<nav id="sidebar" class="sidebar" aria-label="Page navigation">
+  <div class="sidebar-header">
+    <span class="sidebar-title">Pages</span>
+    <button id="sidebar-close" class="sidebar-close" aria-label="Close navigation">&times;</button>
+  </div>
+  <ul class="sidebar-list">
+    {{- range $sorted }}
+      {{- if eq .type "page" }}
+        <li class="sidebar-item{{ if eq $.Page .page }} active{{ end }}">
+          <a href="{{ .page.RelPermalink }}">{{ .page.Title }}</a>
+        </li>
+      {{- else }}
+        <li class="sidebar-section">
+          <details>
+            <summary class="sidebar-section-title">{{ .title }}</summary>
+            <ul class="sidebar-children">
+              {{- range .children }}
+                <li class="sidebar-item{{ if eq $.Page . }} active{{ end }}">
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+              {{- end }}
+            </ul>
+          </details>
+        </li>
+      {{- end }}
+    {{- end }}
+  </ul>
+</nav>

@@ -22,6 +22,9 @@
     <span class="sidebar-title">Pages</span>
     <button id="sidebar-close" class="sidebar-close" aria-label="Close navigation">&times;</button>
   </div>
+  <div class="sidebar-search">
+    <input type="search" id="sidebar-search" class="sidebar-search-input" placeholder="Filter pages..." autocomplete="off">
+  </div>
   <ul class="sidebar-list">
     {{- range $sorted }}
       {{- if eq .type "page" }}

@@ -189,6 +189,43 @@ function setupSidebar() {
   });
 }
 
+function setupSidebarSearch() {
+  const input = document.getElementById("sidebar-search");
+  if (!input) return;
+
+  const items = document.querySelectorAll(".sidebar-item");
+  const sections = document.querySelectorAll(".sidebar-section");
+  const details = document.querySelectorAll(".sidebar-section details");
+
+  function filter(query) {
+    for (const item of items) {
+      const link = item.querySelector("a");
+      if (!link) continue;
+      item.style.display = !query || link.textContent.toLowerCase().includes(query) ? "" : "none";
+    }
+
+    for (const section of sections) {
+      let hasVisible = false;
+      const children = section.querySelectorAll(".sidebar-item");
+      for (const child of children) {
+        if (child.style.display !== "none") {
+          hasVisible = true;
+          break;
+        }
+      }
+      section.style.display = !query || hasVisible ? "" : "none";
+    }
+
+    for (const detail of details) {
+      detail.open = !!query;
+    }
+  }
+
+  input.addEventListener("input", () => {
+    filter(input.value.trim().toLowerCase());
+  });
+}
+
 function whenDOMReady() {
   scrollToHash();
   permalinks();
@@ -196,6 +233,7 @@ function whenDOMReady() {
   setupSearch();
   setupTheme();
   setupSidebar();
+  setupSidebarSearch();
 }
 
 window.addEventListener("DOMContentLoaded", whenDOMReady);

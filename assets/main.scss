@@ -714,6 +714,33 @@ a.share:active {
     }
   }
 
+  .sidebar-search {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .sidebar-search-input {
+    width: 100%;
+    padding: 0.4em 0.7em;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-size: 0.85rem;
+    transition: border-color var(--transition), box-shadow var(--transition);
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: var(--color-accent);
+      box-shadow: 0 0 0 3px var(--color-accent-underline);
+    }
+
+    &::placeholder {
+      color: var(--color-muted);
+    }
+  }
+
   .sidebar-list {
     list-style: none;
     margin: 0;

@@ -1,0 +1,7 @@
+{{ define "main" }}
+    <article role="main">
+      <h1>404 — empty blank — nothing</h1>
+      <p>Hi, I know you reached here expecting something. But unfortunately learning is life long. And therefore, some pages will not come up till much later in life. Please <a href="javascript:history.back()">go back</a> and do what you were doing. If you came from nowhere <a href="{{ "" | relURL }}">go home</a>.</p>
+      <p>Or better, I'll tell you some places to go: Read about <a href="{{ "blogging/" | relURL }}">blogging</a>, or <a href="{{ "computers/" | relURL }}">computers</a>. If you like the human body read about <a href="{{ "pain/" | relURL }}">pain</a>.</p>
+    </article>
+{{ end }}

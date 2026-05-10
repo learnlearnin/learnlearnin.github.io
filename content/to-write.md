@@ -1,5 +1,5 @@
 ---
-title: Articles to be written
+title: to be written
 description: At any point in time there are a lot of things that are waiting to be written.
 keywords: todo, pending, drafts
 ---

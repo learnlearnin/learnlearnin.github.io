@@ -22,7 +22,7 @@ I use and love [hugo](https://gohugo.io/). I also use jekyll. This site used to 
 
 ## Coding ##
 ### IDE ###
-I use ~~[atom editor](../atom-editor/)~~ [visual studio code](https://code.visualstudio.com/) for coding web. Use autocomplete plugins, syntax highlighting, linter plugins (and beautifier if you can't write beautiful code on your own.)
+I use [zed](https://zed.dev/) for coding web. Use autocomplete plugins, syntax highlighting, linter plugins (and beautifier if you can't write beautiful code on your own.)
 
 ### HTML ###
 Write accessible, valid HTML.

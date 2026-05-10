@@ -150,12 +150,16 @@ function setupSidebar() {
   }
 
   const saved = localStorage.getItem("sidebar");
-  if (saved === "closed") {
-    sidebar.classList.add("closed");
+  if (saved === "closed" || !isDesktop()) {
+    closeSidebar();
+  } else if (saved === "open") {
+    openSidebar();
+  } else {
+    sidebar.classList.add("open");
   }
 
   toggle.addEventListener("click", () => {
-    if (sidebar.classList.contains("open") || (!sidebar.classList.contains("closed") && !isDesktop())) {
+    if (sidebar.classList.contains("open")) {
       closeSidebar();
     } else {
       openSidebar();

@@ -7,10 +7,12 @@ keyword: social justice, caste
 ## Savarna Culture
 * [Ravikant Kisana's Like A Savarna series in Swaddle](https://www.theswaddle.com/author/ravikantkisana) especially, [Saving the World](https://www.theswaddle.com/saving-the-world-like-a-savarna)
 
+* [Leave your Body at the Door: Carnatic Music as a Tool of Legitimisation in Malayalam Cinema](https://alablog.in/issues/90/carnatic-music-malayalam-cinema/)
+
 ## In medical field
 * [Caste-washing](https://ijme.in/articles/caste-washing-the-healthcare-system-will-do-little-to-address-its-discriminatory-practices/?galley=html)
 
-## Nuacned reading
+## Nuanced reading
 
 * https://sanhati.com/journal-2013/
 * https://sanhati.com/excerpted/6366/
@@ -110,3 +112,9 @@ Details in the link
 And finally, I quote Sophia from https://www.roundtableindia.co.in/rainbow-casteism-and-racism-in-the-queer-community-is-alienating-us/
 
 > Why should the burden of education always rest on the oppressed?
+
+
+## Religion
+
+* In [Mahatma Phule: The Abandoned Master of Malis](https://theambedkarianchronicle.in/mahatma-phule-abandoned-master-malis), Rahul Sonpimple argues that religious conversion provides a framework that can hold together an opposition against brahmanism and that without it the opposition cannot sustain and people can get assimilated back into brahminism
+

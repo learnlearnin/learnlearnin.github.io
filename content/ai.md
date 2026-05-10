@@ -14,6 +14,8 @@ To understand why the question of ethics arises in AI, one has to understand wha
 
 [Course on LLM Bullshits and Uses](https://thebullshitmachines.com/)
 
+[The Future of Everything is Lies](https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess)
+
 * [Video about how to use](https://www.youtube.com/watch?v=EWvNQjAaOHw)
 
 ## ML ##

@@ -1,7 +1,8 @@
 {{ define "main" }}
     <article role="main">
+      <h1>{{ .Title }}</h1>
       {{ if .Params.img }}
-        <img class="articleimg" src="/images/{{ .Params.img }}">
+        <img class="articleimg" src="/images/{{ .Params.img }}" alt="{{ .Title }}">
         <div class="imgattr">
           {{ .Params.imgattr | safeHTML }}
         </div>

@@ -1,2 +1,5 @@
-<a href="/" title="Go home"><img src="/LofL60.png" alt="~" title="~"></a>
-<a href=""><h1>{{ .Title }}</h1></a>
+<a href="/" title="Go home" class="site-icon-link"><img src="/LofL60.png" alt="~" class="site-icon" width="36" height="36"></a>
+<div>
+  <p class="site-title"><a href="/" title="Go home">{{ site.Title }}</a></p>
+  {{ with .Site.Params.description }}<p class="site-subtitle">{{ . }}</p>{{ end }}
+</div>

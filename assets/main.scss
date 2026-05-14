@@ -437,6 +437,14 @@ article {
     }
   }
 
+  /* ======= inputs ====== */
+  textarea {
+      background: var(--color-bg);
+  }
+  input {
+      background: var(--color-bg);
+  }
+
   /* ===== Keyboard input ===== */
   kbd {
     font-family: var(--font-mono);

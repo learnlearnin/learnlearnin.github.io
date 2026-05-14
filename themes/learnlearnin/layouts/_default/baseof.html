@@ -16,5 +16,8 @@
     </main>
     {{ partial "footer.html" . }}
   </div>
+  {{- range .Params.js }}
+    <script type="module" src="/js/{{ . }}.js"></script>
+  {{- end }}
 </body>
 </html>

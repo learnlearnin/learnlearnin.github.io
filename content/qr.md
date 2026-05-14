@@ -1,0 +1,9 @@
++++
+title = 'QR code generator'
+description = 'QR codes'
+js = ['qr']
++++
+
+<textarea id="qr-input" type="text" style="width: 100%"></textarea>
+
+<canvas id="qr-canvas"></canvas>

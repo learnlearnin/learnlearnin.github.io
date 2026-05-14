@@ -14,9 +14,17 @@ function getContentWidth(element) {
     parseFloat(elementComputedStyle.paddingRight)
   );
 }
+function write(text) {
+  const ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "white";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "black";
+  ctx.font = "48px serif";
+  ctx.fillText(text, 10, 50);
+}
 const create = (text) => {
   const width = getContentWidth(parent);
-  console.log(width);
   QRCode.toCanvas(
     canvas,
     text,
@@ -24,7 +32,10 @@ const create = (text) => {
       width,
     },
     function (error) {
-      if (error) console.error(error);
+      if (error) {
+        console.error(error);
+        write(error);
+      }
     },
   );
 };

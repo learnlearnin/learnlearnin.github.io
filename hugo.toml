@@ -1,6 +1,7 @@
 baseURL = 'https://learnlearn.in'
 locale = 'en-us'
 title = "Learn Learnin'"
+enableGitInfo = true
 
 theme = "learnlearnin"
 

@@ -4,6 +4,12 @@ description: At any point in time there are a lot of things that are waiting to 
 keywords: todo, pending, drafts
 ---
 
+## 2026
+
+* Theory of Change
+
+## Medical (Old set)
+
 pain medications. how do they work? muscle relaxants?
 poisons. how do they work. why do they work.
 thyroid disorders. what are they?

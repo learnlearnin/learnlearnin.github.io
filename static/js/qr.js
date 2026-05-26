@@ -1,21 +1,21 @@
 import QRCode from "https://esm.sh/qrcode@1.5.1";
 
-const canvas = document.getElementById("qr-canvas");
-const text = document.getElementById("qr-input");
-const image = document.getElementById("qr-image");
-const wifiAp = document.getElementById("wifi-ap");
-const wifiPass = document.getElementById("wifi-pass");
-const regularSwitch = document.getElementById("regular");
-const wifiSwitch = document.getElementById("wifi");
-const wifiSection = document.getElementById("wifi-section");
+const $ = (selector) => document.querySelector(selector);
+const display =
+  (value) =>
+  (...nodes) =>
+    nodes.forEach((n) => (n.style.display = value));
+const hide = display("none");
+const show = display("revert");
 
-const hide = (...nodes) => {
-  nodes.forEach((n) => (n.style.display = "none"));
-};
-
-const show = (...nodes) => {
-  nodes.forEach((n) => (n.style.display = "revert"));
-};
+const canvas = $("#qr-canvas");
+const text = $("#qr-input");
+const image = $("#qr-image");
+const wifiAp = $("#wifi-ap");
+const wifiPass = $("#wifi-pass");
+const regularSwitch = $("#regular");
+const wifiSwitch = $("#wifi");
+const wifiSection = $("#wifi-section");
 
 const getMode = () => {
   if (regularSwitch.checked) return "regular";
@@ -42,10 +42,14 @@ hide(canvas);
 repaint();
 
 const DEFAULT = "https://learnlearn.in/tools/qr/";
-text.defaultValue = DEFAULT;
 text.value = DEFAULT;
 
-const parent = document.querySelector("article");
+const DEFAULT_AP = "My WiFi";
+const DEFAULT_PASSWORD = "My Secret Password";
+wifiAp.value = DEFAULT_AP;
+wifiPass.value = DEFAULT_PASSWORD;
+
+const parent = $("article");
 
 function getContentWidth(element) {
   let widthWithPaddings = element.clientWidth;
@@ -112,21 +116,27 @@ const update = () => {
     case "wifi":
       const ssid = escape(wifiAp.value);
       const pass = escape(wifiPass.value);
-      create(`WIFI:T:WPA;S:${ssid};P:${pass};;`);
+      if (ssid === "") {
+        create("");
+      } else {
+        create(`WIFI:T:WPA;S:${ssid};P:${pass};;`);
+      }
       break;
   }
 };
 
 update();
 
-text.addEventListener("input", update);
-text.addEventListener("change", update);
-wifiAp.addEventListener("input", update);
-wifiAp.addEventListener("change", update);
-wifiPass.addEventListener("input", update);
-wifiPass.addEventListener("change", update);
-regular.addEventListener("change", repaint);
-wifi.addEventListener("change", repaint);
+const inputHandler = (fn, ...inputs) => {
+  inputs.forEach((i) => {
+    i.addEventListener("input", fn);
+    i.addEventListener("change", fn);
+  });
+};
+
+inputHandler(update, text, wifiAp, wifiPass);
+inputHandler(repaint, regular, wifi);
+
 const resizeObserver = new ResizeObserver(() => {
   update();
 });

@@ -54,7 +54,11 @@ There are many tools to capture and edit map data. The best way to learn about e
 * [Mapping techniques](https://wiki.openstreetmap.org/wiki/Mapping_techniques)
 * [Editors](https://wiki.openstreetmap.org/wiki/Editors)
 
-Keep in mind that not all tools allow downloading your edits for offline use. Many tools upload datato OpenStreetMap and then later you will have to download them back from OSM.
+Keep in mind that not all tools allow downloading your edits for offline use. Many tools upload data to OpenStreetMap and then later you will have to download them back from OSM.
+
+##### Community mapping
+
+Recently came across a set of tools around [Earth Defenders Toolkit](https://www.earthdefenderstoolkit.com/toolkit/) like [Mapeo](https://awana.digital/mapeo), [Comapeo](https://comapeo.app/), and [Terrastories](https://terrastories.app/)
 
 ## Read
 
